@@ -180,27 +180,26 @@ MAX_FILE_SIZE=100MB
 DEBUG=True
 ```
 
-## 🎮 **Usage Examples**
+## 🎮 **Natural Language Interface**
 
-### **Simple Queries**
-- "What was the highest altitude reached during the flight?"
-- "How long was the total flight time?"
-- "What was the maximum battery voltage?"
+The system understands and responds to **any flight-related question** in plain English. Simply ask what you want to know about your UAV flight data:
 
-### **Safety Analysis**
-- "Are there any anomalies or safety issues in this flight data?"
-- "List all critical errors that happened mid-flight"
-- "What's the overall safety score for this flight?"
+### **🗣️ Ask Anything About Your Flight Data**
+- **Flight Performance**: *"How did the battery perform during this mission?"*
+- **Safety Concerns**: *"Were there any issues I should be worried about?"*
+- **Technical Analysis**: *"Show me what happened with the GPS during the flight"*
+- **Comparative Analysis**: *"How does this flight compare to normal operations?"*
+- **Maintenance Insights**: *"What maintenance should I consider based on this data?"*
+- **Custom Visualizations**: *"Create charts showing the relationship between altitude and battery usage"*
 
-### **Visualization Generation**
-- "Generate comprehensive flight visualizations"
-- "Create battery performance charts"
-- "Show me altitude and GPS tracking plots"
+### **🤖 Intelligent Response Types**
+- **Quick Facts**: Concise answers for simple questions
+- **Detailed Analysis**: Comprehensive reports for complex queries  
+- **Visual Dashboards**: Automatic chart generation when helpful
+- **Safety Alerts**: Proactive warnings for critical issues
+- **Recommendations**: Actionable maintenance and operational advice
 
-### **Technical Analysis**
-- "Analyze the battery discharge rate throughout the flight"
-- "How stable was the altitude control?"
-- "Compare GPS accuracy throughout the flight"
+*The AI adapts its response complexity based on your question - from simple one-line answers to comprehensive multi-system analysis reports.*
 
 ## 📊 **Live Dashboard Demo**
 
