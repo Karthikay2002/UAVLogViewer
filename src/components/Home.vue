@@ -22,6 +22,20 @@
 
             <main class="col-md-9 ml-sm-auto col-lg-10 flex-column d-sm-flex" role="main">
 
+                <!-- Navigation to Chat Panel -->
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="chat-nav-container">
+                            <router-link to="/chat">
+                                <button class="btn btn-primary chat-nav-btn">
+                                    <i class="fas fa-comments"></i>
+                                    Chat with UAV Assistant
+                                </button>
+                            </router-link>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row"
                      v-bind:class="[state.showMap ? 'h-50' : 'h-100']"
                      v-if="state.plotOn">
@@ -325,6 +339,36 @@ export default {
       div .atom-spinner {
         margin: auto;
         margin-top: 15%;
+    }
+
+    /* Chat Navigation Button */
+    .chat-nav-container {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 1000;
+    }
+
+    .chat-nav-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: all 0.2s;
+    }
+
+    .chat-nav-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px -1px rgba(0, 0, 0, 0.1), 0 4px 6px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .chat-nav-btn i {
+        font-size: 1.25rem;
     }
 
 </style>

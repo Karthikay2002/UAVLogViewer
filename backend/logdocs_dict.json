@@ -1,0 +1,8042 @@
+{
+  "I": {
+    "unit": "instance",
+    "description": "GPS instance number"
+  },
+  "SampleUS": {
+    "unit": "\u03bcs",
+    "description": "timestamp of first sample"
+  },
+  "AccX": {
+    "unit": "m/s/s",
+    "description": "acceleration along X axis"
+  },
+  "AccY": {
+    "unit": "m/s/s",
+    "description": "acceleration along Y axis"
+  },
+  "AccZ": {
+    "unit": "m/s/s",
+    "description": "acceleration along Z axis"
+  },
+  "ICAO_address": {
+    "unit": "",
+    "description": "Transponder address"
+  },
+  "Lat": {
+    "unit": "deg",
+    "description": "Latitude"
+  },
+  "Lng": {
+    "unit": "deglongitude",
+    "description": "current longitude"
+  },
+  "Alt": {
+    "unit": "m",
+    "description": "Altitude"
+  },
+  "Heading": {
+    "unit": "cdegheading",
+    "description": "Vehicle heading"
+  },
+  "Hor_vel": {
+    "unit": "mm/s",
+    "description": "Vehicle horizontal velocity"
+  },
+  "Ver_vel": {
+    "unit": "mm/s",
+    "description": "Vehicle vertical velocity"
+  },
+  "Squark": {
+    "unit": "",
+    "description": "Transponder squawk code"
+  },
+  "Ail": {
+    "unit": "",
+    "description": "aileron output"
+  },
+  "Elev": {
+    "unit": "",
+    "description": "elevator output"
+  },
+  "Thr": {
+    "unit": "",
+    "description": "manual throttle value"
+  },
+  "Rudd": {
+    "unit": "",
+    "description": "rudder output"
+  },
+  "Flap": {
+    "unit": "",
+    "description": "Pre-mixer value for flaps output (between 0 and 100)"
+  },
+  "Steer": {
+    "unit": "",
+    "description": "Pre-mixer value for steering output (between -4500 and 4500)"
+  },
+  "SS": {
+    "unit": "",
+    "description": "Source Set (primary=0/secondary=1/tertiary=2)"
+  },
+  "Roll": {
+    "unit": "deg",
+    "description": "Estimated roll"
+  },
+  "Pitch": {
+    "unit": "deg",
+    "description": "Estimated pitch"
+  },
+  "Yaw": {
+    "unit": "degheading",
+    "description": "Estimated yaw"
+  },
+  "Q1": {
+    "unit": "UNKNOWN",
+    "description": "Quaternion a term"
+  },
+  "Q2": {
+    "unit": "UNKNOWN",
+    "description": "Quaternion b term"
+  },
+  "Q3": {
+    "unit": "UNKNOWN",
+    "description": "Quaternion c term"
+  },
+  "Q4": {
+    "unit": "UNKNOWN",
+    "description": "Quaternion d term"
+  },
+  "typ": {
+    "unit": "",
+    "description": "Ship Type"
+  },
+  "rep": {
+    "unit": "",
+    "description": "Repeat Indicator"
+  },
+  "mmsi": {
+    "unit": "",
+    "description": "MMSI"
+  },
+  "nav": {
+    "unit": "",
+    "description": "Navigation Status"
+  },
+  "rot": {
+    "unit": "",
+    "description": "Rate of Turn (ROT)"
+  },
+  "sog": {
+    "unit": "",
+    "description": "Speed Over Ground (SOG)"
+  },
+  "pos": {
+    "unit": "enum",
+    "description": "switch position when function triggered\nValues:"
+  },
+  "lon": {
+    "unit": "",
+    "description": "Longitude"
+  },
+  "lat": {
+    "unit": "",
+    "description": "Latitude"
+  },
+  "cog": {
+    "unit": "",
+    "description": "Course Over Ground (COG)"
+  },
+  "hed": {
+    "unit": "",
+    "description": "True Heading (HDG)"
+  },
+  "sec": {
+    "unit": "",
+    "description": "Time Stamp"
+  },
+  "man": {
+    "unit": "",
+    "description": "Maneuver Indicator"
+  },
+  "raim": {
+    "unit": "",
+    "description": "RAIM flag"
+  },
+  "rad": {
+    "unit": "",
+    "description": "Radio status"
+  },
+  "year": {
+    "unit": "",
+    "description": "Year (UTC)"
+  },
+  "mth": {
+    "unit": "",
+    "description": "Month (UTC)"
+  },
+  "day": {
+    "unit": "",
+    "description": "Day (UTC)"
+  },
+  "h": {
+    "unit": "m",
+    "description": "height estimate (UP) currently in use by TECS"
+  },
+  "m": {
+    "unit": "",
+    "description": "mass"
+  },
+  "s": {
+    "unit": "",
+    "description": "Second (UTC)"
+  },
+  "fix": {
+    "unit": "",
+    "description": "Position Fix Type"
+  },
+  "epfd": {
+    "unit": "",
+    "description": "Type of EPFD"
+  },
+  "ver": {
+    "unit": "",
+    "description": "AIS Version"
+  },
+  "imo": {
+    "unit": "",
+    "description": "IMO Number"
+  },
+  "cal": {
+    "unit": "char[16]",
+    "description": "Call Sign"
+  },
+  "nam": {
+    "unit": "char[64]",
+    "description": "Vessel Name"
+  },
+  "bow": {
+    "unit": "m",
+    "description": "Dimension to Bow"
+  },
+  "stn": {
+    "unit": "m",
+    "description": "Dimension to Stern"
+  },
+  "prt": {
+    "unit": "m",
+    "description": "Dimension to Port"
+  },
+  "str": {
+    "unit": "m",
+    "description": "Dimension to Starboard"
+  },
+  "dght": {
+    "unit": "dm",
+    "description": "Draught"
+  },
+  "dst": {
+    "unit": "char[64]",
+    "description": "Destination"
+  },
+  "dte": {
+    "unit": "",
+    "description": "DTE"
+  },
+  "num": {
+    "unit": "",
+    "description": "count of fragments in the currently accumulating message"
+  },
+  "total": {
+    "unit": "",
+    "description": "fragment number of this sentence"
+  },
+  "ID": {
+    "unit": "",
+    "description": "Beacon sensor ID"
+  },
+  "payload": {
+    "unit": "char[64]",
+    "description": "data payload"
+  },
+  "DesRoll": {
+    "unit": "deg",
+    "description": "vehicle desired roll"
+  },
+  "DesPitch": {
+    "unit": "deg",
+    "description": "vehicle desired pitch"
+  },
+  "DesYaw": {
+    "unit": "degheading",
+    "description": "vehicle desired yaw"
+  },
+  "Dt": {
+    "unit": "s",
+    "description": "attitude delta time"
+  },
+  "AOA": {
+    "unit": "deg",
+    "description": "Angle of Attack calculated from airspeed, wind vector,velocity vector"
+  },
+  "SSA": {
+    "unit": "",
+    "description": "Side Slip Angle"
+  },
+  "ArmState": {
+    "unit": "",
+    "description": "true if vehicle is now armed"
+  },
+  "ArmChecks": {
+    "unit": "bitmask",
+    "description": "arming bitmask at time of arming\nBitmask values:"
+  },
+  "BARO": {
+    "unit": "18",
+    "description": ""
+  },
+  "COMPASS": {
+    "unit": "3",
+    "description": ""
+  },
+  "GPS": {
+    "unit": "",
+    "description": "Filter GPS status"
+  },
+  "INS": {
+    "unit": "16",
+    "description": ""
+  },
+  "PARAMETERS": {
+    "unit": "32",
+    "description": ""
+  },
+  "RC": {
+    "unit": "1",
+    "description": "Source index is RC channel index"
+  },
+  "VOLTAGE": {
+    "unit": "128",
+    "description": ""
+  },
+  "BATTERY": {
+    "unit": "256",
+    "description": ""
+  },
+  "AIRSPEED": {
+    "unit": "512",
+    "description": ""
+  },
+  "LOGGING": {
+    "unit": "1024",
+    "description": ""
+  },
+  "SWITCH": {
+    "unit": "2048",
+    "description": ""
+  },
+  "GPS_CONFIG": {
+    "unit": "4096",
+    "description": ""
+  },
+  "SYSTEM": {
+    "unit": "8192",
+    "description": ""
+  },
+  "MISSION": {
+    "unit": "4",
+    "description": "Source index is mission item index"
+  },
+  "RANGEFINDER": {
+    "unit": "10",
+    "description": "allow enabling or disabling rangefinder in flight which helps avoid surface tracking when you are far above the ground"
+  },
+  "CAMERA": {
+    "unit": "65536",
+    "description": ""
+  },
+  "AUX_AUTH": {
+    "unit": "131072",
+    "description": ""
+  },
+  "VISION": {
+    "unit": "262144",
+    "description": ""
+  },
+  "FFT": {
+    "unit": "",
+    "description": "feed-forward throttle"
+  },
+  "OSD": {
+    "unit": "1048576",
+    "description": ""
+  },
+  "Forced": {
+    "unit": "",
+    "description": "true if arm/disarm was forced"
+  },
+  "Method": {
+    "unit": "enum",
+    "description": "method used for arming\nValues:"
+  },
+  "MAVLINK": {
+    "unit": "3",
+    "description": "Source index is MAVLink channel number"
+  },
+  "AUXSWITCH": {
+    "unit": "2",
+    "description": ""
+  },
+  "MOTORTEST": {
+    "unit": "3",
+    "description": ""
+  },
+  "SCRIPTING": {
+    "unit": "32",
+    "description": ""
+  },
+  "TERMINATION": {
+    "unit": "5",
+    "description": "only disarm uses this\u2026"
+  },
+  "CPUFAILSAFE": {
+    "unit": "6",
+    "description": "only disarm uses this\u2026"
+  },
+  "BATTERYFAILSAFE": {
+    "unit": "7",
+    "description": "only disarm uses this\u2026"
+  },
+  "SOLOPAUSEWHENLANDED": {
+    "unit": "8",
+    "description": "only disarm uses this\u2026"
+  },
+  "AFS": {
+    "unit": "9",
+    "description": "only disarm uses this\u2026"
+  },
+  "ADSBCOLLISIONACTION": {
+    "unit": "10",
+    "description": "only disarm uses this\u2026"
+  },
+  "PARACHUTE_RELEASE": {
+    "unit": "22",
+    "description": "Parachute release"
+  },
+  "CRASH": {
+    "unit": "12",
+    "description": "only disarm uses this\u2026"
+  },
+  "LANDED": {
+    "unit": "13",
+    "description": "only disarm uses this\u2026"
+  },
+  "MISSIONEXIT": {
+    "unit": "14",
+    "description": "only disarm uses this\u2026"
+  },
+  "FENCEBREACH": {
+    "unit": "15",
+    "description": "only disarm uses this\u2026"
+  },
+  "RADIOFAILSAFE": {
+    "unit": "16",
+    "description": "only disarm uses this\u2026"
+  },
+  "DISARMDELAY": {
+    "unit": "17",
+    "description": "only disarm uses this\u2026"
+  },
+  "GCSFAILSAFE": {
+    "unit": "18",
+    "description": "only disarm uses this\u2026"
+  },
+  "TERRRAINFAILSAFE": {
+    "unit": "19",
+    "description": "only disarm uses this\u2026"
+  },
+  "FAILSAFE_ACTION_TERMINATE": {
+    "unit": "20",
+    "description": "only disarm uses this\u2026"
+  },
+  "TERRAINFAILSAFE": {
+    "unit": "21",
+    "description": "only disarm uses this\u2026"
+  },
+  "MOTORDETECTDONE": {
+    "unit": "22",
+    "description": "only disarm uses this\u2026"
+  },
+  "BADFLOWOFCONTROL": {
+    "unit": "23",
+    "description": "only disarm uses this\u2026"
+  },
+  "EKFFAILSAFE": {
+    "unit": "24",
+    "description": "only disarm uses this\u2026"
+  },
+  "GCS_FAILSAFE_SURFACEFAILED": {
+    "unit": "25",
+    "description": "only disarm uses this\u2026"
+  },
+  "GCS_FAILSAFE_HOLDFAILED": {
+    "unit": "26",
+    "description": "only disarm uses this\u2026"
+  },
+  "TAKEOFFTIMEOUT": {
+    "unit": "27",
+    "description": "only disarm uses this\u2026"
+  },
+  "AUTOLANDED": {
+    "unit": "28",
+    "description": "only disarm uses this\u2026"
+  },
+  "PILOT_INPUT_FAILSAFE": {
+    "unit": "29",
+    "description": "only disarm uses this\u2026"
+  },
+  "TOYMODELANDTHROTTLE": {
+    "unit": "30",
+    "description": "only disarm uses this\u2026"
+  },
+  "TOYMODELANDFORCE": {
+    "unit": "31",
+    "description": "only disarm uses this\u2026"
+  },
+  "LANDING": {
+    "unit": "32",
+    "description": "only disarm uses this\u2026"
+  },
+  "DEADRECKON_FAILSAFE": {
+    "unit": "50",
+    "description": ""
+  },
+  "BLACKBOX": {
+    "unit": "34",
+    "description": ""
+  },
+  "DDS": {
+    "unit": "35",
+    "description": ""
+  },
+  "AUTO_ARM_ONCE": {
+    "unit": "36",
+    "description": ""
+  },
+  "UNKNOWN": {
+    "unit": "100",
+    "description": ""
+  },
+  "Airspeed": {
+    "unit": "m/s",
+    "description": "Current airspeed"
+  },
+  "DiffPress": {
+    "unit": "Pa",
+    "description": "Pressure difference between static and dynamic port"
+  },
+  "Temp": {
+    "unit": "degC",
+    "description": "Motor temperature"
+  },
+  "RawPress": {
+    "unit": "Pa",
+    "description": "Raw pressure less offset"
+  },
+  "Offset": {
+    "unit": "",
+    "description": "Offset into the file of this block"
+  },
+  "U": {
+    "unit": "",
+    "description": "boolean value indicating whether this GPS is in use"
+  },
+  "H": {
+    "unit": "",
+    "description": "sensor health"
+  },
+  "Hp": {
+    "unit": "",
+    "description": "Probability sensor is healthy"
+  },
+  "TR": {
+    "unit": "",
+    "description": "Beacon range innovation consistency test ratio"
+  },
+  "Pri": {
+    "unit": "",
+    "description": "thread priority"
+  },
+  "TUS": {
+    "unit": "",
+    "description": "Simulation\u2019s timestamp"
+  },
+  "R": {
+    "unit": "deg",
+    "description": "Roll lean angle"
+  },
+  "P": {
+    "unit": "deg",
+    "description": "Pitch lean angle"
+  },
+  "Y": {
+    "unit": "degheading",
+    "description": "Yaw angle"
+  },
+  "GX": {
+    "unit": "deg/s",
+    "description": "Estimated gyro bias, X axis"
+  },
+  "GY": {
+    "unit": "deg/s",
+    "description": "Estimated gyro bias, Y axis"
+  },
+  "GZ": {
+    "unit": "deg/s",
+    "description": "Estimated gyro bias, Z axis"
+  },
+  "AX": {
+    "unit": "",
+    "description": "Estimated accelerometer X bias"
+  },
+  "AY": {
+    "unit": "",
+    "description": "Estimated accelerometer Y bias"
+  },
+  "AZ": {
+    "unit": "",
+    "description": "Estimated accelerometer Z bias"
+  },
+  "VX": {
+    "unit": "m/s",
+    "description": "Velocity X-axis (North-South)"
+  },
+  "VY": {
+    "unit": "m/s",
+    "description": "Velocity Y-axis (East-West)"
+  },
+  "VZ": {
+    "unit": "m/s",
+    "description": "Velocity Z-axis (Down-Up)"
+  },
+  "PX": {
+    "unit": "m",
+    "description": "Position X-axis (North-South)"
+  },
+  "PY": {
+    "unit": "m",
+    "description": "Position Y-axis (East-West)"
+  },
+  "PZ": {
+    "unit": "m",
+    "description": "Position Z-axis (Down-Up)"
+  },
+  "SD": {
+    "unit": "",
+    "description": "simulation\u2019s earth-frame speed-down"
+  },
+  "Angle": {
+    "unit": "deg",
+    "description": "current angle"
+  },
+  "Rate": {
+    "unit": "deg/s",
+    "description": "current angular rate"
+  },
+  "Axis": {
+    "unit": "instance",
+    "description": "Axis (X=0 Y=1)"
+  },
+  "State": {
+    "unit": "",
+    "description": "Motor status flags"
+  },
+  "Sur": {
+    "unit": "deg",
+    "description": "control surface deflection"
+  },
+  "PSlew": {
+    "unit": "deg/s",
+    "description": "P slew rate"
+  },
+  "DSlew": {
+    "unit": "deg/s",
+    "description": "D slew rate"
+  },
+  "FF0": {
+    "unit": "",
+    "description": "FF value single sample"
+  },
+  "FF": {
+    "unit": "",
+    "description": "controller feed-forward portion of response"
+  },
+  "D": {
+    "unit": "m",
+    "description": "point associated with most recent action (Down component)"
+  },
+  "Action": {
+    "unit": "enum",
+    "description": "most recent internal action taken by SRTL library\nValues:"
+  },
+  "RMAX": {
+    "unit": "deg/s",
+    "description": "Rate maximum"
+  },
+  "TAU": {
+    "unit": "s",
+    "description": "time constant"
+  },
+  "AngPScX": {
+    "unit": "",
+    "description": "Angle P scale X"
+  },
+  "AngPScY": {
+    "unit": "",
+    "description": "Angle P scale Y"
+  },
+  "AngPScZ": {
+    "unit": "",
+    "description": "Angle P scale Z"
+  },
+  "PDScX": {
+    "unit": "",
+    "description": "PD scale X"
+  },
+  "PDScY": {
+    "unit": "",
+    "description": "PD scale Y"
+  },
+  "PDScZ": {
+    "unit": "",
+    "description": "PD scale Z"
+  },
+  "AEKF": {
+    "unit": "",
+    "description": "active EKF type"
+  },
+  "TuneStep": {
+    "unit": "",
+    "description": "step in autotune process"
+  },
+  "Targ": {
+    "unit": "",
+    "description": "Current waveform sample"
+  },
+  "Min": {
+    "unit": "",
+    "description": "Minor version number"
+  },
+  "Max": {
+    "unit": "deg",
+    "description": "measured maximum target angle or rate"
+  },
+  "RP": {
+    "unit": "",
+    "description": "new rate gain P term"
+  },
+  "RD": {
+    "unit": "",
+    "description": "new rate gain D term"
+  },
+  "SP": {
+    "unit": "",
+    "description": "Square root of the position variance"
+  },
+  "ddt": {
+    "unit": "m/s/s",
+    "description": "maximum measured twitching acceleration"
+  },
+  "function": {
+    "unit": "instance",
+    "description": "ID of triggered function\nValues:"
+  },
+  "FLIP": {
+    "unit": "13",
+    "description": ""
+  },
+  "SIMPLE_MODE": {
+    "unit": "3",
+    "description": "change to simple mode"
+  },
+  "RTL": {
+    "unit": "4",
+    "description": "change to RTL flight mode"
+  },
+  "SAVE_TRIM": {
+    "unit": "38",
+    "description": ""
+  },
+  "SAVE_WP": {
+    "unit": "7",
+    "description": "save mission waypoint or RTL if in auto mode"
+  },
+  "CAMERA_TRIGGER": {
+    "unit": "9",
+    "description": "trigger camera servo or relay"
+  },
+  "FENCE": {
+    "unit": "11",
+    "description": "allow enabling or disabling fence in flight"
+  },
+  "RESETTOARMEDYAW": {
+    "unit": "12",
+    "description": "UNUSED"
+  },
+  "SUPERSIMPLE_MODE": {
+    "unit": "13",
+    "description": "change to simple mode in middle, super simple at top"
+  },
+  "ACRO_TRAINER": {
+    "unit": "14",
+    "description": "low = disabled, middle = leveled, high = leveled and limited"
+  },
+  "SPRAYER": {
+    "unit": "15",
+    "description": "enable/disable the crop sprayer"
+  },
+  "AUTO": {
+    "unit": "16",
+    "description": "change to auto flight mode"
+  },
+  "AUTOTUNE_MODE": {
+    "unit": "17",
+    "description": "auto tune"
+  },
+  "LAND": {
+    "unit": "18",
+    "description": "change to LAND flight mode"
+  },
+  "GRIPPER": {
+    "unit": "19",
+    "description": "Operate cargo grippers low=off, middle=neutral, high=on"
+  },
+  "PARACHUTE_ENABLE": {
+    "unit": "21",
+    "description": "Parachute enable/disable"
+  },
+  "PARACHUTE_3POS": {
+    "unit": "23",
+    "description": "Parachute disable, enable, release with 3 position switch"
+  },
+  "MISSION_RESET": {
+    "unit": "24",
+    "description": "Reset auto mission to start from first command"
+  },
+  "ATTCON_FEEDFWD": {
+    "unit": "25",
+    "description": "enable/disable the roll and pitch rate feed forward"
+  },
+  "ATTCON_ACCEL_LIM": {
+    "unit": "26",
+    "description": "enable/disable the roll, pitch and yaw accel limiting"
+  },
+  "RETRACT_MOUNT1": {
+    "unit": "27",
+    "description": "Retract Mount1"
+  },
+  "RELAY": {
+    "unit": "28",
+    "description": "Relay pin on/off (only supports first relay)"
+  },
+  "LANDING_GEAR": {
+    "unit": "29",
+    "description": "Landing gear controller"
+  },
+  "LOST_VEHICLE_SOUND": {
+    "unit": "30",
+    "description": "Play lost vehicle sound"
+  },
+  "MOTOR_ESTOP": {
+    "unit": "31",
+    "description": "Emergency Stop Switch"
+  },
+  "MOTOR_INTERLOCK": {
+    "unit": "32",
+    "description": "Motor On/Off switch"
+  },
+  "BRAKE": {
+    "unit": "33",
+    "description": "Brake flight mode"
+  },
+  "RELAY2": {
+    "unit": "34",
+    "description": "Relay2 pin on/off"
+  },
+  "RELAY3": {
+    "unit": "35",
+    "description": "Relay3 pin on/off"
+  },
+  "RELAY4": {
+    "unit": "36",
+    "description": "Relay4 pin on/off"
+  },
+  "THROW": {
+    "unit": "37",
+    "description": "change to THROW flight mode"
+  },
+  "AVOID_ADSB": {
+    "unit": "38",
+    "description": "enable AP_Avoidance library"
+  },
+  "PRECISION_LOITER": {
+    "unit": "39",
+    "description": "enable precision loiter"
+  },
+  "AVOID_PROXIMITY": {
+    "unit": "40",
+    "description": "enable object avoidance using proximity sensors (ie. horizontal lidar)"
+  },
+  "ARMDISARM_UNUSED": {
+    "unit": "41",
+    "description": "UNUSED"
+  },
+  "SMART_RTL": {
+    "unit": "42",
+    "description": "change to SmartRTL flight mode"
+  },
+  "INVERTED": {
+    "unit": "43",
+    "description": "enable inverted flight"
+  },
+  "WINCH_ENABLE": {
+    "unit": "44",
+    "description": "winch enable/disable"
+  },
+  "WINCH_CONTROL": {
+    "unit": "45",
+    "description": "winch control"
+  },
+  "RC_OVERRIDE_ENABLE": {
+    "unit": "46",
+    "description": "enable RC Override"
+  },
+  "USER_FUNC1": {
+    "unit": "47",
+    "description": "user function #1"
+  },
+  "USER_FUNC2": {
+    "unit": "48",
+    "description": "user function #2"
+  },
+  "USER_FUNC3": {
+    "unit": "49",
+    "description": "user function #3"
+  },
+  "LEARN_CRUISE": {
+    "unit": "50",
+    "description": "learn cruise throttle (Rover)"
+  },
+  "MANUAL": {
+    "unit": "51",
+    "description": "manual mode"
+  },
+  "ACRO": {
+    "unit": "52",
+    "description": "acro mode"
+  },
+  "STEERING": {
+    "unit": "53",
+    "description": "steering mode"
+  },
+  "HOLD": {
+    "unit": "54",
+    "description": "hold mode"
+  },
+  "GUIDED": {
+    "unit": "55",
+    "description": "guided mode"
+  },
+  "LOITER": {
+    "unit": "56",
+    "description": "loiter mode"
+  },
+  "FOLLOW": {
+    "unit": "57",
+    "description": "follow mode"
+  },
+  "CLEAR_WP": {
+    "unit": "58",
+    "description": "clear waypoints"
+  },
+  "SIMPLE": {
+    "unit": "59",
+    "description": "simple mode"
+  },
+  "ZIGZAG": {
+    "unit": "60",
+    "description": "zigzag mode"
+  },
+  "ZIGZAG_SaveWP": {
+    "unit": "61",
+    "description": "zigzag save waypoint"
+  },
+  "COMPASS_LEARN": {
+    "unit": "62",
+    "description": "learn compass offsets"
+  },
+  "SAILBOAT_TACK": {
+    "unit": "63",
+    "description": "rover sailboat tack"
+  },
+  "REVERSE_THROTTLE": {
+    "unit": "64",
+    "description": "reverse throttle input"
+  },
+  "GPS_DISABLE": {
+    "unit": "65",
+    "description": "disable GPS for testing"
+  },
+  "RELAY5": {
+    "unit": "66",
+    "description": "Relay5 pin on/off"
+  },
+  "RELAY6": {
+    "unit": "67",
+    "description": "Relay6 pin on/off"
+  },
+  "STABILIZE": {
+    "unit": "68",
+    "description": "stabilize mode"
+  },
+  "POSHOLD": {
+    "unit": "69",
+    "description": "poshold mode"
+  },
+  "ALTHOLD": {
+    "unit": "70",
+    "description": "althold mode"
+  },
+  "FLOWHOLD": {
+    "unit": "71",
+    "description": "flowhold mode"
+  },
+  "CIRCLE": {
+    "unit": "72",
+    "description": "circle mode"
+  },
+  "DRIFT": {
+    "unit": "73",
+    "description": "drift mode"
+  },
+  "SAILBOAT_MOTOR_3POS": {
+    "unit": "74",
+    "description": "Sailboat motoring 3pos"
+  },
+  "SURFACE_TRACKING": {
+    "unit": "75",
+    "description": "Surface tracking upwards or downwards"
+  },
+  "STANDBY": {
+    "unit": "76",
+    "description": "Standby mode"
+  },
+  "TAKEOFF": {
+    "unit": "77",
+    "description": "takeoff"
+  },
+  "RUNCAM_CONTROL": {
+    "unit": "78",
+    "description": "control RunCam device"
+  },
+  "RUNCAM_OSD_CONTROL": {
+    "unit": "79",
+    "description": "control RunCam OSD"
+  },
+  "VISODOM_ALIGN": {
+    "unit": "80",
+    "description": "align visual odometry camera\u2019s attitude to AHRS"
+  },
+  "DISARM": {
+    "unit": "81",
+    "description": "disarm vehicle"
+  },
+  "Q_ASSIST": {
+    "unit": "82",
+    "description": "disable, enable and force Q assist"
+  },
+  "ZIGZAG_Auto": {
+    "unit": "83",
+    "description": "zigzag auto switch"
+  },
+  "AIRMODE": {
+    "unit": "84",
+    "description": "enable / disable airmode for copter"
+  },
+  "GENERATOR": {
+    "unit": "85",
+    "description": "generator control"
+  },
+  "TER_DISABLE": {
+    "unit": "86",
+    "description": "disable terrain following in CRUISE/FBWB modes"
+  },
+  "CROW_SELECT": {
+    "unit": "87",
+    "description": "select CROW mode for diff spoilers;high disables,mid forces progressive"
+  },
+  "SOARING": {
+    "unit": "88",
+    "description": "three-position switch to set soaring mode"
+  },
+  "LANDING_FLARE": {
+    "unit": "89",
+    "description": "force flare, throttle forced idle, pitch to LAND_PITCH_DEG, tilts up"
+  },
+  "EKF_SOURCE_SET": {
+    "unit": "90",
+    "description": "change EKF data source set between primary, secondary and tertiary"
+  },
+  "ARSPD_CALIBRATE": {
+    "unit": "91",
+    "description": "calibrate airspeed ratio"
+  },
+  "FBWA": {
+    "unit": "92",
+    "description": "Fly-By-Wire-A"
+  },
+  "RELOCATE_MISSION": {
+    "unit": "93",
+    "description": "used in separate branch MISSION_RELATIVE"
+  },
+  "VTX_POWER": {
+    "unit": "94",
+    "description": "VTX power level"
+  },
+  "FBWA_TAILDRAGGER": {
+    "unit": "95",
+    "description": "enables FBWA taildragger takeoff mode. Once this feature is enabled it will stay enabled until the aircraft goes above TKOFF_TDRAG_SPD1 airspeed, changes mode, or the pitch goes above the initial pitch when this is engaged or goes below 0 pitch. When enabled the elevator will be forced to TKOFF_TDRAG_ELEV. This option allows for easier takeoffs on taildraggers in FBWA mode, and also makes it easier to test auto-takeoff steering handling in FBWA."
+  },
+  "MODE_SWITCH_RESET": {
+    "unit": "96",
+    "description": "trigger re-reading of mode switch"
+  },
+  "WIND_VANE_DIR_OFSSET": {
+    "unit": "97",
+    "description": "flag for windvane direction offset input, used with windvane type 2"
+  },
+  "TRAINING": {
+    "unit": "98",
+    "description": "mode training"
+  },
+  "AUTO_RTL": {
+    "unit": "99",
+    "description": "AUTO RTL via DO_LAND_START"
+  },
+  "KILL_IMU1": {
+    "unit": "100",
+    "description": "disable first IMU (for IMU failure testing)"
+  },
+  "KILL_IMU2": {
+    "unit": "101",
+    "description": "disable second IMU (for IMU failure testing)"
+  },
+  "CAM_MODE_TOGGLE": {
+    "unit": "102",
+    "description": "Momentary switch to cycle camera modes"
+  },
+  "EKF_LANE_SWITCH": {
+    "unit": "103",
+    "description": "trigger lane switch attempt"
+  },
+  "EKF_YAW_RESET": {
+    "unit": "62",
+    "description": ""
+  },
+  "GPS_DISABLE_YAW": {
+    "unit": "105",
+    "description": "disable GPS yaw for testing"
+  },
+  "DISABLE_AIRSPEED_USE": {
+    "unit": "106",
+    "description": "equivalent to AIRSPEED_USE 0"
+  },
+  "FW_AUTOTUNE": {
+    "unit": "107",
+    "description": "fixed wing auto tune"
+  },
+  "QRTL": {
+    "unit": "108",
+    "description": "QRTL mode"
+  },
+  "CUSTOM_CONTROLLER": {
+    "unit": "109",
+    "description": "use Custom Controller"
+  },
+  "KILL_IMU3": {
+    "unit": "110",
+    "description": "disable third IMU (for IMU failure testing)"
+  },
+  "LOWEHEISER_STARTER": {
+    "unit": "111",
+    "description": "allows for manually running starter"
+  },
+  "AHRS_TYPE": {
+    "unit": "112",
+    "description": "change AHRS_EKF_TYPE"
+  },
+  "RETRACT_MOUNT2": {
+    "unit": "113",
+    "description": "Retract Mount2"
+  },
+  "CRUISE": {
+    "unit": "150",
+    "description": "CRUISE mode"
+  },
+  "TURTLE": {
+    "unit": "151",
+    "description": "Turtle mode - flip over after crash"
+  },
+  "SIMPLE_HEADING_RESET": {
+    "unit": "152",
+    "description": "reset simple mode reference heading to current"
+  },
+  "ARMDISARM": {
+    "unit": "153",
+    "description": "arm or disarm vehicle"
+  },
+  "ARMDISARM_AIRMODE": {
+    "unit": "154",
+    "description": "arm or disarm vehicle enabling airmode"
+  },
+  "TRIM_TO_CURRENT_SERVO_RC": {
+    "unit": "155",
+    "description": "trim to current servo and RC"
+  },
+  "TORQEEDO_CLEAR_ERR": {
+    "unit": "156",
+    "description": "clear torqeedo error"
+  },
+  "EMERGENCY_LANDING_EN": {
+    "unit": "157",
+    "description": "Force long FS action to FBWA for landing out of range"
+  },
+  "OPTFLOW_CAL": {
+    "unit": "158",
+    "description": "optical flow calibration"
+  },
+  "FORCEFLYING": {
+    "unit": "159",
+    "description": "enable or disable land detection for GPS based manual modes preventing land detection and maintainting set_throttle_mix_max"
+  },
+  "WEATHER_VANE_ENABLE": {
+    "unit": "160",
+    "description": "enable/disable weathervaning"
+  },
+  "TURBINE_START": {
+    "unit": "161",
+    "description": "initialize turbine start sequence"
+  },
+  "FFT_NOTCH_TUNE": {
+    "unit": "162",
+    "description": "FFT notch tuning function"
+  },
+  "MOUNT_LOCK": {
+    "unit": "163",
+    "description": "Mount yaw lock vs follow"
+  },
+  "LOG_PAUSE": {
+    "unit": "164",
+    "description": "Pauses logging if under logging rate control"
+  },
+  "ARM_EMERGENCY_STOP": {
+    "unit": "165",
+    "description": "ARM on high, MOTOR_ESTOP on low"
+  },
+  "CAMERA_REC_VIDEO": {
+    "unit": "166",
+    "description": "start recording on high, stop recording on low"
+  },
+  "CAMERA_ZOOM": {
+    "unit": "167",
+    "description": "camera zoom high = zoom in, middle = hold, low = zoom out"
+  },
+  "CAMERA_MANUAL_FOCUS": {
+    "unit": "168",
+    "description": "camera manual focus.  high = long shot, middle = stop focus, low = close shot"
+  },
+  "CAMERA_AUTO_FOCUS": {
+    "unit": "169",
+    "description": "camera auto focus"
+  },
+  "QSTABILIZE": {
+    "unit": "170",
+    "description": "QuadPlane QStabilize mode"
+  },
+  "MAG_CAL": {
+    "unit": "171",
+    "description": "Calibrate compasses (disarmed only)"
+  },
+  "BATTERY_MPPT_ENABLE": {
+    "unit": "172",
+    "description": "Battery MPPT Power enable. high = ON, mid = auto (controlled by mppt/batt driver), low = OFF. This effects all MPPTs."
+  },
+  "PLANE_AUTO_LANDING_ABORT": {
+    "unit": "173",
+    "description": "Abort Glide-slope or VTOL landing during payload place or do_land type mission items"
+  },
+  "CAMERA_IMAGE_TRACKING": {
+    "unit": "174",
+    "description": "camera image tracking"
+  },
+  "CAMERA_LENS": {
+    "unit": "175",
+    "description": "camera lens selection"
+  },
+  "VFWD_THR_OVERRIDE": {
+    "unit": "176",
+    "description": "force enabled VTOL forward throttle method"
+  },
+  "MOUNT_LRF_ENABLE": {
+    "unit": "177",
+    "description": "mount LRF enable/disable"
+  },
+  "FLIGHTMODE_PAUSE": {
+    "unit": "178",
+    "description": "e.g. pause movement towards waypoint"
+  },
+  "ICE_START_STOP": {
+    "unit": "179",
+    "description": "AP_ICEngine start stop"
+  },
+  "AUTOTUNE_TEST_GAINS": {
+    "unit": "180",
+    "description": "auto tune tuning switch to test or revert gains"
+  },
+  "QUICKTUNE": {
+    "unit": "181",
+    "description": "quicktune 3 position switch"
+  },
+  "AHRS_AUTO_TRIM": {
+    "unit": "182",
+    "description": "in-flight AHRS autotrim"
+  },
+  "AUTOLAND": {
+    "unit": "183",
+    "description": "Fixed Wing AUTOLAND Mode"
+  },
+  "SYSTEMID": {
+    "unit": "184",
+    "description": "system ID as an aux switch"
+  },
+  "ROLL": {
+    "unit": "201",
+    "description": "roll input"
+  },
+  "PITCH": {
+    "unit": "202",
+    "description": "pitch input"
+  },
+  "THROTTLE": {
+    "unit": "203",
+    "description": "throttle pilot input"
+  },
+  "YAW": {
+    "unit": "204",
+    "description": "yaw pilot input"
+  },
+  "MAINSAIL": {
+    "unit": "207",
+    "description": "mainsail input"
+  },
+  "FLAP": {
+    "unit": "208",
+    "description": "flap input"
+  },
+  "FWD_THR": {
+    "unit": "209",
+    "description": "VTOL manual forward throttle"
+  },
+  "AIRBRAKE": {
+    "unit": "210",
+    "description": "manual airbrake control"
+  },
+  "WALKING_HEIGHT": {
+    "unit": "211",
+    "description": "walking robot height input"
+  },
+  "MOUNT1_ROLL": {
+    "unit": "212",
+    "description": "mount1 roll input"
+  },
+  "MOUNT1_PITCH": {
+    "unit": "213",
+    "description": "mount1 pitch input"
+  },
+  "MOUNT1_YAW": {
+    "unit": "214",
+    "description": "mount1 yaw input"
+  },
+  "MOUNT2_ROLL": {
+    "unit": "215",
+    "description": "mount2 roll input"
+  },
+  "MOUNT2_PITCH": {
+    "unit": "216",
+    "description": "mount3 pitch input"
+  },
+  "MOUNT2_YAW": {
+    "unit": "217",
+    "description": "mount4 yaw input"
+  },
+  "LOWEHEISER_THROTTLE": {
+    "unit": "218",
+    "description": "allows for throttle on slider"
+  },
+  "TRANSMITTER_TUNING": {
+    "unit": "219",
+    "description": "use a transmitter knob or slider for in-flight tuning"
+  },
+  "SCRIPTING_1": {
+    "unit": "300",
+    "description": ""
+  },
+  "SCRIPTING_2": {
+    "unit": "301",
+    "description": ""
+  },
+  "SCRIPTING_3": {
+    "unit": "302",
+    "description": ""
+  },
+  "SCRIPTING_4": {
+    "unit": "303",
+    "description": ""
+  },
+  "SCRIPTING_5": {
+    "unit": "304",
+    "description": ""
+  },
+  "SCRIPTING_6": {
+    "unit": "305",
+    "description": ""
+  },
+  "SCRIPTING_7": {
+    "unit": "306",
+    "description": ""
+  },
+  "SCRIPTING_8": {
+    "unit": "307",
+    "description": ""
+  },
+  "SCRIPTING_9": {
+    "unit": "308",
+    "description": ""
+  },
+  "SCRIPTING_10": {
+    "unit": "309",
+    "description": ""
+  },
+  "SCRIPTING_11": {
+    "unit": "310",
+    "description": ""
+  },
+  "SCRIPTING_12": {
+    "unit": "311",
+    "description": ""
+  },
+  "SCRIPTING_13": {
+    "unit": "312",
+    "description": ""
+  },
+  "SCRIPTING_14": {
+    "unit": "313",
+    "description": ""
+  },
+  "SCRIPTING_15": {
+    "unit": "314",
+    "description": ""
+  },
+  "SCRIPTING_16": {
+    "unit": "315",
+    "description": ""
+  },
+  "AUX_FUNCTION_MAX": {
+    "unit": "316",
+    "description": ""
+  },
+  "MIDDLE": {
+    "unit": "1",
+    "description": "indicates auxiliary switch is in the middle position (pwm >1200, <1800)"
+  },
+  "HIGH": {
+    "unit": "2",
+    "description": "indicates auxiliary switch is in the high position (pwm >1800)"
+  },
+  "source": {
+    "unit": "enum",
+    "description": "source of auxiliary function invocation\nValues:"
+  },
+  "BUTTON": {
+    "unit": "2",
+    "description": "Source index is button index"
+  },
+  "index": {
+    "unit": "",
+    "description": "index within source. 0 indexed. Invalid for scripting."
+  },
+  "result": {
+    "unit": "",
+    "description": "true if function was successful"
+  },
+  "DynPrX": {
+    "unit": "Pa",
+    "description": "calculated dynamic pressure in the bodyframe X-axis"
+  },
+  "DynPrY": {
+    "unit": "Pa",
+    "description": "calculated dynamic pressure in the bodyframe Y-axis"
+  },
+  "DynPrZ": {
+    "unit": "Pa",
+    "description": "calculated dynamic pressure in the bodyframe Z-axis"
+  },
+  "AltAMSL": {
+    "unit": "m",
+    "description": "altitude AMSL"
+  },
+  "Press": {
+    "unit": "Pa",
+    "description": "Static pressure"
+  },
+  "CRt": {
+    "unit": "m/s",
+    "description": "climb rate"
+  },
+  "SMS": {
+    "unit": "ms",
+    "description": "time since system startup this sample was taken"
+  },
+  "GndTemp": {
+    "unit": "degC",
+    "description": "temperature on ground, specified by parameter or measured while on ground"
+  },
+  "CPress": {
+    "unit": "Pa",
+    "description": "compensated atmospheric pressure"
+  },
+  "Inst": {
+    "unit": "instance",
+    "description": "Cylinder this data belongs to"
+  },
+  "Volt": {
+    "unit": "V",
+    "description": "Motor voltage"
+  },
+  "VoltR": {
+    "unit": "V",
+    "description": "estimated resting voltage"
+  },
+  "Curr": {
+    "unit": "A",
+    "description": "Perceived current through the ESC"
+  },
+  "CurrTot": {
+    "unit": "mAh",
+    "description": "consumed Ah, current * time"
+  },
+  "EnrgTot": {
+    "unit": "W.h",
+    "description": "consumed Wh, energy this battery has expended"
+  },
+  "Res": {
+    "unit": "",
+    "description": "command result being returned from autopilot"
+  },
+  "RemPct": {
+    "unit": "%",
+    "description": "remaining percentage"
+  },
+  "SH": {
+    "unit": "",
+    "description": "Square root of the height variance"
+  },
+  "Instance": {
+    "unit": "instance",
+    "description": "GPS instance number"
+  },
+  "V1": {
+    "unit": "mV",
+    "description": "first cell voltage"
+  },
+  "V2": {
+    "unit": "mV",
+    "description": "second cell voltage"
+  },
+  "V3": {
+    "unit": "mV",
+    "description": "third cell voltage"
+  },
+  "V4": {
+    "unit": "mV",
+    "description": "fourth cell voltage"
+  },
+  "V5": {
+    "unit": "mV",
+    "description": "fifth cell voltage"
+  },
+  "V6": {
+    "unit": "mV",
+    "description": "sixth cell voltage"
+  },
+  "V7": {
+    "unit": "mV",
+    "description": "seventh cell voltage"
+  },
+  "V8": {
+    "unit": "mV",
+    "description": "eighth cell voltage"
+  },
+  "V9": {
+    "unit": "mV",
+    "description": "ninth cell voltage"
+  },
+  "V10": {
+    "unit": "",
+    "description": "Variance for state 10 (delta-angle-bias-x)"
+  },
+  "V11": {
+    "unit": "",
+    "description": "Variance for state 11 (delta-angle-bias-y)"
+  },
+  "V12": {
+    "unit": "",
+    "description": "Variance for state 12 (delta-angle-bias-z)"
+  },
+  "V13": {
+    "unit": "",
+    "description": "Variance for state 13 (delta-velocity-bias-x)"
+  },
+  "V14": {
+    "unit": "",
+    "description": "Variance for state 14 (delta-velocity-bias-y)"
+  },
+  "Health": {
+    "unit": "",
+    "description": "Health"
+  },
+  "Cnt": {
+    "unit": "s",
+    "description": "count of samples used to create this message"
+  },
+  "D0": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 0-degrees"
+  },
+  "D1": {
+    "unit": "",
+    "description": "data 1"
+  },
+  "D2": {
+    "unit": "",
+    "description": "data 2"
+  },
+  "D3": {
+    "unit": "",
+    "description": "data 3"
+  },
+  "PosX": {
+    "unit": "m",
+    "description": "Calculated beacon position, x-axis"
+  },
+  "PosY": {
+    "unit": "m",
+    "description": "Calculated beacon position, y-axis"
+  },
+  "PosZ": {
+    "unit": "m",
+    "description": "Calculated beacon position, z-axis"
+  },
+  "Bus": {
+    "unit": "",
+    "description": "CAN bus"
+  },
+  "Id": {
+    "unit": "",
+    "description": "character referenced by FMTU"
+  },
+  "DLC": {
+    "unit": "",
+    "description": "data length code"
+  },
+  "D4": {
+    "unit": "",
+    "description": "data 4"
+  },
+  "D5": {
+    "unit": "",
+    "description": "data 5"
+  },
+  "D6": {
+    "unit": "",
+    "description": "data 6"
+  },
+  "D7": {
+    "unit": "",
+    "description": "data 7"
+  },
+  "Img": {
+    "unit": "",
+    "description": "Image number"
+  },
+  "GPSTime": {
+    "unit": "",
+    "description": "milliseconds since start of GPS week"
+  },
+  "GPSWeek": {
+    "unit": "",
+    "description": "weeks since 5 Jan 1980"
+  },
+  "RelAlt": {
+    "unit": "m",
+    "description": "current altitude relative to home"
+  },
+  "GPSAlt": {
+    "unit": "m",
+    "description": "altitude as reported by GPS"
+  },
+  "Driver": {
+    "unit": "",
+    "description": "Driver index"
+  },
+  "NodeId": {
+    "unit": "instance",
+    "description": "Node ID"
+  },
+  "UID1": {
+    "unit": "",
+    "description": "Hardware ID, part 1"
+  },
+  "UID2": {
+    "unit": "",
+    "description": "Hardware ID, part 2"
+  },
+  "Name": {
+    "unit": "char[16]",
+    "description": "thread name"
+  },
+  "Major": {
+    "unit": "",
+    "description": "major revision id"
+  },
+  "Minor": {
+    "unit": "",
+    "description": "minor revision id"
+  },
+  "Version": {
+    "unit": "",
+    "description": "AP_Periph git hash"
+  },
+  "B0": {
+    "unit": "",
+    "description": "byte 0"
+  },
+  "B1": {
+    "unit": "",
+    "description": "byte 1"
+  },
+  "B2": {
+    "unit": "",
+    "description": "byte 2"
+  },
+  "B3": {
+    "unit": "",
+    "description": "byte 3"
+  },
+  "B4": {
+    "unit": "",
+    "description": "byte 4"
+  },
+  "B5": {
+    "unit": "",
+    "description": "byte 5"
+  },
+  "B6": {
+    "unit": "",
+    "description": "byte 6"
+  },
+  "B7": {
+    "unit": "",
+    "description": "byte 7"
+  },
+  "T": {
+    "unit": "degC",
+    "description": "IMU temperature"
+  },
+  "Trq": {
+    "unit": "",
+    "description": "transmit request count"
+  },
+  "Trej": {
+    "unit": "",
+    "description": "transmit reject count"
+  },
+  "Tov": {
+    "unit": "",
+    "description": "transmit overflow count"
+  },
+  "Tto": {
+    "unit": "",
+    "description": "transmit timeout count"
+  },
+  "Tab": {
+    "unit": "",
+    "description": "transmit abort count"
+  },
+  "Rov": {
+    "unit": "",
+    "description": "receive overflow count"
+  },
+  "Rer": {
+    "unit": "",
+    "description": "receive error count"
+  },
+  "Bo": {
+    "unit": "",
+    "description": "bus offset error count"
+  },
+  "Etx": {
+    "unit": "",
+    "description": "ESC successful send count"
+  },
+  "Stx": {
+    "unit": "",
+    "description": "Servo successful send count"
+  },
+  "Ftx": {
+    "unit": "",
+    "description": "ESC/Servo failed-to-send count"
+  },
+  "Type": {
+    "unit": "instance",
+    "description": "Position type\nValues:"
+  },
+  "CONT_EMPTY": {
+    "unit": "1",
+    "description": ""
+  },
+  "CONT_PID": {
+    "unit": "2",
+    "description": ""
+  },
+  "Act": {
+    "unit": "",
+    "description": "achieved value"
+  },
+  "CTot": {
+    "unit": "",
+    "description": "Total number of mission commands"
+  },
+  "CNum": {
+    "unit": "",
+    "description": "This command\u2019s offset in mission"
+  },
+  "CId": {
+    "unit": "",
+    "description": "Command type"
+  },
+  "Prm1": {
+    "unit": "",
+    "description": "Parameter 1"
+  },
+  "Prm2": {
+    "unit": "",
+    "description": "Parameter 2"
+  },
+  "Prm3": {
+    "unit": "",
+    "description": "Parameter 3"
+  },
+  "Prm4": {
+    "unit": "",
+    "description": "Parameter 4"
+  },
+  "Frame": {
+    "unit": "",
+    "description": "Frame used for position"
+  },
+  "Pos": {
+    "unit": "%",
+    "description": "Current Simulated Position"
+  },
+  "Force": {
+    "unit": "N.m",
+    "description": "Force being applied"
+  },
+  "Speed": {
+    "unit": "deg/s",
+    "description": "Current servo movement speed"
+  },
+  "Pow": {
+    "unit": "Watt",
+    "description": "Motor power"
+  },
+  "PosCmd": {
+    "unit": "deg",
+    "description": "commanded servo position"
+  },
+  "V": {
+    "unit": "V",
+    "description": "simulated servo voltage"
+  },
+  "A": {
+    "unit": "A",
+    "description": "simulated servo current"
+  },
+  "MotT": {
+    "unit": "degC",
+    "description": "simulated motor Temperature"
+  },
+  "PCBT": {
+    "unit": "degC",
+    "description": "simulated PCB Temperature"
+  },
+  "Err": {
+    "unit": "",
+    "description": "Master error code"
+  },
+  "NavRoll": {
+    "unit": "deg",
+    "description": "desired roll"
+  },
+  "NavPitch": {
+    "unit": "deg",
+    "description": "desired pitch assuming pitch trims are already applied"
+  },
+  "ThO": {
+    "unit": "",
+    "description": "throttle output"
+  },
+  "RdO": {
+    "unit": "",
+    "description": "scaled output rudder"
+  },
+  "ThD": {
+    "unit": "",
+    "description": "demanded speed-height-controller throttle"
+  },
+  "As": {
+    "unit": "",
+    "description": "Airspeed"
+  },
+  "AsT": {
+    "unit": "enum",
+    "description": "airspeed type ( old estimate or source of new estimate)\nValues:"
+  },
+  "AIRSPEED_SENSOR": {
+    "unit": "1",
+    "description": ""
+  },
+  "DCM_SYNTHETIC": {
+    "unit": "2",
+    "description": ""
+  },
+  "EKF3_SYNTHETIC": {
+    "unit": "3",
+    "description": ""
+  },
+  "SIM": {
+    "unit": "4",
+    "description": ""
+  },
+  "SAs": {
+    "unit": "m/s",
+    "description": "DCM\u2019s airspeed estimate, NaN if not available"
+  },
+  "E2T": {
+    "unit": "",
+    "description": "EAS to TAS factor"
+  },
+  "GU": {
+    "unit": "cm/s",
+    "description": "groundspeed undershoot when flying with minimum groundspeed"
+  },
+  "ErrRP": {
+    "unit": "deg",
+    "description": "lowest estimated gyro drift error"
+  },
+  "ErrYaw": {
+    "unit": "degheading",
+    "description": "difference between measured yaw and DCM yaw estimate"
+  },
+  "VWN": {
+    "unit": "m/s",
+    "description": "Estimated wind velocity (moving-to-North component)"
+  },
+  "VWE": {
+    "unit": "m/s",
+    "description": "Estimated wind velocity (moving-to-East component)"
+  },
+  "VWD": {
+    "unit": "m/s",
+    "description": "Wind velocity down"
+  },
+  "N": {
+    "unit": "m",
+    "description": "point associated with most recent action (North component)"
+  },
+  "Dp": {
+    "unit": "",
+    "description": "Number of times we rejected a write to the backend"
+  },
+  "RT": {
+    "unit": "",
+    "description": "timestamp of last external reset"
+  },
+  "RS": {
+    "unit": "",
+    "description": "Number of resends of unacknowledged data made"
+  },
+  "Fa": {
+    "unit": "",
+    "description": "Average number of blocks on the free list"
+  },
+  "Fmn": {
+    "unit": "",
+    "description": "Minimum number of blocks on the free list"
+  },
+  "Fmx": {
+    "unit": "",
+    "description": "Maximum number of blocks on the free list"
+  },
+  "Pa": {
+    "unit": "",
+    "description": "Average number of blocks on the pending list"
+  },
+  "Pmn": {
+    "unit": "",
+    "description": "Minimum number of blocks on the pending list"
+  },
+  "Pmx": {
+    "unit": "",
+    "description": "Maximum number of blocks on the pending list"
+  },
+  "Sa": {
+    "unit": "",
+    "description": "Average number of blocks on the sent list"
+  },
+  "Smn": {
+    "unit": "",
+    "description": "Minimum number of blocks on the sent list"
+  },
+  "Smx": {
+    "unit": "",
+    "description": "Maximum number of blocks on the sent list"
+  },
+  "Blk": {
+    "unit": "",
+    "description": "Current block number"
+  },
+  "Bytes": {
+    "unit": "B",
+    "description": "Current write offset"
+  },
+  "FMn": {
+    "unit": "",
+    "description": "Minimum free space in write buffer in last time period"
+  },
+  "FMx": {
+    "unit": "",
+    "description": "Maximum free space in write buffer in last time period"
+  },
+  "FAv": {
+    "unit": "",
+    "description": "Average free space in write buffer in last time period"
+  },
+  "Stg": {
+    "unit": "",
+    "description": "Deepstall landing stage"
+  },
+  "THdg": {
+    "unit": "degheading",
+    "description": "Target heading"
+  },
+  "XT": {
+    "unit": "m",
+    "description": "the vehicle\u2019s current distance from the current travel segment"
+  },
+  "Travel": {
+    "unit": "",
+    "description": "Expected travel distance vehicle will travel from this point"
+  },
+  "L1I": {
+    "unit": "",
+    "description": "L1 controller crosstrack integrator value"
+  },
+  "Loiter": {
+    "unit": "",
+    "description": "wind estimate loiter angle flown"
+  },
+  "Des": {
+    "unit": "",
+    "description": "Deepstall steering PID desired value"
+  },
+  "VN": {
+    "unit": "m/s",
+    "description": "Estimated velocity (North component)"
+  },
+  "VE": {
+    "unit": "m/s",
+    "description": "Estimated velocity (East component)"
+  },
+  "VD": {
+    "unit": "m/s",
+    "description": "Estimated velocity (Down component)"
+  },
+  "Lon": {
+    "unit": "deg",
+    "description": "Longitude"
+  },
+  "Flg": {
+    "unit": "",
+    "description": "nav status flags"
+  },
+  "Vel": {
+    "unit": "",
+    "description": "velocity variance"
+  },
+  "Hgt": {
+    "unit": "",
+    "description": "height variance"
+  },
+  "MagX": {
+    "unit": "mGauss",
+    "description": "magnetic field strength in body frame"
+  },
+  "MagY": {
+    "unit": "mGauss",
+    "description": "magnetic field strength in body frame"
+  },
+  "MagZ": {
+    "unit": "mGauss",
+    "description": "magnetic field strength in body frame"
+  },
+  "TAS": {
+    "unit": "",
+    "description": "true airspeed"
+  },
+  "IgnT": {
+    "unit": "deg",
+    "description": "Ignition timing"
+  },
+  "InjT": {
+    "unit": "ms",
+    "description": "Injection time"
+  },
+  "CHT": {
+    "unit": "degC",
+    "description": "cylinder head temperature"
+  },
+  "EGT": {
+    "unit": "degC",
+    "description": "Exhaust gas temperature"
+  },
+  "Lambda": {
+    "unit": "",
+    "description": "Estimated lambda coefficient (dimensionless ratio)"
+  },
+  "CHT2": {
+    "unit": "degC",
+    "description": "Cylinder2 head temperature"
+  },
+  "EGT2": {
+    "unit": "degC",
+    "description": "Cylinder2 Exhaust gas temperature"
+  },
+  "IDX": {
+    "unit": "m/s/s",
+    "description": "Innovation in vehicle drag acceleration (X-axis component)"
+  },
+  "Stress": {
+    "unit": "",
+    "description": "current stress level (commutation effort), scaled to [0..255]"
+  },
+  "MaxStress": {
+    "unit": "",
+    "description": "maximum stress level (commutation effort) since arming, scaled to [0..15]"
+  },
+  "Status": {
+    "unit": "enum",
+    "description": "Terrain database status\nValues:"
+  },
+  "HAS_STATUS_DATA": {
+    "unit": "2",
+    "description": "true if the message contains up-to-date status data"
+  },
+  "ALERT_BIT": {
+    "unit": "4",
+    "description": "true if the last status had the \u201calert\u201d bit (e.g. demag)"
+  },
+  "WARNING_BIT": {
+    "unit": "8",
+    "description": "true if the last status had the \u201cwarning\u201d bit (e.g. desync)"
+  },
+  "ERROR_BIT": {
+    "unit": "16",
+    "description": "true if the last status had the \u201cerror\u201d bit (e.g. stall)"
+  },
+  "LP": {
+    "unit": "%",
+    "description": "Reported engine load"
+  },
+  "Rpm": {
+    "unit": "rpm",
+    "description": "Reported engine RPM"
+  },
+  "SDT": {
+    "unit": "ms",
+    "description": "Spark Dwell Time"
+  },
+  "ATM": {
+    "unit": "Pa",
+    "description": "Atmospheric pressure"
+  },
+  "IMP": {
+    "unit": "Pa",
+    "description": "Intake manifold pressure"
+  },
+  "IMT": {
+    "unit": "degC",
+    "description": "Intake manifold temperature"
+  },
+  "ECT": {
+    "unit": "degC",
+    "description": "Engine Coolant Temperature"
+  },
+  "OilP": {
+    "unit": "Pa",
+    "description": "Oil Pressure"
+  },
+  "OilT": {
+    "unit": "degC",
+    "description": "Oil temperature"
+  },
+  "FP": {
+    "unit": "",
+    "description": "fault thread priority"
+  },
+  "FCR": {
+    "unit": "",
+    "description": "Fuel Consumption Rate"
+  },
+  "CFV": {
+    "unit": "",
+    "description": "Consumed fuel volume"
+  },
+  "TPS": {
+    "unit": "%",
+    "description": "throttle position sensor"
+  },
+  "Healthy": {
+    "unit": "",
+    "description": "True if EFI is healthy"
+  },
+  "ES": {
+    "unit": "",
+    "description": "desired engine state (0:EFI off 1:EFI on)"
+  },
+  "GE": {
+    "unit": "",
+    "description": "General error"
+  },
+  "CSE": {
+    "unit": "",
+    "description": "Crankshaft sensor status"
+  },
+  "TS": {
+    "unit": "",
+    "description": "Filter timeout status bitmask (0:position measurement, 1:velocity measurement, 2:height measurement, 3:magnetometer measurement, 4:airspeed measurement, 5:drag measurement)"
+  },
+  "FPS": {
+    "unit": "",
+    "description": "Fuel pressure status"
+  },
+  "OPS": {
+    "unit": "",
+    "description": "Oil pressure status"
+  },
+  "DS": {
+    "unit": "",
+    "description": "Detonation status"
+  },
+  "MS": {
+    "unit": "",
+    "description": "Misfire status"
+  },
+  "DebS": {
+    "unit": "",
+    "description": "Debris status"
+  },
+  "SPU": {
+    "unit": "",
+    "description": "Spark plug usage"
+  },
+  "EET": {
+    "unit": "bitmask",
+    "description": "Error Excess Temperature Bitfield\nBitmask values:"
+  },
+  "CHT_1_HIGH": {
+    "unit": "2",
+    "description": "true if CHT1 is too high"
+  },
+  "CHT_1_ENRC_ACTIVE": {
+    "unit": "4",
+    "description": "true if CHT1 Enrichment is active"
+  },
+  "CHT_2_LOW": {
+    "unit": "8",
+    "description": "true if CHT2 is too low"
+  },
+  "CHT_2_HIGH": {
+    "unit": "16",
+    "description": "true if CHT2 is too high"
+  },
+  "CHT_2_ENRC_ACTIVE": {
+    "unit": "32",
+    "description": "true if CHT2 Enrichment is active"
+  },
+  "EGT_1_LOW": {
+    "unit": "64",
+    "description": "true if EGT1 is too low"
+  },
+  "EGT_1_HIGH": {
+    "unit": "128",
+    "description": "true if EGT1 is too high"
+  },
+  "EGT_1_ENRC_ACTIVE": {
+    "unit": "256",
+    "description": "true if EGT1 Enrichment is active"
+  },
+  "EGT_2_LOW": {
+    "unit": "512",
+    "description": "true if EGT2 is too low"
+  },
+  "EGT_2_HIGH": {
+    "unit": "1024",
+    "description": "true if EGT2 is too high"
+  },
+  "EGT_2_ENRC_ACTIVE": {
+    "unit": "2048",
+    "description": "true if EGT2 Enrichment is active"
+  },
+  "FLAG": {
+    "unit": "bitmask",
+    "description": "Sensor Status Bitfield\nBitmask values:"
+  },
+  "AIR_TEMP_SENSOR_OK": {
+    "unit": "4",
+    "description": "true if air temperature sensor is OK"
+  },
+  "AIR_PRESSURE_SENSOR_OK": {
+    "unit": "8",
+    "description": "true if intake air pressure sensor is OK"
+  },
+  "THROTTLE_SENSOR_OK": {
+    "unit": "16",
+    "description": "true if throttle sensor is OK"
+  },
+  "CRF": {
+    "unit": "",
+    "description": "CRC failure count"
+  },
+  "AKF": {
+    "unit": "",
+    "description": "ACK failure count"
+  },
+  "Up": {
+    "unit": "",
+    "description": "Uptime between 2 messages"
+  },
+  "ThM": {
+    "unit": "",
+    "description": "Modified throttle_to_hirth output sent to the engine"
+  },
+  "Subsys": {
+    "unit": "enum",
+    "description": "Subsystem in which the error occurred\nValues:"
+  },
+  "RADIO": {
+    "unit": "2",
+    "description": ""
+  },
+  "OPTFLOW": {
+    "unit": "4",
+    "description": "not used"
+  },
+  "FAILSAFE_RADIO": {
+    "unit": "5",
+    "description": ""
+  },
+  "FAILSAFE_BATT": {
+    "unit": "6",
+    "description": ""
+  },
+  "FAILSAFE_GPS": {
+    "unit": "7",
+    "description": "not used"
+  },
+  "FAILSAFE_GCS": {
+    "unit": "8",
+    "description": ""
+  },
+  "FAILSAFE_FENCE": {
+    "unit": "9",
+    "description": ""
+  },
+  "FLIGHT_MODE": {
+    "unit": "10",
+    "description": ""
+  },
+  "CRASH_CHECK": {
+    "unit": "12",
+    "description": ""
+  },
+  "AUTOTUNE": {
+    "unit": "14",
+    "description": "not used"
+  },
+  "PARACHUTES": {
+    "unit": "15",
+    "description": ""
+  },
+  "EKFCHECK": {
+    "unit": "16",
+    "description": ""
+  },
+  "FAILSAFE_EKFINAV": {
+    "unit": "17",
+    "description": ""
+  },
+  "CPU": {
+    "unit": "19",
+    "description": ""
+  },
+  "FAILSAFE_ADSB": {
+    "unit": "20",
+    "description": ""
+  },
+  "TERRAIN": {
+    "unit": "21",
+    "description": ""
+  },
+  "NAVIGATION": {
+    "unit": "22",
+    "description": ""
+  },
+  "FAILSAFE_TERRAIN": {
+    "unit": "23",
+    "description": ""
+  },
+  "EKF_PRIMARY": {
+    "unit": "24",
+    "description": ""
+  },
+  "THRUST_LOSS_CHECK": {
+    "unit": "25",
+    "description": ""
+  },
+  "FAILSAFE_SENSORS": {
+    "unit": "26",
+    "description": ""
+  },
+  "FAILSAFE_LEAK": {
+    "unit": "27",
+    "description": ""
+  },
+  "PILOT_INPUT": {
+    "unit": "28",
+    "description": ""
+  },
+  "FAILSAFE_VIBE": {
+    "unit": "29",
+    "description": ""
+  },
+  "INTERNAL_ERROR": {
+    "unit": "30",
+    "description": ""
+  },
+  "FAILSAFE_DEADRECKON": {
+    "unit": "31",
+    "description": ""
+  },
+  "ECode": {
+    "unit": "",
+    "description": "Subsystem-specific error code"
+  },
+  "RPM": {
+    "unit": "rpm",
+    "description": "Motor RPM"
+  },
+  "RawRPM": {
+    "unit": "rpm",
+    "description": "reported motor rotation rate without slew adjustment"
+  },
+  "MotTemp": {
+    "unit": "degC",
+    "description": "measured motor temperature in centi-degrees C"
+  },
+  "inpct": {
+    "unit": "%",
+    "description": "input duty cycle in percent"
+  },
+  "outpct": {
+    "unit": "%",
+    "description": "output duty cycle in percent"
+  },
+  "flags": {
+    "unit": "",
+    "description": "Bitmask"
+  },
+  "Pwr": {
+    "unit": "%",
+    "description": "Power percentage"
+  },
+  "DISARMED": {
+    "unit": "11",
+    "description": ""
+  },
+  "AUTO_ARMED": {
+    "unit": "15",
+    "description": ""
+  },
+  "LAND_COMPLETE_MAYBE": {
+    "unit": "17",
+    "description": ""
+  },
+  "LAND_COMPLETE": {
+    "unit": "18",
+    "description": ""
+  },
+  "LOST_GPS": {
+    "unit": "19",
+    "description": ""
+  },
+  "FLIP_START": {
+    "unit": "21",
+    "description": ""
+  },
+  "FLIP_END": {
+    "unit": "22",
+    "description": ""
+  },
+  "SET_HOME": {
+    "unit": "25",
+    "description": ""
+  },
+  "SET_SIMPLE_ON": {
+    "unit": "26",
+    "description": ""
+  },
+  "SET_SIMPLE_OFF": {
+    "unit": "27",
+    "description": ""
+  },
+  "NOT_LANDED": {
+    "unit": "28",
+    "description": ""
+  },
+  "SET_SUPERSIMPLE_ON": {
+    "unit": "29",
+    "description": ""
+  },
+  "AUTOTUNE_INITIALISED": {
+    "unit": "30",
+    "description": ""
+  },
+  "AUTOTUNE_OFF": {
+    "unit": "31",
+    "description": ""
+  },
+  "AUTOTUNE_RESTART": {
+    "unit": "32",
+    "description": ""
+  },
+  "AUTOTUNE_SUCCESS": {
+    "unit": "33",
+    "description": ""
+  },
+  "AUTOTUNE_FAILED": {
+    "unit": "34",
+    "description": ""
+  },
+  "AUTOTUNE_REACHED_LIMIT": {
+    "unit": "35",
+    "description": ""
+  },
+  "AUTOTUNE_PILOT_TESTING": {
+    "unit": "36",
+    "description": ""
+  },
+  "AUTOTUNE_SAVEDGAINS": {
+    "unit": "37",
+    "description": ""
+  },
+  "SAVEWP_ADD_WP": {
+    "unit": "39",
+    "description": ""
+  },
+  "FENCE_ENABLE": {
+    "unit": "41",
+    "description": ""
+  },
+  "FENCE_DISABLE": {
+    "unit": "42",
+    "description": ""
+  },
+  "ACRO_TRAINER_OFF": {
+    "unit": "43",
+    "description": ""
+  },
+  "ACRO_TRAINER_LEVELING": {
+    "unit": "44",
+    "description": ""
+  },
+  "ACRO_TRAINER_LIMITED": {
+    "unit": "45",
+    "description": ""
+  },
+  "GRIPPER_GRAB": {
+    "unit": "46",
+    "description": ""
+  },
+  "GRIPPER_RELEASE": {
+    "unit": "47",
+    "description": ""
+  },
+  "PARACHUTE_DISABLED": {
+    "unit": "49",
+    "description": ""
+  },
+  "PARACHUTE_ENABLED": {
+    "unit": "50",
+    "description": ""
+  },
+  "PARACHUTE_RELEASED": {
+    "unit": "51",
+    "description": ""
+  },
+  "LANDING_GEAR_DEPLOYED": {
+    "unit": "52",
+    "description": ""
+  },
+  "LANDING_GEAR_RETRACTED": {
+    "unit": "53",
+    "description": ""
+  },
+  "MOTORS_EMERGENCY_STOPPED": {
+    "unit": "54",
+    "description": ""
+  },
+  "MOTORS_EMERGENCY_STOP_CLEARED": {
+    "unit": "55",
+    "description": ""
+  },
+  "MOTORS_INTERLOCK_DISABLED": {
+    "unit": "56",
+    "description": ""
+  },
+  "MOTORS_INTERLOCK_ENABLED": {
+    "unit": "57",
+    "description": ""
+  },
+  "ROTOR_RUNUP_COMPLETE": {
+    "unit": "58",
+    "description": "Heli only"
+  },
+  "ROTOR_SPEED_BELOW_CRITICAL": {
+    "unit": "59",
+    "description": "Heli only"
+  },
+  "EKF_ALT_RESET": {
+    "unit": "60",
+    "description": ""
+  },
+  "LAND_CANCELLED_BY_PILOT": {
+    "unit": "61",
+    "description": ""
+  },
+  "AVOIDANCE_ADSB_ENABLE": {
+    "unit": "63",
+    "description": ""
+  },
+  "AVOIDANCE_ADSB_DISABLE": {
+    "unit": "64",
+    "description": ""
+  },
+  "AVOIDANCE_PROXIMITY_ENABLE": {
+    "unit": "65",
+    "description": ""
+  },
+  "AVOIDANCE_PROXIMITY_DISABLE": {
+    "unit": "66",
+    "description": ""
+  },
+  "GPS_PRIMARY_CHANGED": {
+    "unit": "67",
+    "description": ""
+  },
+  "ZIGZAG_STORE_A": {
+    "unit": "71",
+    "description": ""
+  },
+  "ZIGZAG_STORE_B": {
+    "unit": "72",
+    "description": ""
+  },
+  "LAND_REPO_ACTIVE": {
+    "unit": "73",
+    "description": ""
+  },
+  "STANDBY_ENABLE": {
+    "unit": "74",
+    "description": ""
+  },
+  "STANDBY_DISABLE": {
+    "unit": "75",
+    "description": ""
+  },
+  "FENCE_ALT_MAX_ENABLE": {
+    "unit": "76",
+    "description": ""
+  },
+  "FENCE_ALT_MAX_DISABLE": {
+    "unit": "77",
+    "description": ""
+  },
+  "FENCE_CIRCLE_ENABLE": {
+    "unit": "78",
+    "description": ""
+  },
+  "FENCE_CIRCLE_DISABLE": {
+    "unit": "79",
+    "description": ""
+  },
+  "FENCE_ALT_MIN_ENABLE": {
+    "unit": "80",
+    "description": ""
+  },
+  "FENCE_ALT_MIN_DISABLE": {
+    "unit": "81",
+    "description": ""
+  },
+  "FENCE_POLYGON_ENABLE": {
+    "unit": "82",
+    "description": ""
+  },
+  "FENCE_POLYGON_DISABLE": {
+    "unit": "83",
+    "description": ""
+  },
+  "EK3_SOURCES_SET_TO_PRIMARY": {
+    "unit": "85",
+    "description": ""
+  },
+  "EK3_SOURCES_SET_TO_SECONDARY": {
+    "unit": "86",
+    "description": ""
+  },
+  "EK3_SOURCES_SET_TO_TERTIARY": {
+    "unit": "87",
+    "description": ""
+  },
+  "AIRSPEED_PRIMARY_CHANGED": {
+    "unit": "90",
+    "description": ""
+  },
+  "SURFACED": {
+    "unit": "163",
+    "description": ""
+  },
+  "NOT_SURFACED": {
+    "unit": "164",
+    "description": ""
+  },
+  "BOTTOMED": {
+    "unit": "165",
+    "description": ""
+  },
+  "NOT_BOTTOMED": {
+    "unit": "166",
+    "description": ""
+  },
+  "NF": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency"
+  },
+  "CF1": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 1"
+  },
+  "CF2": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 2"
+  },
+  "CF3": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 3"
+  },
+  "CF4": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 4"
+  },
+  "CF5": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 5"
+  },
+  "CF6": {
+    "unit": "Hz",
+    "description": "First harmonic centre frequency for motor 6"
+  },
+  "HF1": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 1"
+  },
+  "HF2": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 2"
+  },
+  "HF3": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 3"
+  },
+  "HF4": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 4"
+  },
+  "HF5": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 5"
+  },
+  "HF6": {
+    "unit": "Hz",
+    "description": "Second harmonic centre frequency for motor 6"
+  },
+  "CF": {
+    "unit": "",
+    "description": "bitmask of configured-in-parameters fences"
+  },
+  "HF": {
+    "unit": "Hz",
+    "description": "2nd harmonic frequency"
+  },
+  "EN": {
+    "unit": "",
+    "description": "bitmask of enabled fences"
+  },
+  "AE": {
+    "unit": "m/s/s",
+    "description": "Payload acceleration in East direction"
+  },
+  "EF": {
+    "unit": "",
+    "description": "bitmask of enabled fences"
+  },
+  "DF": {
+    "unit": "",
+    "description": "bitmask of currently disabled fences"
+  },
+  "Length": {
+    "unit": "B",
+    "description": "the number of bytes taken up by this message (including all headers)"
+  },
+  "Data": {
+    "unit": "char[64]",
+    "description": "File data of this block"
+  },
+  "Format": {
+    "unit": "char[16]",
+    "description": "character string defining the C-storage-type of the fields in this message"
+  },
+  "Columns": {
+    "unit": "char[64]",
+    "description": "the labels of the message being defined"
+  },
+  "FmtType": {
+    "unit": "",
+    "description": "numeric reference to associated FMT message"
+  },
+  "UnitIds": {
+    "unit": "char[16]",
+    "description": "each character refers to a UNIT message.  The unit at an offset corresponds to the field at the same offset in FMT.Format"
+  },
+  "MultIds": {
+    "unit": "char[16]",
+    "description": "each character refers to a MULT message.  The multiplier at an offset corresponds to the field at the same offset in FMT.Format"
+  },
+  "Tot": {
+    "unit": "",
+    "description": "total number of rally points onboard"
+  },
+  "Seq": {
+    "unit": "",
+    "description": "this rally point\u2019s sequence number"
+  },
+  "Count": {
+    "unit": "",
+    "description": "vertex cound in polygon if applicable"
+  },
+  "Radius": {
+    "unit": "m",
+    "description": "radius of circle if applicable"
+  },
+  "VelN": {
+    "unit": "m/s",
+    "description": "Velocity Northing"
+  },
+  "VelE": {
+    "unit": "m/s",
+    "description": "Velocity Easting"
+  },
+  "VelD": {
+    "unit": "m/s",
+    "description": "Velocity Downing"
+  },
+  "LatE": {
+    "unit": "deglatitude",
+    "description": "Vehicle estimated latitude (degrees * 1E7)"
+  },
+  "LonE": {
+    "unit": "deglongitude",
+    "description": "Vehicle estimated longitude (degrees * 1E7)"
+  },
+  "AltE": {
+    "unit": "m",
+    "description": "difference between current vehicle height and target height"
+  },
+  "NDn": {
+    "unit": "",
+    "description": "number of active harmonic notches"
+  },
+  "NF1": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 1"
+  },
+  "NF2": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 2"
+  },
+  "NF3": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 3"
+  },
+  "NF4": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 4"
+  },
+  "NF5": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 5"
+  },
+  "NF6": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 6"
+  },
+  "NF7": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 7"
+  },
+  "NF8": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 8"
+  },
+  "NF9": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 9"
+  },
+  "NF10": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 10"
+  },
+  "NF11": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 11"
+  },
+  "NF12": {
+    "unit": "Hz",
+    "description": "desired harmonic notch centre frequency for motor 12"
+  },
+  "PkAvg": {
+    "unit": "Hz",
+    "description": "peak noise frequency as an energy-weighted average of roll and pitch peak frequencies"
+  },
+  "BwAvg": {
+    "unit": "Hz",
+    "description": "bandwidth of weighted peak frequency where edges are determined by FFT_ATT_REF"
+  },
+  "SnX": {
+    "unit": "",
+    "description": "signal-to-noise ratio on the roll axis"
+  },
+  "SnY": {
+    "unit": "",
+    "description": "signal-to-noise ratio on the pitch axis"
+  },
+  "SnZ": {
+    "unit": "",
+    "description": "signal-to-noise ratio on the yaw axis"
+  },
+  "FtX": {
+    "unit": "%",
+    "description": "harmonic fit on roll of the highest noise peak to the second highest noise peak"
+  },
+  "FtY": {
+    "unit": "%",
+    "description": "harmonic fit on pitch of the highest noise peak to the second highest noise peak"
+  },
+  "FtZ": {
+    "unit": "%",
+    "description": "harmonic fit on yaw of the highest noise peak to the second highest noise peak"
+  },
+  "FHX": {
+    "unit": "",
+    "description": "FFT health, X-axis"
+  },
+  "FHY": {
+    "unit": "",
+    "description": "FFT health, Y-axis"
+  },
+  "FHZ": {
+    "unit": "",
+    "description": "FFT health, Z-axis"
+  },
+  "Tc": {
+    "unit": "\u03bcs",
+    "description": "FFT cycle time"
+  },
+  "PkX": {
+    "unit": "Hz",
+    "description": "noise frequency of the peak on roll"
+  },
+  "PkY": {
+    "unit": "Hz",
+    "description": "noise frequency of the peak on pitch"
+  },
+  "PkZ": {
+    "unit": "Hz",
+    "description": "noise frequency of the peak on yaw"
+  },
+  "BwX": {
+    "unit": "Hz",
+    "description": "bandwidth of the peak frequency on roll where edges are determined by FFT_ATT_REF"
+  },
+  "BwY": {
+    "unit": "Hz",
+    "description": "bandwidth of the peak frequency on pitch where edges are determined by FFT_ATT_REF"
+  },
+  "BwZ": {
+    "unit": "Hz",
+    "description": "bandwidth of the peak frequency on yaw where edges are determined by FFT_ATT_REF"
+  },
+  "EnX": {
+    "unit": "",
+    "description": "power spectral density bin energy of the peak on roll"
+  },
+  "EnY": {
+    "unit": "",
+    "description": "power spectral density bin energy of the peak on roll"
+  },
+  "EnZ": {
+    "unit": "",
+    "description": "power spectral density bin energy of the peak on roll"
+  },
+  "Pk1": {
+    "unit": "Hz",
+    "description": "Peak 1 frequency"
+  },
+  "Pk2": {
+    "unit": "Hz",
+    "description": "Peak 2 frequency"
+  },
+  "Pk3": {
+    "unit": "Hz",
+    "description": "Peak 3 Frequency"
+  },
+  "Bw1": {
+    "unit": "Hz",
+    "description": "Peak 1 noise bandwidth"
+  },
+  "Bw2": {
+    "unit": "Hz",
+    "description": "Peak 2 noise bandwidth"
+  },
+  "Bw3": {
+    "unit": "Hz",
+    "description": "Peak 3 noise bandwidth"
+  },
+  "En1": {
+    "unit": "",
+    "description": "Peak 1 Maximum energy"
+  },
+  "En2": {
+    "unit": "",
+    "description": "Peak 2 Maximum energy"
+  },
+  "En3": {
+    "unit": "",
+    "description": "Peak 3 Maximum energy"
+  },
+  "fts": {
+    "unit": "",
+    "description": "forward throttle scaler"
+  },
+  "qfplcd": {
+    "unit": "",
+    "description": "quadplane forward pitch limit"
+  },
+  "npllcd": {
+    "unit": "",
+    "description": "navigation pitch lower limit"
+  },
+  "npcd": {
+    "unit": "",
+    "description": "demanded navigation pitch"
+  },
+  "qft": {
+    "unit": "",
+    "description": "quadplane forward throttle"
+  },
+  "npulcd": {
+    "unit": "",
+    "description": "upper limit for navigation pitch"
+  },
+  "Alpha": {
+    "unit": "",
+    "description": "alpha angle"
+  },
+  "Beta": {
+    "unit": "",
+    "description": "beta angle"
+  },
+  "Cl": {
+    "unit": "",
+    "description": "lift coefficent"
+  },
+  "Cm": {
+    "unit": "",
+    "description": "roll coffecient"
+  },
+  "Cn": {
+    "unit": "",
+    "description": "yaw coefficient"
+  },
+  "TimeUS": {
+    "unit": "instance",
+    "description": "Time since system startup"
+  },
+  "VDop": {
+    "unit": "",
+    "description": "vertical dilution of precision"
+  },
+  "HAcc": {
+    "unit": "m",
+    "description": "horizontal position accuracy"
+  },
+  "VAcc": {
+    "unit": "m",
+    "description": "vertical position accuracy"
+  },
+  "SAcc": {
+    "unit": "m/s",
+    "description": "speed accuracy"
+  },
+  "YAcc": {
+    "unit": "deg",
+    "description": "yaw accuracy"
+  },
+  "VV": {
+    "unit": "",
+    "description": "true if vertical velocity is available"
+  },
+  "Delta": {
+    "unit": "ms",
+    "description": "system time delta between the last two reported positions"
+  },
+  "AEl": {
+    "unit": "m",
+    "description": "altitude above WGS-84 ellipsoid; INT32_MIN (-2147483648) if unknown"
+  },
+  "RTCMFU": {
+    "unit": "",
+    "description": "RTCM fragments used"
+  },
+  "RTCMFD": {
+    "unit": "",
+    "description": "RTCM fragments discarded"
+  },
+  "NO_FIX": {
+    "unit": "1",
+    "description": "Receiving valid GPS messages but no lock"
+  },
+  "GPS_OK_FIX_2D": {
+    "unit": "2",
+    "description": "Receiving valid messages and 2D lock"
+  },
+  "GPS_OK_FIX_3D": {
+    "unit": "3",
+    "description": "Receiving valid messages and 3D lock"
+  },
+  "GPS_OK_FIX_3D_DGPS": {
+    "unit": "4",
+    "description": "Receiving valid messages and 3D lock with differential improvements"
+  },
+  "GPS_OK_FIX_3D_RTK_FLOAT": {
+    "unit": "5",
+    "description": "Receiving valid messages and 3D RTK Float"
+  },
+  "GPS_OK_FIX_3D_RTK_FIXED": {
+    "unit": "6",
+    "description": "Receiving valid messages and 3D RTK Fixed"
+  },
+  "GMS": {
+    "unit": "UNKNOWN",
+    "description": "Milliseconds through GPS week"
+  },
+  "GWk": {
+    "unit": "UNKNOWN",
+    "description": "GPS week number"
+  },
+  "NSats": {
+    "unit": "",
+    "description": "number of satellites GPS is using"
+  },
+  "HDop": {
+    "unit": "",
+    "description": "horizontal dilution of precision"
+  },
+  "Spd": {
+    "unit": "m/s",
+    "description": "GNSS Horizontal speed"
+  },
+  "GCrs": {
+    "unit": "degheading",
+    "description": "GNSS Track over ground"
+  },
+  "RHD": {
+    "unit": "deg",
+    "description": "reported heading,deg"
+  },
+  "RDist": {
+    "unit": "m",
+    "description": "antenna separation,m"
+  },
+  "RDown": {
+    "unit": "m",
+    "description": "vertical antenna separation,m"
+  },
+  "MinCDown": {
+    "unit": "m",
+    "description": "minimum tolerable vertical antenna separation,m"
+  },
+  "MaxCDown": {
+    "unit": "m",
+    "description": "maximum tolerable vertical antenna separation,m"
+  },
+  "OK": {
+    "unit": "",
+    "description": "1 if have yaw"
+  },
+  "WkMS": {
+    "unit": "ms",
+    "description": "receiver TimeOfWeek measurement"
+  },
+  "Week": {
+    "unit": "",
+    "description": "GPS week"
+  },
+  "numSV": {
+    "unit": "satellites",
+    "description": "number of space vehicles seen"
+  },
+  "sv": {
+    "unit": "",
+    "description": "Satellite identifier"
+  },
+  "cpMes": {
+    "unit": "",
+    "description": "Carrier phase measurement"
+  },
+  "prMes": {
+    "unit": "",
+    "description": "Pseudorange measurement"
+  },
+  "doMes": {
+    "unit": "",
+    "description": "Doppler measurement"
+  },
+  "mesQI": {
+    "unit": "",
+    "description": "measurement quality index"
+  },
+  "cno": {
+    "unit": "",
+    "description": "carrier-to-noise density ratio"
+  },
+  "lli": {
+    "unit": "",
+    "description": "loss of lock indicator"
+  },
+  "rcvTime": {
+    "unit": "",
+    "description": "receiver TimeOfWeek measurement"
+  },
+  "week": {
+    "unit": "",
+    "description": "GPS week"
+  },
+  "leapS": {
+    "unit": "",
+    "description": "GPS leap seconds"
+  },
+  "numMeas": {
+    "unit": "",
+    "description": "number of space-vehicle measurements to follow"
+  },
+  "recStat": {
+    "unit": "",
+    "description": "receiver tracking status bitfield"
+  },
+  "gnss": {
+    "unit": "",
+    "description": "GNSS identifier"
+  },
+  "freq": {
+    "unit": "",
+    "description": "GLONASS frequency slot"
+  },
+  "lock": {
+    "unit": "",
+    "description": "carrier phase locktime counter"
+  },
+  "prD": {
+    "unit": "",
+    "description": "estimated pseudorange measurement standard deviation"
+  },
+  "cpD": {
+    "unit": "",
+    "description": "estimated carrier phase measurement standard deviation"
+  },
+  "doD": {
+    "unit": "",
+    "description": "estimated Doppler measurement standard deviation"
+  },
+  "trk": {
+    "unit": "",
+    "description": "tracking status bitfield"
+  },
+  "GyrX": {
+    "unit": "rad/s",
+    "description": "measured rotation rate about X axis"
+  },
+  "GyrY": {
+    "unit": "rad/s",
+    "description": "measured rotation rate about Y axis"
+  },
+  "GyrZ": {
+    "unit": "rad/s",
+    "description": "measured rotation rate about Z axis"
+  },
+  "Out": {
+    "unit": "",
+    "description": "Controller output to heating element"
+  },
+  "DRRPM": {
+    "unit": "",
+    "description": "Desired rotor speed"
+  },
+  "ERRPM": {
+    "unit": "",
+    "description": "Estimated rotor speed"
+  },
+  "Gov": {
+    "unit": "",
+    "description": "Governor Output"
+  },
+  "Throt": {
+    "unit": "",
+    "description": "Throttle output"
+  },
+  "Ramp": {
+    "unit": "",
+    "description": "throttle ramp up"
+  },
+  "Stat": {
+    "unit": "",
+    "description": "GPS fix status"
+  },
+  "Humidity": {
+    "unit": "%",
+    "description": "percentage humidity"
+  },
+  "Traw": {
+    "unit": "",
+    "description": "raw temperature from sensor"
+  },
+  "Praw": {
+    "unit": "",
+    "description": "raw pressure from sensor"
+  },
+  "FUEL": {
+    "unit": "1e2 %",
+    "description": "Fuel remaining"
+  },
+  "SPMPWR": {
+    "unit": "Watt",
+    "description": "stack power module power draw"
+  },
+  "POUT": {
+    "unit": "Watt",
+    "description": "output power"
+  },
+  "ERR": {
+    "unit": "enum",
+    "description": "error codes\nValues:"
+  },
+  "REDUCED_POWER": {
+    "unit": "10",
+    "description": ""
+  },
+  "SPM_LOST": {
+    "unit": "11",
+    "description": ""
+  },
+  "PRESSURE_LOW": {
+    "unit": "20",
+    "description": ""
+  },
+  "BATTERY_LOW": {
+    "unit": "21",
+    "description": ""
+  },
+  "PRESSURE_ALERT": {
+    "unit": "30",
+    "description": ""
+  },
+  "START_DENIED": {
+    "unit": "31",
+    "description": ""
+  },
+  "SYSTEM_CRITICAL": {
+    "unit": "32",
+    "description": ""
+  },
+  "PRESSURE_CRITICAL": {
+    "unit": "33",
+    "description": ""
+  },
+  "BATTERY_CRITICAL": {
+    "unit": "40",
+    "description": ""
+  },
+  "Tank": {
+    "unit": "%",
+    "description": "Fuel remaining"
+  },
+  "Inlet": {
+    "unit": "",
+    "description": "Inlet pressure"
+  },
+  "BattV": {
+    "unit": "V",
+    "description": "battery voltage"
+  },
+  "OutPwr": {
+    "unit": "Watt",
+    "description": "output power"
+  },
+  "SPMPwr": {
+    "unit": "Watt",
+    "description": "stack power module power draw"
+  },
+  "FNo": {
+    "unit": "",
+    "description": "fault number"
+  },
+  "BPwr": {
+    "unit": "Watt",
+    "description": "battery power draw"
+  },
+  "Starting": {
+    "unit": "1",
+    "description": ""
+  },
+  "Running": {
+    "unit": "2",
+    "description": ""
+  },
+  "Stopping": {
+    "unit": "3",
+    "description": ""
+  },
+  "Go_to_Sleep": {
+    "unit": "4",
+    "description": ""
+  },
+  "F1": {
+    "unit": "enum",
+    "description": "error code\nValues:"
+  },
+  "F2": {
+    "unit": "",
+    "description": "sub-error code"
+  },
+  "Diff": {
+    "unit": "Pa",
+    "description": "Differential pressure"
+  },
+  "ADU": {
+    "unit": "",
+    "description": "Air Data Unit status"
+  },
+  "NSat": {
+    "unit": "",
+    "description": "Number of satellites"
+  },
+  "NewGPS": {
+    "unit": "",
+    "description": "Indicator of new update of GPS data"
+  },
+  "FType": {
+    "unit": "",
+    "description": "fix type"
+  },
+  "GSS": {
+    "unit": "",
+    "description": "GNSS spoofing status"
+  },
+  "GJS": {
+    "unit": "",
+    "description": "GNSS jamming status"
+  },
+  "GI1": {
+    "unit": "",
+    "description": "GNSS Info1"
+  },
+  "GI2": {
+    "unit": "",
+    "description": "GNSS Info2"
+  },
+  "GAPS": {
+    "unit": "",
+    "description": "GNSS Angles position type"
+  },
+  "GpsHTS": {
+    "unit": "",
+    "description": "GNSS Heading timestamp"
+  },
+  "GpsYaw": {
+    "unit": "degheading",
+    "description": "GNSS Heading"
+  },
+  "GpsPitch": {
+    "unit": "deg",
+    "description": "GNSS Pitch"
+  },
+  "GDOP": {
+    "unit": "",
+    "description": "GNSS GDOP"
+  },
+  "PDOP": {
+    "unit": "",
+    "description": "GNSS PDOP"
+  },
+  "HDOP": {
+    "unit": "",
+    "description": "GNSS HDOP"
+  },
+  "VDOP": {
+    "unit": "",
+    "description": "GNSS VDOP"
+  },
+  "TDOP": {
+    "unit": "",
+    "description": "GNSS TDOP"
+  },
+  "USW": {
+    "unit": "",
+    "description": "USW1"
+  },
+  "USW2": {
+    "unit": "",
+    "description": "USW2"
+  },
+  "Vdc": {
+    "unit": "V",
+    "description": "Supply voltage"
+  },
+  "PVN": {
+    "unit": "m",
+    "description": "position variance north"
+  },
+  "PVE": {
+    "unit": "m",
+    "description": "position variance east"
+  },
+  "PVD": {
+    "unit": "m",
+    "description": "position variance down"
+  },
+  "VVN": {
+    "unit": "m/s",
+    "description": "velocity variance north"
+  },
+  "VVE": {
+    "unit": "m/s",
+    "description": "velocity variance east"
+  },
+  "VVD": {
+    "unit": "m/s",
+    "description": "velocity variance down"
+  },
+  "EG": {
+    "unit": "",
+    "description": "gyroscope error count"
+  },
+  "EA": {
+    "unit": "",
+    "description": "accelerometer error count"
+  },
+  "GH": {
+    "unit": "",
+    "description": "Github commit"
+  },
+  "AH": {
+    "unit": "",
+    "description": "accelerometer health"
+  },
+  "GHz": {
+    "unit": "Hz",
+    "description": "gyroscope measurement rate"
+  },
+  "AHz": {
+    "unit": "Hz",
+    "description": "accelerometer measurement rate"
+  },
+  "RSErr": {
+    "unit": "",
+    "description": "Status Read error count (zeroed on successful read)"
+  },
+  "Mem": {
+    "unit": "B",
+    "description": "Free memory available"
+  },
+  "NPkt": {
+    "unit": "",
+    "description": "Number of packets received by IOMCU"
+  },
+  "Nerr": {
+    "unit": "",
+    "description": "Protocol failures on MCU side"
+  },
+  "Nerr2": {
+    "unit": "",
+    "description": "Reported number of failures on IOMCU side"
+  },
+  "NDel": {
+    "unit": "",
+    "description": "Number of delayed packets received by MCU"
+  },
+  "DevID": {
+    "unit": "",
+    "description": "bus ID"
+  },
+  "Bank": {
+    "unit": "",
+    "description": "device register bank"
+  },
+  "Reg": {
+    "unit": "",
+    "description": "device register"
+  },
+  "Val": {
+    "unit": "",
+    "description": "unexpected value"
+  },
+  "seqno": {
+    "unit": "",
+    "description": "sample sequence number"
+  },
+  "x": {
+    "unit": "m/s/s",
+    "description": "x-axis sample value"
+  },
+  "y": {
+    "unit": "m/s/s",
+    "description": "y-axis sample value"
+  },
+  "z": {
+    "unit": "m/s/s",
+    "description": "z-axis sample value"
+  },
+  "type": {
+    "unit": "",
+    "description": "number that needs documenting"
+  },
+  "instance": {
+    "unit": "",
+    "description": "IMU sensor instance"
+  },
+  "mul": {
+    "unit": "",
+    "description": "multiplier to be applied to samples in this batch"
+  },
+  "smp_cnt": {
+    "unit": "",
+    "description": "samples in this batch"
+  },
+  "smp_rate": {
+    "unit": "Hz",
+    "description": "rate at which samples have been collected"
+  },
+  "TStamp": {
+    "unit": "s",
+    "description": "Simulation\u2019s timestamp (s)"
+  },
+  "AN": {
+    "unit": "m/s/s",
+    "description": "Payload acceleration in North direction"
+  },
+  "AD": {
+    "unit": "m/s/s",
+    "description": "Payload acceleration in Down direction"
+  },
+  "stage": {
+    "unit": "",
+    "description": "progress through landing sequence"
+  },
+  "f1": {
+    "unit": "",
+    "description": "fin 1 servo angle input"
+  },
+  "f2": {
+    "unit": "",
+    "description": "fin 2 servo angle input"
+  },
+  "slope": {
+    "unit": "",
+    "description": "Slope to landing point"
+  },
+  "slopeInit": {
+    "unit": "",
+    "description": "Initial slope to landing point"
+  },
+  "altO": {
+    "unit": "",
+    "description": "Rangefinder correction"
+  },
+  "fh": {
+    "unit": "",
+    "description": "Height for flare timing."
+  },
+  "LandingGear": {
+    "unit": "enum",
+    "description": "Current landing gear state\nValues:"
+  },
+  "LG_RETRACTED": {
+    "unit": "0",
+    "description": ""
+  },
+  "LG_DEPLOYED": {
+    "unit": "1",
+    "description": ""
+  },
+  "LG_RETRACTING": {
+    "unit": "2",
+    "description": ""
+  },
+  "LG_DEPLOYING": {
+    "unit": "3",
+    "description": ""
+  },
+  "WeightOnWheels": {
+    "unit": "enum",
+    "description": "Weight on wheels state\nValues:"
+  },
+  "LG_NO_WOW": {
+    "unit": "0",
+    "description": ""
+  },
+  "LG_WOW": {
+    "unit": "1",
+    "description": ""
+  },
+  "SI": {
+    "unit": "",
+    "description": "target system ID"
+  },
+  "CI": {
+    "unit": "",
+    "description": "target component ID"
+  },
+  "C": {
+    "unit": "instance",
+    "description": "EKF core this data is for"
+  },
+  "GS": {
+    "unit": "",
+    "description": "desired governor state (0:Governor off 1:Governor on)"
+  },
+  "Strtr": {
+    "unit": "",
+    "description": "desired electric start"
+  },
+  "VB": {
+    "unit": "V",
+    "description": "battery voltage"
+  },
+  "CB": {
+    "unit": "A",
+    "description": "battery current"
+  },
+  "CG": {
+    "unit": "A",
+    "description": "generator current"
+  },
+  "Th": {
+    "unit": "%",
+    "description": "throttle input"
+  },
+  "EB": {
+    "unit": "V",
+    "description": "EFI battery voltage"
+  },
+  "PW": {
+    "unit": "\u03bcs",
+    "description": "EFI pulse-width"
+  },
+  "FC": {
+    "unit": "l",
+    "description": "fuel consumed"
+  },
+  "EP": {
+    "unit": "Pa",
+    "description": "EFI pressure"
+  },
+  "EMT": {
+    "unit": "degC",
+    "description": "EFI manifold air temperature"
+  },
+  "OfsX": {
+    "unit": "mGauss",
+    "description": "magnetic field offset in body frame"
+  },
+  "OfsY": {
+    "unit": "mGauss",
+    "description": "magnetic field offset in body frame"
+  },
+  "OfsZ": {
+    "unit": "mGauss",
+    "description": "magnetic field offset in body frame"
+  },
+  "MOX": {
+    "unit": "mGauss",
+    "description": "motor interference magnetic field offset in body frame"
+  },
+  "MOY": {
+    "unit": "mGauss",
+    "description": "motor interference magnetic field offset in body frame"
+  },
+  "MOZ": {
+    "unit": "mGauss",
+    "description": "motor interference magnetic field offset in body frame"
+  },
+  "S": {
+    "unit": "\u03bcs",
+    "description": "time measurement was taken"
+  },
+  "Node": {
+    "unit": "instance",
+    "description": "CAN node"
+  },
+  "Sensor": {
+    "unit": "",
+    "description": "sensor ID on node"
+  },
+  "Mx": {
+    "unit": "",
+    "description": "X axis field"
+  },
+  "My": {
+    "unit": "",
+    "description": "y axis field"
+  },
+  "Mz": {
+    "unit": "",
+    "description": "z axis field"
+  },
+  "chan": {
+    "unit": "instance",
+    "description": "mavlink channel number"
+  },
+  "txp": {
+    "unit": "",
+    "description": "transmitted packet count"
+  },
+  "rxp": {
+    "unit": "",
+    "description": "received packet count"
+  },
+  "rxdp": {
+    "unit": "",
+    "description": "perceived number of packets we never received"
+  },
+  "ACTIVE": {
+    "unit": "2",
+    "description": ""
+  },
+  "STREAMING": {
+    "unit": "4",
+    "description": ""
+  },
+  "PRIVATE": {
+    "unit": "8",
+    "description": ""
+  },
+  "LOCKED": {
+    "unit": "16",
+    "description": ""
+  },
+  "ss": {
+    "unit": "ms",
+    "description": "stream slowdown is the number of ms being added to each message to fit within bandwidth"
+  },
+  "tf": {
+    "unit": "",
+    "description": "times buffer was full when a message was going to be sent"
+  },
+  "TC": {
+    "unit": "s",
+    "description": "Time at constant frequency before chirp starts"
+  },
+  "SC": {
+    "unit": "",
+    "description": "source component for command"
+  },
+  "Fr": {
+    "unit": "",
+    "description": "command frame"
+  },
+  "Cmd": {
+    "unit": "",
+    "description": "mavlink command enum value"
+  },
+  "P1": {
+    "unit": "",
+    "description": "first parameter from mavlink packet"
+  },
+  "P2": {
+    "unit": "",
+    "description": "DCM Pitch"
+  },
+  "P3": {
+    "unit": "",
+    "description": "third parameter from mavlink packet"
+  },
+  "P4": {
+    "unit": "",
+    "description": "fourth parameter from mavlink packet"
+  },
+  "X": {
+    "unit": "",
+    "description": "x-axis sample sum"
+  },
+  "Z": {
+    "unit": "",
+    "description": "z-axis sample sum"
+  },
+  "WL": {
+    "unit": "",
+    "description": "true if this command arrived via a COMMAND_LONG rather than COMMAND_INT"
+  },
+  "MTemp": {
+    "unit": "degC",
+    "description": "Motor Temp (higher of pcb or stator)"
+  },
+  "MVolt": {
+    "unit": "V",
+    "description": "Motor voltage"
+  },
+  "MVmin": {
+    "unit": "V",
+    "description": "Voltage min"
+  },
+  "MVmax": {
+    "unit": "V",
+    "description": "Voltage max"
+  },
+  "Nx": {
+    "unit": "",
+    "description": "new measurement X axis"
+  },
+  "Ny": {
+    "unit": "",
+    "description": "new measurement Y axis"
+  },
+  "Nz": {
+    "unit": "",
+    "description": "new measurement Z axis"
+  },
+  "Ox": {
+    "unit": "",
+    "description": "new offset X axis"
+  },
+  "Oy": {
+    "unit": "",
+    "description": "new offset Y axis"
+  },
+  "Oz": {
+    "unit": "",
+    "description": "new offset Z axis"
+  },
+  "DRoll": {
+    "unit": "deg",
+    "description": "Desired roll"
+  },
+  "DPitch": {
+    "unit": "deg",
+    "description": "Desired pitch"
+  },
+  "DYawB": {
+    "unit": "deg",
+    "description": "Desired yaw in body frame"
+  },
+  "YawB": {
+    "unit": "deg",
+    "description": "Actual yaw in body frame"
+  },
+  "DYawE": {
+    "unit": "deg",
+    "description": "Desired yaw in earth frame"
+  },
+  "YawE": {
+    "unit": "deg",
+    "description": "Actual yaw in earth frame"
+  },
+  "Dist": {
+    "unit": "m",
+    "description": "Measured rangefinder distance"
+  },
+  "Mode": {
+    "unit": "",
+    "description": "0 is Relaxed, 1 is Position Control, 2 is Rate Control"
+  },
+  "ModeNum": {
+    "unit": "",
+    "description": "alias for Mode"
+  },
+  "Rsn": {
+    "unit": "enum",
+    "description": "reason for entering this mode; enumeration value\nValues:"
+  },
+  "RC_COMMAND": {
+    "unit": "1",
+    "description": ""
+  },
+  "GCS_COMMAND": {
+    "unit": "2",
+    "description": ""
+  },
+  "RADIO_FAILSAFE": {
+    "unit": "3",
+    "description": ""
+  },
+  "BATTERY_FAILSAFE": {
+    "unit": "4",
+    "description": ""
+  },
+  "GCS_FAILSAFE": {
+    "unit": "5",
+    "description": ""
+  },
+  "EKF_FAILSAFE": {
+    "unit": "6",
+    "description": ""
+  },
+  "GPS_GLITCH": {
+    "unit": "7",
+    "description": ""
+  },
+  "MISSION_END": {
+    "unit": "8",
+    "description": ""
+  },
+  "THROTTLE_LAND_ESCAPE": {
+    "unit": "9",
+    "description": ""
+  },
+  "FENCE_BREACHED": {
+    "unit": "10",
+    "description": ""
+  },
+  "TERRAIN_FAILSAFE": {
+    "unit": "11",
+    "description": ""
+  },
+  "BRAKE_TIMEOUT": {
+    "unit": "12",
+    "description": ""
+  },
+  "FLIP_COMPLETE": {
+    "unit": "13",
+    "description": ""
+  },
+  "AVOIDANCE": {
+    "unit": "14",
+    "description": ""
+  },
+  "AVOIDANCE_RECOVERY": {
+    "unit": "15",
+    "description": ""
+  },
+  "THROW_COMPLETE": {
+    "unit": "16",
+    "description": ""
+  },
+  "TERMINATE": {
+    "unit": "17",
+    "description": ""
+  },
+  "TOY_MODE": {
+    "unit": "18",
+    "description": ""
+  },
+  "CRASH_FAILSAFE": {
+    "unit": "19",
+    "description": ""
+  },
+  "SOARING_FBW_B_WITH_MOTOR_RUNNING": {
+    "unit": "20",
+    "description": ""
+  },
+  "SOARING_THERMAL_DETECTED": {
+    "unit": "21",
+    "description": ""
+  },
+  "SOARING_THERMAL_ESTIMATE_DETERIORATED": {
+    "unit": "22",
+    "description": ""
+  },
+  "VTOL_FAILED_TRANSITION": {
+    "unit": "23",
+    "description": ""
+  },
+  "VTOL_FAILED_TAKEOFF": {
+    "unit": "24",
+    "description": ""
+  },
+  "FAILSAFE": {
+    "unit": "25",
+    "description": "general failsafes, prefer specific failsafes over this as much as possible"
+  },
+  "INITIALISED": {
+    "unit": "26",
+    "description": ""
+  },
+  "SURFACE_COMPLETE": {
+    "unit": "27",
+    "description": ""
+  },
+  "BAD_DEPTH": {
+    "unit": "28",
+    "description": ""
+  },
+  "LEAK_FAILSAFE": {
+    "unit": "29",
+    "description": ""
+  },
+  "SERVOTEST": {
+    "unit": "30",
+    "description": ""
+  },
+  "STARTUP": {
+    "unit": "31",
+    "description": ""
+  },
+  "UNAVAILABLE": {
+    "unit": "33",
+    "description": ""
+  },
+  "AUTOROTATION_START": {
+    "unit": "34",
+    "description": ""
+  },
+  "AUTOROTATION_BAILOUT": {
+    "unit": "35",
+    "description": ""
+  },
+  "SOARING_ALT_TOO_HIGH": {
+    "unit": "36",
+    "description": ""
+  },
+  "SOARING_ALT_TOO_LOW": {
+    "unit": "37",
+    "description": ""
+  },
+  "SOARING_DRIFT_EXCEEDED": {
+    "unit": "38",
+    "description": ""
+  },
+  "RTL_COMPLETE_SWITCHING_TO_VTOL_LAND_RTL": {
+    "unit": "39",
+    "description": ""
+  },
+  "RTL_COMPLETE_SWITCHING_TO_FIXEDWING_AUTOLAND": {
+    "unit": "40",
+    "description": ""
+  },
+  "MISSION_CMD": {
+    "unit": "41",
+    "description": ""
+  },
+  "FRSKY_COMMAND": {
+    "unit": "42",
+    "description": ""
+  },
+  "FENCE_RETURN_PREVIOUS_MODE": {
+    "unit": "43",
+    "description": ""
+  },
+  "QRTL_INSTEAD_OF_RTL": {
+    "unit": "44",
+    "description": ""
+  },
+  "AUTO_RTL_EXIT": {
+    "unit": "45",
+    "description": ""
+  },
+  "LOITER_ALT_REACHED_QLAND": {
+    "unit": "46",
+    "description": ""
+  },
+  "LOITER_ALT_IN_VTOL": {
+    "unit": "47",
+    "description": ""
+  },
+  "RADIO_FAILSAFE_RECOVERY": {
+    "unit": "48",
+    "description": ""
+  },
+  "QLAND_INSTEAD_OF_RTL": {
+    "unit": "49",
+    "description": ""
+  },
+  "MODE_TAKEOFF_FAILSAFE": {
+    "unit": "51",
+    "description": ""
+  },
+  "DDS_COMMAND": {
+    "unit": "52",
+    "description": ""
+  },
+  "AUX_FUNCTION": {
+    "unit": "53",
+    "description": ""
+  },
+  "FIXED_WING_AUTOLAND": {
+    "unit": "54",
+    "description": ""
+  },
+  "FENCE_REENABLE": {
+    "unit": "55",
+    "description": ""
+  },
+  "Dly": {
+    "unit": "",
+    "description": "Loop delay so far"
+  },
+  "Tsk": {
+    "unit": "",
+    "description": "current task number"
+  },
+  "IErr": {
+    "unit": "",
+    "description": "Internal error mask"
+  },
+  "IErrCnt": {
+    "unit": "",
+    "description": "Count of internal error occurances"
+  },
+  "IErrLn": {
+    "unit": "",
+    "description": "Internal Error line"
+  },
+  "MM": {
+    "unit": "",
+    "description": "MAVLink message currently being processed"
+  },
+  "MC": {
+    "unit": "",
+    "description": "MAVLink command currently being processed"
+  },
+  "SmLn": {
+    "unit": "",
+    "description": "line semaphore was taken on"
+  },
+  "SPICnt": {
+    "unit": "",
+    "description": "count of SPI transactions"
+  },
+  "I2CCnt": {
+    "unit": "",
+    "description": "count of i2c transactions"
+  },
+  "LiftMax": {
+    "unit": "",
+    "description": "Maximum motor compensation gain"
+  },
+  "BatVolt": {
+    "unit": "",
+    "description": "Ratio between detected battery voltage and maximum battery voltage"
+  },
+  "ThLimit": {
+    "unit": "",
+    "description": "Throttle limit set due to battery current limitations"
+  },
+  "ThrAvMx": {
+    "unit": "",
+    "description": "Maximum average throttle that can be used to maintain attitude control, derived from throttle mix params"
+  },
+  "ThrOut": {
+    "unit": "",
+    "description": "Throttle output"
+  },
+  "FailFlags": {
+    "unit": "",
+    "description": "bit 0 motor failed, bit 1 motors balanced, should be 2 in normal flight"
+  },
+  "Message": {
+    "unit": "char[64]",
+    "description": "message text"
+  },
+  "Mult": {
+    "unit": "",
+    "description": "numeric multiplier"
+  },
+  "rng": {
+    "unit": "UNKNOWN",
+    "description": "Measured range"
+  },
+  "innov": {
+    "unit": "",
+    "description": "Beacon range innovation"
+  },
+  "SIV": {
+    "unit": "",
+    "description": "sqrt of beacon range innovation variance"
+  },
+  "BPN": {
+    "unit": "m",
+    "description": "Beacon north position"
+  },
+  "BPE": {
+    "unit": "m",
+    "description": "Beacon east position"
+  },
+  "BPD": {
+    "unit": "m",
+    "description": "Beacon down position"
+  },
+  "OFH": {
+    "unit": "m",
+    "description": "High estimate of vertical position offset of beacons rel to EKF origin"
+  },
+  "OFL": {
+    "unit": "m",
+    "description": "Low estimate of vertical position offset of beacons rel to EKF origin"
+  },
+  "OFN": {
+    "unit": "m",
+    "description": "Most recent position reset (North component)"
+  },
+  "OFE": {
+    "unit": "m",
+    "description": "Most recent position reset (East component)"
+  },
+  "OFD": {
+    "unit": "m",
+    "description": "Down position of receiver rel to EKF origin"
+  },
+  "dPD": {
+    "unit": "m/s",
+    "description": "Filtered derivative of vertical position (down)"
+  },
+  "PN": {
+    "unit": "m",
+    "description": "Estimated distance from origin (North component)"
+  },
+  "PE": {
+    "unit": "m",
+    "description": "Estimated distance from origin (East component)"
+  },
+  "PD": {
+    "unit": "m",
+    "description": "Estimated distance from origin (Down component)"
+  },
+  "OH": {
+    "unit": "m",
+    "description": "Height of origin above WGS-84"
+  },
+  "AZbias": {
+    "unit": "",
+    "description": "Estimated accelerometer Z bias"
+  },
+  "GSX": {
+    "unit": "",
+    "description": "Gyro Scale Factor (X-axis)"
+  },
+  "GSY": {
+    "unit": "",
+    "description": "Gyro Scale Factor (Y-axis)"
+  },
+  "GSZ": {
+    "unit": "",
+    "description": "Gyro Scale Factor (Z-axis)"
+  },
+  "MN": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (North component)"
+  },
+  "ME": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (East component)"
+  },
+  "MD": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (Down component)"
+  },
+  "MX": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (body X-axis)"
+  },
+  "MY": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (body Y-axis)"
+  },
+  "MZ": {
+    "unit": "mGauss",
+    "description": "Magnetic field strength (body Z-axis)"
+  },
+  "MI": {
+    "unit": "",
+    "description": "compass selection index"
+  },
+  "IVN": {
+    "unit": "m/s",
+    "description": "Innovation in velocity (North component)"
+  },
+  "IVE": {
+    "unit": "m/s",
+    "description": "Innovation in velocity (East component)"
+  },
+  "IVD": {
+    "unit": "m/s",
+    "description": "Innovation in velocity (Down component)"
+  },
+  "IPN": {
+    "unit": "m",
+    "description": "Innovation in position (North component)"
+  },
+  "IPE": {
+    "unit": "m",
+    "description": "Innovation in position (East component)"
+  },
+  "IPD": {
+    "unit": "m",
+    "description": "Innovation in position (Down component)"
+  },
+  "IMX": {
+    "unit": "mGauss",
+    "description": "Innovation in magnetic field strength (X-axis component)"
+  },
+  "IMY": {
+    "unit": "mGauss",
+    "description": "Innovation in magnetic field strength (Y-axis component)"
+  },
+  "IMZ": {
+    "unit": "mGauss",
+    "description": "Innovation in magnetic field strength (Z-axis component)"
+  },
+  "IYAW": {
+    "unit": "deg",
+    "description": "Innovation in vehicle yaw"
+  },
+  "IVT": {
+    "unit": "UNKNOWN",
+    "description": "Innovation in true-airspeed"
+  },
+  "RErr": {
+    "unit": "",
+    "description": "Accumulated relative error of this core with respect to active primary core"
+  },
+  "ErSc": {
+    "unit": "",
+    "description": "A consolidated error score where higher numbers are less healthy"
+  },
+  "SV": {
+    "unit": "",
+    "description": "Square root of the velocity variance"
+  },
+  "SM": {
+    "unit": "",
+    "description": "Magnetic field variance"
+  },
+  "SVT": {
+    "unit": "",
+    "description": "Square root of the total airspeed variance"
+  },
+  "errRP": {
+    "unit": "",
+    "description": "Filtered error in roll/pitch estimate"
+  },
+  "FS": {
+    "unit": "",
+    "description": "Filter fault status"
+  },
+  "HORIZ_VEL": {
+    "unit": "2",
+    "description": "horizontal velocity estimate valid"
+  },
+  "VERT_VEL": {
+    "unit": "4",
+    "description": "vertical velocity estimate valid"
+  },
+  "HORIZ_POS_REL": {
+    "unit": "8",
+    "description": "relative horizontal position estimate valid"
+  },
+  "HORIZ_POS_ABS": {
+    "unit": "16",
+    "description": "absolute horizontal position estimate valid"
+  },
+  "VERT_POS": {
+    "unit": "32",
+    "description": "vertical position estimate valid"
+  },
+  "TERRAIN_ALT": {
+    "unit": "64",
+    "description": "terrain height estimate valid"
+  },
+  "CONST_POS_MODE": {
+    "unit": "128",
+    "description": "in constant position mode"
+  },
+  "PRED_HORIZ_POS_REL": {
+    "unit": "256",
+    "description": "expected good relative horizontal position estimate - used before takeoff"
+  },
+  "PRED_HORIZ_POS_ABS": {
+    "unit": "512",
+    "description": "expected good absolute horizontal position estimate - used before takeoff"
+  },
+  "TAKEOFF_DETECTED": {
+    "unit": "1024",
+    "description": "optical flow takeoff has been detected"
+  },
+  "TAKEOFF_EXPECTED": {
+    "unit": "2048",
+    "description": "compensating for baro errors during takeoff"
+  },
+  "TOUCHDOWN_EXPECTED": {
+    "unit": "4096",
+    "description": "compensating for baro errors during touchdown"
+  },
+  "USING_GPS": {
+    "unit": "8192",
+    "description": "using GPS position"
+  },
+  "GPS_GLITCHING": {
+    "unit": "16384",
+    "description": "GPS glitching is affecting navigation accuracy"
+  },
+  "GPS_QUALITY_GOOD": {
+    "unit": "32768",
+    "description": "can use GPS for navigation"
+  },
+  "INITALIZED": {
+    "unit": "65536",
+    "description": "has ever been healthy"
+  },
+  "REJECTING_AIRSPEED": {
+    "unit": "131072",
+    "description": "rejecting airspeed data"
+  },
+  "DEAD_RECKONING": {
+    "unit": "262144",
+    "description": "dead reckoning (e.g. no position or velocity source)"
+  },
+  "PI": {
+    "unit": "",
+    "description": "Primary core index"
+  },
+  "NI": {
+    "unit": "",
+    "description": "Normalised flow variance"
+  },
+  "FIX": {
+    "unit": "",
+    "description": "Optical flow LOS rate vector innovations from the main nav filter (X-axis)"
+  },
+  "FIY": {
+    "unit": "",
+    "description": "Optical flow LOS rate vector innovations from the main nav filter (Y-axis)"
+  },
+  "AFI": {
+    "unit": "",
+    "description": "Optical flow LOS rate innovation from terrain offset estimator"
+  },
+  "HAGL": {
+    "unit": "m",
+    "description": "Height above ground level"
+  },
+  "offset": {
+    "unit": "UNKNOWN",
+    "description": "Estimated vertical position of the terrain relative to the nav filter zero datum"
+  },
+  "RI": {
+    "unit": "UNKNOWN",
+    "description": "Range finder innovations"
+  },
+  "Herr": {
+    "unit": "m",
+    "description": "Filter ground offset state error"
+  },
+  "eAng": {
+    "unit": "rad",
+    "description": "Magnitude of angular error"
+  },
+  "eVel": {
+    "unit": "m/s",
+    "description": "Magnitude of velocity error"
+  },
+  "ePos": {
+    "unit": "m",
+    "description": "Magnitude of position error"
+  },
+  "IMUMin": {
+    "unit": "s",
+    "description": "smallest IMU sample interval"
+  },
+  "IMUMax": {
+    "unit": "s",
+    "description": "largest IMU sample interval"
+  },
+  "EKFMin": {
+    "unit": "s",
+    "description": "low-passed achieved average time step rate for the EKF (minimum)"
+  },
+  "EKFMax": {
+    "unit": "s",
+    "description": "low-passed achieved average time step rate for the EKF (maximum)"
+  },
+  "AngMin": {
+    "unit": "s",
+    "description": "accumulated measurement time interval for the delta angle (minimum)"
+  },
+  "AngMax": {
+    "unit": "s",
+    "description": "accumulated measurement time interval for the delta angle (maximum)"
+  },
+  "VMin": {
+    "unit": "s",
+    "description": "accumulated measurement time interval for the delta velocity (minimum)"
+  },
+  "VMax": {
+    "unit": "s",
+    "description": "accumulated measurement time interval for the delta velocity (maximum)"
+  },
+  "YC": {
+    "unit": "degheading",
+    "description": "GSF yaw estimate (deg)"
+  },
+  "YCS": {
+    "unit": "deg",
+    "description": "GSF yaw estimate 1-Sigma uncertainty (deg)"
+  },
+  "Y0": {
+    "unit": "degheading",
+    "description": "Yaw estimate from individual EKF filter 0 (deg)"
+  },
+  "Y1": {
+    "unit": "degheading",
+    "description": "Yaw estimate from individual EKF filter 1 (deg)"
+  },
+  "Y2": {
+    "unit": "degheading",
+    "description": "Yaw estimate from individual EKF filter 2 (deg)"
+  },
+  "Y3": {
+    "unit": "degheading",
+    "description": "Yaw estimate from individual EKF filter 3 (deg)"
+  },
+  "Y4": {
+    "unit": "degheading",
+    "description": "Yaw estimate from individual EKF filter 4 (deg)"
+  },
+  "W0": {
+    "unit": "",
+    "description": "Weighting applied to yaw estimate from individual EKF filter 0"
+  },
+  "W1": {
+    "unit": "",
+    "description": "Weighting applied to yaw estimate from individual EKF filter 1"
+  },
+  "W2": {
+    "unit": "",
+    "description": "Weighting applied to yaw estimate from individual EKF filter 2"
+  },
+  "W3": {
+    "unit": "",
+    "description": "Weighting applied to yaw estimate from individual EKF filter 3"
+  },
+  "W4": {
+    "unit": "",
+    "description": "Weighting applied to yaw estimate from individual EKF filter 4"
+  },
+  "IVN0": {
+    "unit": "m/s",
+    "description": "North velocity innovation from individual EKF filter 0 (m/s)"
+  },
+  "IVN1": {
+    "unit": "m/s",
+    "description": "North velocity innovation from individual EKF filter 1 (m/s)"
+  },
+  "IVN2": {
+    "unit": "m/s",
+    "description": "North velocity innovation from individual EKF filter 2 (m/s)"
+  },
+  "IVN3": {
+    "unit": "m/s",
+    "description": "North velocity innovation from individual EKF filter 3 (m/s)"
+  },
+  "IVN4": {
+    "unit": "m/s",
+    "description": "North velocity innovation from individual EKF filter 4 (m/s)"
+  },
+  "IVE0": {
+    "unit": "m/s",
+    "description": "East velocity innovation from individual EKF filter 0 (m/s)"
+  },
+  "IVE1": {
+    "unit": "m/s",
+    "description": "East velocity innovation from individual EKF filter 1 (m/s)"
+  },
+  "IVE2": {
+    "unit": "m/s",
+    "description": "East velocity innovation from individual EKF filter 2 (m/s)"
+  },
+  "IVE3": {
+    "unit": "m/s",
+    "description": "East velocity innovation from individual EKF filter 3 (m/s)"
+  },
+  "IVE4": {
+    "unit": "m/s",
+    "description": "East velocity innovation from individual EKF filter 4 (m/s)"
+  },
+  "TBrg": {
+    "unit": "deg",
+    "description": "bearing to the current navigation waypoint"
+  },
+  "NavBrg": {
+    "unit": "deg",
+    "description": "the vehicle\u2019s desired heading"
+  },
+  "XTi": {
+    "unit": "cm",
+    "description": "integration of the vehicle\u2019s crosstrack error"
+  },
+  "AsE": {
+    "unit": "m/s",
+    "description": "difference between vehicle\u2019s airspeed and desired airspeed"
+  },
+  "TLat": {
+    "unit": "deglatitude",
+    "description": "target latitude"
+  },
+  "TLng": {
+    "unit": "deglongitude",
+    "description": "target longitude"
+  },
+  "TAW": {
+    "unit": "m",
+    "description": "target altitude WP"
+  },
+  "TAT": {
+    "unit": "m",
+    "description": "target altitude TECS"
+  },
+  "TAsp": {
+    "unit": "m/s",
+    "description": "target airspeed"
+  },
+  "Value": {
+    "unit": "",
+    "description": "Current parameter value"
+  },
+  "DYaw": {
+    "unit": "deg",
+    "description": "Best yaw chosen to avoid obstacle"
+  },
+  "DP": {
+    "unit": "deg",
+    "description": "Desired pitch chosen to avoid obstacle"
+  },
+  "RChg": {
+    "unit": "",
+    "description": "True if BendyRuler resisted changing bearing and continued in last calculated bearing"
+  },
+  "Mar": {
+    "unit": "m",
+    "description": "Margin from path to obstacle on best yaw chosen"
+  },
+  "DLt": {
+    "unit": "deglatitude",
+    "description": "Destination latitude"
+  },
+  "DLg": {
+    "unit": "deglongitude",
+    "description": "Destination longitude"
+  },
+  "DAlt": {
+    "unit": "m",
+    "description": "desired altitude"
+  },
+  "OLt": {
+    "unit": "deglatitude",
+    "description": "Intermediate location chosen for avoidance"
+  },
+  "OLg": {
+    "unit": "deglongitude",
+    "description": "Intermediate location chosen for avoidance"
+  },
+  "OAlt": {
+    "unit": "",
+    "description": "origin altitude"
+  },
+  "CurrPoint": {
+    "unit": "",
+    "description": "Destination point in calculated path to destination"
+  },
+  "TotPoints": {
+    "unit": "",
+    "description": "Number of points in path to destination"
+  },
+  "DLat": {
+    "unit": "deglatitude",
+    "description": "Destination latitude"
+  },
+  "DLng": {
+    "unit": "deglongitude",
+    "description": "Destination longitude"
+  },
+  "OALat": {
+    "unit": "deglatitude",
+    "description": "Object Avoidance chosen destination point latitude"
+  },
+  "OALng": {
+    "unit": "deglongitude",
+    "description": "Object Avoidance chosen destination point longitude"
+  },
+  "version": {
+    "unit": "",
+    "description": "Visgraph version, increments each time the visgraph is re-generated"
+  },
+  "point_num": {
+    "unit": "",
+    "description": "point number in visgraph"
+  },
+  "Qual": {
+    "unit": "",
+    "description": "Signal quality"
+  },
+  "flowX": {
+    "unit": "rad/s",
+    "description": "Sensor flow rate, X-axis"
+  },
+  "flowY": {
+    "unit": "rad/s",
+    "description": "Sensor flow rate,Y-axis"
+  },
+  "bodyX": {
+    "unit": "rad/s",
+    "description": "derived rotational velocity, X-axis"
+  },
+  "bodyY": {
+    "unit": "rad/s",
+    "description": "derived rotational velocity, Y-axis"
+  },
+  "Num": {
+    "unit": "",
+    "description": "Sample number"
+  },
+  "FRate": {
+    "unit": "rad/s",
+    "description": "Flow rate"
+  },
+  "BRate": {
+    "unit": "rad/s",
+    "description": "Body rate"
+  },
+  "LPred": {
+    "unit": "rad/s",
+    "description": "Los pred"
+  },
+  "Arsp": {
+    "unit": "m/s",
+    "description": "target airspeed cm"
+  },
+  "ArspA": {
+    "unit": "m/s",
+    "description": "target airspeed accel"
+  },
+  "AltA": {
+    "unit": "m/s/s",
+    "description": "target alt velocity (rate of change)"
+  },
+  "AltF": {
+    "unit": "",
+    "description": "target alt frame (MAVLink)"
+  },
+  "Hdg": {
+    "unit": "deg",
+    "description": "target heading"
+  },
+  "HdgA": {
+    "unit": "",
+    "description": "target heading lim"
+  },
+  "AltL": {
+    "unit": "",
+    "description": "target alt frame (Location)"
+  },
+  "ahrs_home": {
+    "unit": "1",
+    "description": ""
+  },
+  "Default": {
+    "unit": "",
+    "description": "default parameter value for this board and config"
+  },
+  "Tar": {
+    "unit": "",
+    "description": "desired value"
+  },
+  "DFF": {
+    "unit": "",
+    "description": "controller derivative feed-forward portion of response"
+  },
+  "Dmod": {
+    "unit": "",
+    "description": "scaler applied to D gain to reduce limit cycling"
+  },
+  "SRate": {
+    "unit": "",
+    "description": "slew rate"
+  },
+  "Flags": {
+    "unit": "",
+    "description": "use-accel, use-gyro, delta-vel-valid, delta-accel-valid"
+  },
+  "PD_SUM_LIMIT": {
+    "unit": "2",
+    "description": "true if the PD sum limit is active"
+  },
+  "RESET": {
+    "unit": "4",
+    "description": "true if the controller was reset"
+  },
+  "I_TERM_SET": {
+    "unit": "8",
+    "description": "true if the I term has been set externally including reseting to 0"
+  },
+  "Heal": {
+    "unit": "",
+    "description": "Healthy"
+  },
+  "TAcq": {
+    "unit": "",
+    "description": "True if landing target is detected"
+  },
+  "pX": {
+    "unit": "cm",
+    "description": "Target position relative to vehicle, X-Axis (0 if target not found)"
+  },
+  "pY": {
+    "unit": "cm",
+    "description": "Target position relative to vehicle, Y-Axis (0 if target not found)"
+  },
+  "vX": {
+    "unit": "cm/s",
+    "description": "Target velocity relative to vehicle, X-Axis (0 if target not found)"
+  },
+  "vY": {
+    "unit": "cm/s",
+    "description": "Target velocity relative to vehicle, Y-Axis (0 if target not found)"
+  },
+  "mX": {
+    "unit": "cm",
+    "description": "Target\u2019s relative to origin position as 3-D Vector, X-Axis"
+  },
+  "mY": {
+    "unit": "cm",
+    "description": "Target\u2019s relative to origin position as 3-D Vector, Y-Axis"
+  },
+  "mZ": {
+    "unit": "cm",
+    "description": "Target\u2019s relative to origin position as 3-D Vector, Z-Axis"
+  },
+  "LastMeasMS": {
+    "unit": "ms",
+    "description": "Time when target was last detected"
+  },
+  "EKFOutl": {
+    "unit": "",
+    "description": "EKF\u2019s outlier count"
+  },
+  "Est": {
+    "unit": "",
+    "description": "Type of estimator used"
+  },
+  "LR": {
+    "unit": "",
+    "description": "long return address"
+  },
+  "NLon": {
+    "unit": "",
+    "description": "Number of long loops detected"
+  },
+  "NL": {
+    "unit": "",
+    "description": "Number of measurement loops for this message"
+  },
+  "MaxT": {
+    "unit": "",
+    "description": "Maximum loop time"
+  },
+  "Load": {
+    "unit": "d%",
+    "description": "System processor load"
+  },
+  "InE": {
+    "unit": "bitmask",
+    "description": "Internal error mask; which internal errors have been detected\nBitmask values:"
+  },
+  "logger_missing_logstructure": {
+    "unit": "2",
+    "description": ""
+  },
+  "logger_logwrite_missingfmt": {
+    "unit": "4",
+    "description": ""
+  },
+  "logger_too_many_deletions": {
+    "unit": "8",
+    "description": ""
+  },
+  "logger_bad_getfilename": {
+    "unit": "16",
+    "description": ""
+  },
+  "panic": {
+    "unit": "32",
+    "description": ""
+  },
+  "logger_flushing_without_sem": {
+    "unit": "64",
+    "description": ""
+  },
+  "logger_bad_current_block": {
+    "unit": "128",
+    "description": ""
+  },
+  "logger_blockcount_mismatch": {
+    "unit": "256",
+    "description": ""
+  },
+  "logger_dequeue_failure": {
+    "unit": "512",
+    "description": ""
+  },
+  "constraining_nan": {
+    "unit": "1024",
+    "description": ""
+  },
+  "watchdog_reset": {
+    "unit": "2048",
+    "description": ""
+  },
+  "iomcu_reset": {
+    "unit": "4096",
+    "description": ""
+  },
+  "iomcu_fail": {
+    "unit": "8192",
+    "description": ""
+  },
+  "spi_fail": {
+    "unit": "16384",
+    "description": ""
+  },
+  "main_loop_stuck": {
+    "unit": "32768",
+    "description": ""
+  },
+  "gcs_bad_missionprotocol_link": {
+    "unit": "65536",
+    "description": ""
+  },
+  "bitmask_range": {
+    "unit": "131072",
+    "description": ""
+  },
+  "gcs_offset": {
+    "unit": "262144",
+    "description": ""
+  },
+  "i2c_isr": {
+    "unit": "524288",
+    "description": ""
+  },
+  "flow_of_control": {
+    "unit": "1048576",
+    "description": ""
+  },
+  "switch_full_sector_recursion": {
+    "unit": "2097152",
+    "description": ""
+  },
+  "bad_rotation": {
+    "unit": "4194304",
+    "description": ""
+  },
+  "stack_overflow": {
+    "unit": "8388608",
+    "description": ""
+  },
+  "imu_reset": {
+    "unit": "16777216",
+    "description": ""
+  },
+  "gpio_isr": {
+    "unit": "33554432",
+    "description": ""
+  },
+  "mem_guard": {
+    "unit": "67108864",
+    "description": ""
+  },
+  "dma_fail": {
+    "unit": "134217728",
+    "description": ""
+  },
+  "params_restored": {
+    "unit": "268435456",
+    "description": ""
+  },
+  "invalid_arg_or_result": {
+    "unit": "536870912",
+    "description": ""
+  },
+  "__LAST__": {
+    "unit": "1073741824",
+    "description": ""
+  },
+  "ErrL": {
+    "unit": "",
+    "description": "Internal error line number; last line number on which a internal error was detected"
+  },
+  "ErC": {
+    "unit": "",
+    "description": "Internal error count; how many internal errors have been detected"
+  },
+  "SPIC": {
+    "unit": "",
+    "description": "Number of SPI transactions processed"
+  },
+  "I2CC": {
+    "unit": "",
+    "description": "Number of i2c transactions processed"
+  },
+  "I2CI": {
+    "unit": "",
+    "description": "Number of i2c interrupts serviced"
+  },
+  "Ex": {
+    "unit": "\u03bcs",
+    "description": "number of microseconds being added to each loop to address scheduler overruns"
+  },
+  "RelHomeAlt": {
+    "unit": "m",
+    "description": "Canonical vehicle altitude relative to home"
+  },
+  "RelOriginAlt": {
+    "unit": "m",
+    "description": "Canonical vehicle altitude relative to navigation origin"
+  },
+  "Vcc": {
+    "unit": "V",
+    "description": "Voltage to Motor"
+  },
+  "VServo": {
+    "unit": "V",
+    "description": "Servo rail voltage"
+  },
+  "SERVO_VALID": {
+    "unit": "2",
+    "description": "main servo power supply valid for FMU"
+  },
+  "USB_CONNECTED": {
+    "unit": "4",
+    "description": "USB power is connected"
+  },
+  "PERIPH_OVERCURRENT": {
+    "unit": "8",
+    "description": "peripheral supply is in over-current state"
+  },
+  "PERIPH_HIPOWER_OVERCURRENT": {
+    "unit": "16",
+    "description": "hi-power peripheral supply is in over-current state"
+  },
+  "CHANGED": {
+    "unit": "32",
+    "description": "Power status has changed since boot"
+  },
+  "AccFlags": {
+    "unit": "bitmask",
+    "description": "Accumulated System power flags; all flags which have ever been set\nBitmask values:"
+  },
+  "Safety": {
+    "unit": "",
+    "description": "State of the safety switch"
+  },
+  "Set": {
+    "unit": "",
+    "description": "Parameter set being tuned"
+  },
+  "Parm": {
+    "unit": "",
+    "description": "Parameter being tuned"
+  },
+  "CenterValue": {
+    "unit": "",
+    "description": "Center value (startpoint of current modifications) of parameter being tuned"
+  },
+  "Layer": {
+    "unit": "instance",
+    "description": "Pitch(instance) at which the obstacle is at. 0th layer {-75,-45} degrees. 1st layer {-45,-15} degrees. 2nd layer {-15, 15} degrees. 3rd layer {15, 45} degrees. 4th layer {45,75} degrees. Minimum distance in each layer will be logged."
+  },
+  "He": {
+    "unit": "",
+    "description": "True if proximity sensor is healthy"
+  },
+  "D45": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 45-degrees"
+  },
+  "D90": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 90-degrees"
+  },
+  "D135": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 135-degrees"
+  },
+  "D180": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 180-degrees"
+  },
+  "D225": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 225-degrees"
+  },
+  "D270": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 270-degrees"
+  },
+  "D315": {
+    "unit": "m",
+    "description": "Nearest object in sector surrounding 315-degrees"
+  },
+  "DUp": {
+    "unit": "m",
+    "description": "Nearest object in upwards direction"
+  },
+  "CAn": {
+    "unit": "degheading",
+    "description": "Angle to closest object"
+  },
+  "CDis": {
+    "unit": "m",
+    "description": "Distance to closest object"
+  },
+  "DPD": {
+    "unit": "m",
+    "description": "Desired position relative to EKF origin + Offsets"
+  },
+  "TPD": {
+    "unit": "m",
+    "description": "Target position relative to EKF origin"
+  },
+  "DVD": {
+    "unit": "m/s",
+    "description": "Desired velocity Down"
+  },
+  "TVD": {
+    "unit": "rad",
+    "description": "Tilt Error Variance from difference method (rad^2)"
+  },
+  "DAD": {
+    "unit": "m/s/s",
+    "description": "Desired acceleration Down"
+  },
+  "TAD": {
+    "unit": "m/s/s",
+    "description": "Target acceleration Down"
+  },
+  "DPE": {
+    "unit": "m",
+    "description": "Desired position relative to EKF origin + Offsets"
+  },
+  "TPE": {
+    "unit": "m",
+    "description": "Target position relative to EKF origin"
+  },
+  "DVE": {
+    "unit": "m/s",
+    "description": "Desired velocity East"
+  },
+  "TVE": {
+    "unit": "m/s",
+    "description": "Target velocity East"
+  },
+  "DAE": {
+    "unit": "m/s/s",
+    "description": "Desired acceleration East"
+  },
+  "TAE": {
+    "unit": "m/s/s",
+    "description": "Target acceleration East"
+  },
+  "DPN": {
+    "unit": "m",
+    "description": "Desired position relative to EKF origin"
+  },
+  "TPN": {
+    "unit": "m",
+    "description": "Target position relative to EKF origin"
+  },
+  "DVN": {
+    "unit": "m/s",
+    "description": "Desired velocity North"
+  },
+  "TVN": {
+    "unit": "m/s",
+    "description": "Target velocity North"
+  },
+  "DAN": {
+    "unit": "m/s/s",
+    "description": "Desired acceleration North"
+  },
+  "TAN": {
+    "unit": "m/s/s",
+    "description": "Target acceleration North"
+  },
+  "TPOD": {
+    "unit": "m",
+    "description": "Target position offset Down"
+  },
+  "POD": {
+    "unit": "m",
+    "description": "Position offset Down"
+  },
+  "TVOD": {
+    "unit": "m/s",
+    "description": "Target velocity offset Down"
+  },
+  "VOD": {
+    "unit": "m/s",
+    "description": "Velocity offset Down"
+  },
+  "TAOD": {
+    "unit": "m/s/s",
+    "description": "Target acceleration offset Down"
+  },
+  "AOD": {
+    "unit": "m/s/s",
+    "description": "Acceleration offset Down"
+  },
+  "TPOE": {
+    "unit": "m",
+    "description": "Target position offset East"
+  },
+  "POE": {
+    "unit": "m",
+    "description": "Position offset East"
+  },
+  "TVOE": {
+    "unit": "m/s",
+    "description": "Target velocity offset East"
+  },
+  "VOE": {
+    "unit": "m/s",
+    "description": "Velocity offset East"
+  },
+  "TAOE": {
+    "unit": "m/s/s",
+    "description": "Target acceleration offset East"
+  },
+  "AOE": {
+    "unit": "m/s/s",
+    "description": "Acceleration offset East"
+  },
+  "TPON": {
+    "unit": "m",
+    "description": "Target position offset North"
+  },
+  "PON": {
+    "unit": "m",
+    "description": "Position offset North"
+  },
+  "TVON": {
+    "unit": "m/s",
+    "description": "Target velocity offset North"
+  },
+  "VON": {
+    "unit": "m/s",
+    "description": "Velocity offset North"
+  },
+  "TAON": {
+    "unit": "m/s/s",
+    "description": "Target acceleration offset North"
+  },
+  "AON": {
+    "unit": "m/s/s",
+    "description": "Acceleration offset North"
+  },
+  "TPOT": {
+    "unit": "m",
+    "description": "Target position offset Terrain"
+  },
+  "POT": {
+    "unit": "m",
+    "description": "Position offset Terrain"
+  },
+  "TVOT": {
+    "unit": "m/s",
+    "description": "Target velocity offset Terrain"
+  },
+  "VOT": {
+    "unit": "m/s",
+    "description": "Velocity offset Terrain"
+  },
+  "TAOT": {
+    "unit": "m/s/s",
+    "description": "Target acceleration offset Terrain"
+  },
+  "AOT": {
+    "unit": "m/s/s",
+    "description": "Acceleration offset Terrain"
+  },
+  "SpdScaler": {
+    "unit": "",
+    "description": "braking speed scaler"
+  },
+  "NPULCD": {
+    "unit": "",
+    "description": "upper limit for navigation pitch"
+  },
+  "QBPLCD": {
+    "unit": "",
+    "description": "upper limit for back transition pitch"
+  },
+  "NPCD": {
+    "unit": "",
+    "description": "demanded navigation pitch"
+  },
+  "QPOS_APPROACH": {
+    "unit": "1",
+    "description": ""
+  },
+  "QPOS_AIRBRAKE": {
+    "unit": "2",
+    "description": ""
+  },
+  "QPOS_POSITION1": {
+    "unit": "3",
+    "description": ""
+  },
+  "QPOS_POSITION2": {
+    "unit": "4",
+    "description": ""
+  },
+  "QPOS_LAND_DESCEND": {
+    "unit": "5",
+    "description": ""
+  },
+  "QPOS_LAND_ABORT": {
+    "unit": "6",
+    "description": ""
+  },
+  "QPOS_LAND_FINAL": {
+    "unit": "7",
+    "description": ""
+  },
+  "QPOS_LAND_COMPLETE": {
+    "unit": "8",
+    "description": ""
+  },
+  "TSpd": {
+    "unit": "",
+    "description": "Target speed"
+  },
+  "TAcc": {
+    "unit": "",
+    "description": "Target acceleration"
+  },
+  "OShoot": {
+    "unit": "",
+    "description": "True if landing point is overshot or heading off by more than 60 degrees"
+  },
+  "ThI": {
+    "unit": "",
+    "description": "throttle input"
+  },
+  "ABst": {
+    "unit": "",
+    "description": "angle boost"
+  },
+  "ThH": {
+    "unit": "",
+    "description": "calculated hover throttle"
+  },
+  "BAlt": {
+    "unit": "m",
+    "description": "barometric altitude"
+  },
+  "DCRt": {
+    "unit": "m/s",
+    "description": "desired climb rate"
+  },
+  "TMix": {
+    "unit": "",
+    "description": "transition throttle mix value"
+  },
+  "Trn": {
+    "unit": "",
+    "description": "Transition state: 0-AirspeedWait,1-Timer,2-Done / TailSitter: 0-FW Wait,1-VTOL Wait,2-Done"
+  },
+  "Ast": {
+    "unit": "bitmask",
+    "description": "bitmask of assistance flags\nBitmask values:"
+  },
+  "forced": {
+    "unit": "2",
+    "description": "true if assistance is forced"
+  },
+  "speed": {
+    "unit": "4",
+    "description": "true if assistance due to low airspeed"
+  },
+  "alt": {
+    "unit": "",
+    "description": "AHRS altitude"
+  },
+  "angle": {
+    "unit": "16",
+    "description": "true if assistance due to attitude error"
+  },
+  "fw_force": {
+    "unit": "32",
+    "description": "true if forcing use of fixed wing controllers"
+  },
+  "spin_recovery": {
+    "unit": "64",
+    "description": "true if recovering from a spin"
+  },
+  "ParamNo": {
+    "unit": "instance",
+    "description": "number of parameter being tuned"
+  },
+  "Gain": {
+    "unit": "",
+    "description": "test gain for current axis and PID element"
+  },
+  "Param": {
+    "unit": "char[16]",
+    "description": "name of parameter being being tuned"
+  },
+  "RSSI": {
+    "unit": "",
+    "description": "RSSI"
+  },
+  "RemRSSI": {
+    "unit": "",
+    "description": "RSSI reported from remote radio"
+  },
+  "TxBuf": {
+    "unit": "",
+    "description": "number of bytes in radio ready to be sent"
+  },
+  "Noise": {
+    "unit": "",
+    "description": "local noise floor"
+  },
+  "RemNoise": {
+    "unit": "",
+    "description": "local noise floor reported from remote radio"
+  },
+  "RxErrors": {
+    "unit": "",
+    "description": "damaged packet count"
+  },
+  "Fixed": {
+    "unit": "",
+    "description": "fixed damaged packet count"
+  },
+  "NumInst": {
+    "unit": "",
+    "description": "number of compass instances"
+  },
+  "UpdateMS": {
+    "unit": "",
+    "description": "timestamp of measured airspeed"
+  },
+  "Use": {
+    "unit": "",
+    "description": "true if airspeed is configured to be used"
+  },
+  "RDes": {
+    "unit": "deg/s",
+    "description": "vehicle desired roll rate"
+  },
+  "ROut": {
+    "unit": "",
+    "description": "normalized output for Roll"
+  },
+  "PDes": {
+    "unit": "deg/s",
+    "description": "vehicle desired pitch rate"
+  },
+  "POut": {
+    "unit": "",
+    "description": "normalized output for Pitch"
+  },
+  "YOut": {
+    "unit": "deg/s",
+    "description": "normalized output for Yaw"
+  },
+  "YDes": {
+    "unit": "",
+    "description": "vehicle desired yaw rate"
+  },
+  "ADes": {
+    "unit": "cm/s/s",
+    "description": "desired vehicle vertical acceleration"
+  },
+  "AOut": {
+    "unit": "",
+    "description": "percentage of vertical thrust output current being used"
+  },
+  "AOutSlew": {
+    "unit": "",
+    "description": "vertical thrust output slew rate"
+  },
+  "OLat": {
+    "unit": "",
+    "description": "origin latitude"
+  },
+  "OLng": {
+    "unit": "",
+    "description": "origin longitude"
+  },
+  "DPX": {
+    "unit": "",
+    "description": "delta-position-X"
+  },
+  "DPY": {
+    "unit": "",
+    "description": "delta-position-Y"
+  },
+  "DPZ": {
+    "unit": "",
+    "description": "delta-position-Z"
+  },
+  "DAX": {
+    "unit": "",
+    "description": "x-axis delta-angle"
+  },
+  "DAY": {
+    "unit": "",
+    "description": "y-axis delta-angle"
+  },
+  "DAZ": {
+    "unit": "",
+    "description": "z-axis delta-angle"
+  },
+  "DT": {
+    "unit": "",
+    "description": "delta-time"
+  },
+  "OX": {
+    "unit": "",
+    "description": "mag sensor offset, X-axis"
+  },
+  "OY": {
+    "unit": "",
+    "description": "offset, y-axis"
+  },
+  "OZ": {
+    "unit": "",
+    "description": "offset, z-axis"
+  },
+  "Prot": {
+    "unit": "",
+    "description": "Protocol currently being decoded"
+  },
+  "Len": {
+    "unit": "m",
+    "description": "Estimated Length"
+  },
+  "U0": {
+    "unit": "",
+    "description": "first quartet of bytes"
+  },
+  "U1": {
+    "unit": "",
+    "description": "second quartet of bytes"
+  },
+  "U2": {
+    "unit": "",
+    "description": "third quartet of bytes"
+  },
+  "U3": {
+    "unit": "",
+    "description": "fourth quartet of bytes"
+  },
+  "U4": {
+    "unit": "",
+    "description": "fifth quartet of bytes"
+  },
+  "U5": {
+    "unit": "",
+    "description": "sixth quartet of bytes"
+  },
+  "U6": {
+    "unit": "",
+    "description": "seventh quartet of bytes"
+  },
+  "U7": {
+    "unit": "",
+    "description": "eight quartet of bytes"
+  },
+  "U8": {
+    "unit": "",
+    "description": "ninth quartet of bytes"
+  },
+  "U9": {
+    "unit": "",
+    "description": "tenth quartet of bytes"
+  },
+  "C15": {
+    "unit": "us",
+    "description": "channel 15 output"
+  },
+  "C16": {
+    "unit": "us",
+    "description": "channel 16 output"
+  },
+  "OMask": {
+    "unit": "",
+    "description": "bitmask of RC channels being overridden by mavlink input"
+  },
+  "IN_RC_FAILSAFE": {
+    "unit": "2",
+    "description": "true if the system is current in RC failsafe"
+  },
+  "C1": {
+    "unit": "us",
+    "description": "channel 1 output"
+  },
+  "C2": {
+    "unit": "us",
+    "description": "channel 2 output"
+  },
+  "C3": {
+    "unit": "us",
+    "description": "channel 3 output"
+  },
+  "C4": {
+    "unit": "us",
+    "description": "channel 4 output"
+  },
+  "C5": {
+    "unit": "us",
+    "description": "channel 5 output"
+  },
+  "C6": {
+    "unit": "us",
+    "description": "channel 6 output"
+  },
+  "C7": {
+    "unit": "us",
+    "description": "channel 7 output"
+  },
+  "C8": {
+    "unit": "us",
+    "description": "channel 8 output"
+  },
+  "C9": {
+    "unit": "us",
+    "description": "channel 9 output"
+  },
+  "C10": {
+    "unit": "us",
+    "description": "channel 10 output"
+  },
+  "C11": {
+    "unit": "us",
+    "description": "channel 11 output"
+  },
+  "C12": {
+    "unit": "us",
+    "description": "channel 12 output"
+  },
+  "C13": {
+    "unit": "us",
+    "description": "channel 13 output"
+  },
+  "C14": {
+    "unit": "us",
+    "description": "channel 14 output"
+  },
+  "C17": {
+    "unit": "us",
+    "description": "channel 17 output"
+  },
+  "C18": {
+    "unit": "us",
+    "description": "channel 18 output"
+  },
+  "C19": {
+    "unit": "us",
+    "description": "channel 19 output"
+  },
+  "C20": {
+    "unit": "us",
+    "description": "channel 20 output"
+  },
+  "C21": {
+    "unit": "us",
+    "description": "channel 21 output"
+  },
+  "C22": {
+    "unit": "us",
+    "description": "channel 22 output"
+  },
+  "C23": {
+    "unit": "us",
+    "description": "channel 23 output"
+  },
+  "C24": {
+    "unit": "us",
+    "description": "channel 24 output"
+  },
+  "C25": {
+    "unit": "us",
+    "description": "channel 25 output"
+  },
+  "C26": {
+    "unit": "us",
+    "description": "channel 26 output"
+  },
+  "C27": {
+    "unit": "us",
+    "description": "channel 27 output"
+  },
+  "C28": {
+    "unit": "us",
+    "description": "channel 28 output"
+  },
+  "C29": {
+    "unit": "us",
+    "description": "channel 29 output"
+  },
+  "C30": {
+    "unit": "us",
+    "description": "channel 30 output"
+  },
+  "C31": {
+    "unit": "us",
+    "description": "channel 31 output"
+  },
+  "C32": {
+    "unit": "us",
+    "description": "channel 32 output"
+  },
+  "PEr": {
+    "unit": "",
+    "description": "external position error estimate"
+  },
+  "AEr": {
+    "unit": "",
+    "description": "external attitude error estimate"
+  },
+  "resetHeightDatum": {
+    "unit": "1",
+    "description": ""
+  },
+  "setTerrainHgtStable": {
+    "unit": "9",
+    "description": ""
+  },
+  "unsetTerrainHgtStable": {
+    "unit": "10",
+    "description": ""
+  },
+  "requestYawReset": {
+    "unit": "11",
+    "description": ""
+  },
+  "checkLaneSwitch": {
+    "unit": "12",
+    "description": ""
+  },
+  "setSourceSet0": {
+    "unit": "13",
+    "description": ""
+  },
+  "setSourceSet1": {
+    "unit": "14",
+    "description": ""
+  },
+  "setSourceSet2": {
+    "unit": "15",
+    "description": ""
+  },
+  "Er": {
+    "unit": "",
+    "description": "error in velocity estimate"
+  },
+  "yawangleerr": {
+    "unit": "UNKNOWN",
+    "description": "error in externally supplied yaw angle"
+  },
+  "timestamp_ms": {
+    "unit": "UNKNOWN",
+    "description": "timestamp associated with yaw angle and yaw angle error"
+  },
+  "NoData": {
+    "unit": "1",
+    "description": ""
+  },
+  "OutOfRangeLow": {
+    "unit": "2",
+    "description": ""
+  },
+  "OutOfRangeHigh": {
+    "unit": "3",
+    "description": ""
+  },
+  "Good": {
+    "unit": "4",
+    "description": ""
+  },
+  "Orient": {
+    "unit": "",
+    "description": "orientation"
+  },
+  "ROTATION_YAW_45": {
+    "unit": "1",
+    "description": ""
+  },
+  "ROTATION_YAW_90": {
+    "unit": "2",
+    "description": ""
+  },
+  "ROTATION_YAW_135": {
+    "unit": "3",
+    "description": ""
+  },
+  "ROTATION_YAW_180": {
+    "unit": "4",
+    "description": ""
+  },
+  "ROTATION_YAW_225": {
+    "unit": "5",
+    "description": ""
+  },
+  "ROTATION_YAW_270": {
+    "unit": "6",
+    "description": ""
+  },
+  "ROTATION_YAW_315": {
+    "unit": "7",
+    "description": ""
+  },
+  "ROTATION_ROLL_180": {
+    "unit": "8",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_45": {
+    "unit": "9",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_90": {
+    "unit": "10",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_135": {
+    "unit": "11",
+    "description": ""
+  },
+  "ROTATION_PITCH_180": {
+    "unit": "12",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_225": {
+    "unit": "13",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_270": {
+    "unit": "14",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_YAW_315": {
+    "unit": "15",
+    "description": ""
+  },
+  "ROTATION_ROLL_90": {
+    "unit": "16",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_YAW_45": {
+    "unit": "17",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_YAW_90": {
+    "unit": "18",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_YAW_135": {
+    "unit": "19",
+    "description": ""
+  },
+  "ROTATION_ROLL_270": {
+    "unit": "20",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_YAW_45": {
+    "unit": "21",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_YAW_90": {
+    "unit": "22",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_YAW_135": {
+    "unit": "23",
+    "description": ""
+  },
+  "ROTATION_PITCH_90": {
+    "unit": "24",
+    "description": ""
+  },
+  "ROTATION_PITCH_270": {
+    "unit": "25",
+    "description": ""
+  },
+  "ROTATION_PITCH_180_YAW_90": {
+    "unit": "26",
+    "description": "same as ROTATION_ROLL_180_YAW_270"
+  },
+  "ROTATION_PITCH_180_YAW_270": {
+    "unit": "27",
+    "description": "same as ROTATION_ROLL_180_YAW_90"
+  },
+  "ROTATION_ROLL_90_PITCH_90": {
+    "unit": "28",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_PITCH_90": {
+    "unit": "29",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_PITCH_90": {
+    "unit": "30",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_PITCH_180": {
+    "unit": "31",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_PITCH_180": {
+    "unit": "32",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_PITCH_270": {
+    "unit": "33",
+    "description": ""
+  },
+  "ROTATION_ROLL_180_PITCH_270": {
+    "unit": "34",
+    "description": ""
+  },
+  "ROTATION_ROLL_270_PITCH_270": {
+    "unit": "35",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_PITCH_180_YAW_90": {
+    "unit": "36",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_YAW_270": {
+    "unit": "37",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_PITCH_68_YAW_293": {
+    "unit": "38",
+    "description": "this is actually, roll 90, pitch 68.8, yaw 293.3"
+  },
+  "ROTATION_PITCH_315": {
+    "unit": "39",
+    "description": ""
+  },
+  "ROTATION_ROLL_90_PITCH_315": {
+    "unit": "40",
+    "description": ""
+  },
+  "ROTATION_PITCH_7": {
+    "unit": "41",
+    "description": ""
+  },
+  "ROTATION_ROLL_45": {
+    "unit": "42",
+    "description": ""
+  },
+  "ROTATION_ROLL_315": {
+    "unit": "43",
+    "description": ""
+  },
+  "ROTATION_MAX": {
+    "unit": "44",
+    "description": ""
+  },
+  "ROTATION_CUSTOM_OLD": {
+    "unit": "100",
+    "description": ""
+  },
+  "ROTATION_CUSTOM_1": {
+    "unit": "101",
+    "description": ""
+  },
+  "ROTATION_CUSTOM_2": {
+    "unit": "102",
+    "description": ""
+  },
+  "ROTATION_CUSTOM_END": {
+    "unit": "103",
+    "description": ""
+  },
+  "Quality": {
+    "unit": "%",
+    "description": "Signal quality. -1 means invalid, 0 is no signal, 100 is perfect signal"
+  },
+  "UpdateFilterEKF2": {
+    "unit": "2",
+    "description": ""
+  },
+  "InitialiseFilterEKF3": {
+    "unit": "4",
+    "description": ""
+  },
+  "UpdateFilterEKF3": {
+    "unit": "8",
+    "description": ""
+  },
+  "LogWriteEKF2": {
+    "unit": "16",
+    "description": ""
+  },
+  "LogWriteEKF3": {
+    "unit": "32",
+    "description": ""
+  },
+  "Slow": {
+    "unit": "",
+    "description": "true if we are not keeping up with IMU loop rate"
+  },
+  "TF": {
+    "unit": "",
+    "description": "Time flying"
+  },
+  "HLon": {
+    "unit": "1e-7 deglongitude",
+    "description": "home latitude"
+  },
+  "HAlt": {
+    "unit": "cm",
+    "description": "home altitude AMSL"
+  },
+  "AM": {
+    "unit": "B",
+    "description": "available memory"
+  },
+  "TX": {
+    "unit": "deg",
+    "description": "AHRS trim X"
+  },
+  "TY": {
+    "unit": "deg",
+    "description": "AHRS trim Y"
+  },
+  "TZ": {
+    "unit": "deg",
+    "description": "AHRS trim Z"
+  },
+  "VC": {
+    "unit": "",
+    "description": "AHRS Vehicle Class"
+  },
+  "EKT": {
+    "unit": "enum",
+    "description": "configured EKF type\nValues:"
+  },
+  "EKF3": {
+    "unit": "1",
+    "description": ""
+  },
+  "UNUSED": {
+    "unit": "2",
+    "description": ""
+  },
+  "FLY_FORWARD": {
+    "unit": "4",
+    "description": ""
+  },
+  "AHRS_AIRSPEED_SENSOR_ENABLED": {
+    "unit": "8",
+    "description": ""
+  },
+  "OPTICALFLOW_ENABLED": {
+    "unit": "16",
+    "description": ""
+  },
+  "WHEELENCODER_ENABLED": {
+    "unit": "32",
+    "description": ""
+  },
+  "Primary": {
+    "unit": "",
+    "description": "instance number of primary sensor"
+  },
+  "Lg": {
+    "unit": "",
+    "description": "GPS time lag"
+  },
+  "horizontal_accuracy_returncode": {
+    "unit": "2",
+    "description": ""
+  },
+  "vertical_accuracy_returncode": {
+    "unit": "4",
+    "description": ""
+  },
+  "get_lag_returncode": {
+    "unit": "8",
+    "description": ""
+  },
+  "speed_accuracy_returncode": {
+    "unit": "16",
+    "description": ""
+  },
+  "gps_yaw_deg_returncode": {
+    "unit": "32",
+    "description": ""
+  },
+  "SA": {
+    "unit": "",
+    "description": "speed accuracy"
+  },
+  "YA": {
+    "unit": "",
+    "description": "GPS yaw accuracy"
+  },
+  "YT": {
+    "unit": "",
+    "description": "timestamp of GPS yaw estimate"
+  },
+  "HA": {
+    "unit": "",
+    "description": "horizontal accuracy"
+  },
+  "VA": {
+    "unit": "",
+    "description": "vertical accuracy"
+  },
+  "HD": {
+    "unit": "",
+    "description": "HDOP"
+  },
+  "runTime": {
+    "unit": "",
+    "description": "total generator runtime"
+  },
+  "maintTime": {
+    "unit": "",
+    "description": "time until generator requires maintenance"
+  },
+  "errors": {
+    "unit": "",
+    "description": "bitmask of error received from generator"
+  },
+  "rpm": {
+    "unit": "",
+    "description": "current generator RPM"
+  },
+  "ovolt": {
+    "unit": "",
+    "description": "output voltage"
+  },
+  "ocurr": {
+    "unit": "",
+    "description": "output current"
+  },
+  "mode": {
+    "unit": "",
+    "description": "generator mode; idle/run/charge/balance"
+  },
+  "PG": {
+    "unit": "",
+    "description": "primary gyro index"
+  },
+  "PA": {
+    "unit": "",
+    "description": "primary accel index"
+  },
+  "LD": {
+    "unit": "",
+    "description": "lift/drag ratio"
+  },
+  "AC": {
+    "unit": "",
+    "description": "accel count"
+  },
+  "GC": {
+    "unit": "",
+    "description": "gyro count"
+  },
+  "DVY": {
+    "unit": "",
+    "description": "y-axis delta-velocity"
+  },
+  "DVZ": {
+    "unit": "",
+    "description": "z-axis delta-velocity"
+  },
+  "DVDT": {
+    "unit": "",
+    "description": "delta-velocity-delta-time"
+  },
+  "DADT": {
+    "unit": "",
+    "description": "delta-angle-delta-time"
+  },
+  "Avail": {
+    "unit": "",
+    "description": "true if the compass library is marking itself as available"
+  },
+  "AutoDec": {
+    "unit": "",
+    "description": "true if compass autodeclination is enabled"
+  },
+  "NumEna": {
+    "unit": "",
+    "description": "number of enabled compass instances"
+  },
+  "LOE": {
+    "unit": "",
+    "description": "true if compass learning of offsets is enabled"
+  },
+  "FUsable": {
+    "unit": "",
+    "description": "index of first usable compass"
+  },
+  "FX": {
+    "unit": "",
+    "description": "field strength, X-axis"
+  },
+  "FY": {
+    "unit": "",
+    "description": "raw flow rate, Y-axis"
+  },
+  "FZ": {
+    "unit": "",
+    "description": "field strength, Z-axis"
+  },
+  "UFY": {
+    "unit": "",
+    "description": "true if compass is being used for yaw"
+  },
+  "HSF": {
+    "unit": "",
+    "description": "compass has scale factor"
+  },
+  "Tms": {
+    "unit": "",
+    "description": "measurement timestamp"
+  },
+  "HgtOvr": {
+    "unit": "",
+    "description": "sensor height override"
+  },
+  "MaxD": {
+    "unit": "m",
+    "description": "rangefinder maximum distance for downward-facing rangefinders"
+  },
+  "NumSensors": {
+    "unit": "",
+    "description": "number of rangefinder instances"
+  },
+  "PosAccSD": {
+    "unit": "",
+    "description": "position accuracy, 1-StD"
+  },
+  "RXRSSI": {
+    "unit": "",
+    "description": "RSSI"
+  },
+  "RXLQ": {
+    "unit": "%",
+    "description": "RX Link Quality"
+  },
+  "old_utc": {
+    "unit": "\u03bcs",
+    "description": "old time"
+  },
+  "new_utc": {
+    "unit": "\u03bcs",
+    "description": "new time"
+  },
+  "Chan": {
+    "unit": "instance",
+    "description": "mavlink channel number this data was received on"
+  },
+  "RTCMId": {
+    "unit": "",
+    "description": "ID field from RTCM packet"
+  },
+  "CRC": {
+    "unit": "",
+    "description": "calculated crc32 for the packet"
+  },
+  "Del": {
+    "unit": "",
+    "description": "data delay"
+  },
+  "Ena": {
+    "unit": "",
+    "description": "sensor enabled"
+  },
+  "uncertainty": {
+    "unit": "m/s",
+    "description": "uncertainty in default airspeed"
+  },
+  "Uncertainty": {
+    "unit": "m/s",
+    "description": "uncertainty in default airspeed"
+  },
+  "DVelX": {
+    "unit": "m/s",
+    "description": "Desired velocity, X-Axis (Velocity before Avoidance)"
+  },
+  "DVelY": {
+    "unit": "m/s",
+    "description": "Desired velocity, Y-Axis (Velocity before Avoidance)"
+  },
+  "DVelZ": {
+    "unit": "m/s",
+    "description": "Desired velocity, Z-Axis (Velocity before Avoidance)"
+  },
+  "MVelX": {
+    "unit": "m/s",
+    "description": "Modified velocity, X-Axis (Velocity after Avoidance)"
+  },
+  "MVelY": {
+    "unit": "m/s",
+    "description": "Modified velocity, Y-Axis (Velocity after Avoidance)"
+  },
+  "MVelZ": {
+    "unit": "m/s",
+    "description": "Modified velocity, Z-Axis (Velocity after Avoidance)"
+  },
+  "Back": {
+    "unit": "",
+    "description": "True if vehicle is backing away"
+  },
+  "afx": {
+    "unit": "",
+    "description": "sin(x angle)"
+  },
+  "afy": {
+    "unit": "",
+    "description": "sin(y angle)"
+  },
+  "afz": {
+    "unit": "",
+    "description": "sin(z angle)"
+  },
+  "anx": {
+    "unit": "",
+    "description": "x earth-frame angle"
+  },
+  "any": {
+    "unit": "",
+    "description": "y earth-frame angle"
+  },
+  "anz": {
+    "unit": "",
+    "description": "z earth-frame angle"
+  },
+  "ax": {
+    "unit": "",
+    "description": "x-axis acceleration"
+  },
+  "ay": {
+    "unit": "",
+    "description": "y-axis acceleration"
+  },
+  "az": {
+    "unit": "",
+    "description": "z-axis acceleration"
+  },
+  "RAx": {
+    "unit": "",
+    "description": "acceleration around X axis"
+  },
+  "RAy": {
+    "unit": "",
+    "description": "acceleration around Y axis"
+  },
+  "RAz": {
+    "unit": "",
+    "description": "acceleration around Z axis"
+  },
+  "CrcError": {
+    "unit": "",
+    "description": "Number of packet CRC errors on serial connection"
+  },
+  "LastInject": {
+    "unit": "",
+    "description": "Timestamp of last raw data injection to GPS"
+  },
+  "IARhyp": {
+    "unit": "",
+    "description": "Current number of integer ambiguity hypotheses"
+  },
+  "ns_residual": {
+    "unit": "UNKNOWN",
+    "description": "residual of milliseconds rounding in ns"
+  },
+  "level": {
+    "unit": "UNKNOWN",
+    "description": "GPIO pin levels"
+  },
+  "quality": {
+    "unit": "UNKNOWN",
+    "description": "time quality"
+  },
+  "Runtime": {
+    "unit": "\u03bcs",
+    "description": "run time"
+  },
+  "Total_mem": {
+    "unit": "B",
+    "description": "total memory usage of all scripts"
+  },
+  "Run_mem": {
+    "unit": "B",
+    "description": "run memory usage"
+  },
+  "Sm": {
+    "unit": "",
+    "description": "duration of the raised cosine jerk profile"
+  },
+  "Jm": {
+    "unit": "",
+    "description": "maximum value of the raised cosine jerk profile"
+  },
+  "V0": {
+    "unit": "",
+    "description": "initial velocity magnitude"
+  },
+  "Am": {
+    "unit": "",
+    "description": "maximum constant acceleration"
+  },
+  "Vm": {
+    "unit": "",
+    "description": "maximum constant velocity"
+  },
+  "L": {
+    "unit": "",
+    "description": "Length of the path"
+  },
+  "Jm_out": {
+    "unit": "",
+    "description": "maximum value of the raised cosine jerk profile"
+  },
+  "tj_out": {
+    "unit": "",
+    "description": "segment duration"
+  },
+  "t2_out": {
+    "unit": "",
+    "description": "segment duration"
+  },
+  "t4_out": {
+    "unit": "",
+    "description": "segment duration"
+  },
+  "t6_out": {
+    "unit": "",
+    "description": "segment duration"
+  },
+  "f0": {
+    "unit": "",
+    "description": "fin 0 servo angle input"
+  },
+  "f3": {
+    "unit": "",
+    "description": "fin 3 servo angle input"
+  },
+  "n0": {
+    "unit": "",
+    "description": "Fin 0 normal force"
+  },
+  "n1": {
+    "unit": "",
+    "description": "Fin 1 normal force"
+  },
+  "n2": {
+    "unit": "",
+    "description": "Fin 2 normal force"
+  },
+  "n3": {
+    "unit": "",
+    "description": "Fin 3 normal force"
+  },
+  "Time": {
+    "unit": "s",
+    "description": "Time reference for waveform"
+  },
+  "F": {
+    "unit": "",
+    "description": "Flags bitmask"
+  },
+  "Gx": {
+    "unit": "deg/s",
+    "description": "Delta angle, X-Axis"
+  },
+  "Gy": {
+    "unit": "deg/s",
+    "description": "Delta angle, Y-Axis"
+  },
+  "Gz": {
+    "unit": "deg/s",
+    "description": "Delta angle, Z-Axis"
+  },
+  "Ax": {
+    "unit": "",
+    "description": "The axis which is being excited"
+  },
+  "Ay": {
+    "unit": "m/s/s",
+    "description": "Delta velocity, Y-Axis"
+  },
+  "Az": {
+    "unit": "",
+    "description": "z-axis body-frame acceleration"
+  },
+  "Mag": {
+    "unit": "",
+    "description": "Magnitude of the chirp waveform"
+  },
+  "FSt": {
+    "unit": "s",
+    "description": "Frequency at the start of chirp"
+  },
+  "FSp": {
+    "unit": "s",
+    "description": "Frequency at the end of chirp"
+  },
+  "TFin": {
+    "unit": "s",
+    "description": "Time to reach maximum amplitude of chirp"
+  },
+  "TFout": {
+    "unit": "s",
+    "description": "Time to reach zero amplitude after chirp finishes"
+  },
+  "ASpdU": {
+    "unit": "",
+    "description": "Achieved simulation speedup value"
+  },
+  "UFC": {
+    "unit": "",
+    "description": "Number of times simulation paused for serial0 output"
+  },
+  "AltFt": {
+    "unit": "",
+    "description": "altitude in feet"
+  },
+  "KEAS": {
+    "unit": "",
+    "description": "equivalent airspeed in knots"
+  },
+  "KTAS": {
+    "unit": "",
+    "description": "true airspeed in knots"
+  },
+  "Fl": {
+    "unit": "",
+    "description": "lift"
+  },
+  "Fd": {
+    "unit": "",
+    "description": "drag"
+  },
+  "Rud": {
+    "unit": "",
+    "description": "rudder output"
+  },
+  "AoA": {
+    "unit": "",
+    "description": "angle of attack"
+  },
+  "q": {
+    "unit": "",
+    "description": "air pressure"
+  },
+  "AltM": {
+    "unit": "",
+    "description": "altitude in metres"
+  },
+  "EAS": {
+    "unit": "",
+    "description": "equivalent airspeed"
+  },
+  "Fx": {
+    "unit": "",
+    "description": "X-axis force"
+  },
+  "Fy": {
+    "unit": "",
+    "description": "Y-axis force"
+  },
+  "Fz": {
+    "unit": "",
+    "description": "Z-axis force"
+  },
+  "Land": {
+    "unit": "",
+    "description": "1 if payload is landed, 0 otherwise"
+  },
+  "Tens": {
+    "unit": "UNKNOWN",
+    "description": "Tension on line"
+  },
+  "VFN": {
+    "unit": "",
+    "description": "Force on vehicle in North direction"
+  },
+  "VFE": {
+    "unit": "",
+    "description": "Force on vehicle in East direction"
+  },
+  "VFD": {
+    "unit": "",
+    "description": "Force on vehicle in Down direction"
+  },
+  "magic": {
+    "unit": "",
+    "description": "magic JSON protocol key"
+  },
+  "frame_rate": {
+    "unit": "",
+    "description": "Slave instance\u2019s desired frame rate"
+  },
+  "frame_count": {
+    "unit": "",
+    "description": "Slave instance\u2019s current frame count"
+  },
+  "active": {
+    "unit": "",
+    "description": "1 if the servo outputs are being used from this instance"
+  },
+  "g": {
+    "unit": "",
+    "description": "gravity"
+  },
+  "cz": {
+    "unit": "",
+    "description": "centre-of-gravity, z-axis"
+  },
+  "AEx": {
+    "unit": "",
+    "description": "Angular Velocity (around x-axis)"
+  },
+  "AEy": {
+    "unit": "",
+    "description": "Angular Velocity (around y-axis)"
+  },
+  "AEz": {
+    "unit": "",
+    "description": "Angular Velocity (around z-axis)"
+  },
+  "DPx": {
+    "unit": "",
+    "description": "Velocity (along x-axis)"
+  },
+  "DPy": {
+    "unit": "",
+    "description": "Velocity (along y-axis)"
+  },
+  "DPz": {
+    "unit": "",
+    "description": "Velocity (along z-axis)"
+  },
+  "R2": {
+    "unit": "",
+    "description": "DCM Roll"
+  },
+  "DesPos": {
+    "unit": "%",
+    "description": "Desired Simulated Position"
+  },
+  "nettorate": {
+    "unit": "",
+    "description": "Estimate of vertical speed of surrounding airmass"
+  },
+  "x0": {
+    "unit": "",
+    "description": "Thermal strength estimate"
+  },
+  "x1": {
+    "unit": "",
+    "description": "Thermal radius estimate"
+  },
+  "x2": {
+    "unit": "",
+    "description": "Thermal position estimate north from home"
+  },
+  "x3": {
+    "unit": "",
+    "description": "Thermal position estimate east from home"
+  },
+  "north": {
+    "unit": "",
+    "description": "Aircraft position north from home"
+  },
+  "east": {
+    "unit": "",
+    "description": "Aircraft position east from home"
+  },
+  "dx_w": {
+    "unit": "",
+    "description": "Wind speed north"
+  },
+  "dy_w": {
+    "unit": "",
+    "description": "Wind speed east"
+  },
+  "th": {
+    "unit": "",
+    "description": "throttle output"
+  },
+  "wx": {
+    "unit": "",
+    "description": "body-frame wind estimate, x-axis"
+  },
+  "wz": {
+    "unit": "",
+    "description": "body-frame wind estimate, z-axis"
+  },
+  "wexp": {
+    "unit": "",
+    "description": "estimated thermal vertical speed"
+  },
+  "CLmin": {
+    "unit": "",
+    "description": "expected climb-rate lower-limit"
+  },
+  "CLmax": {
+    "unit": "",
+    "description": "expected climb-rate upper-limit"
+  },
+  "Vopt": {
+    "unit": "",
+    "description": "calculated optimal speed to fly"
+  },
+  "rtx": {
+    "unit": "",
+    "description": "torque around x axis"
+  },
+  "rty": {
+    "unit": "",
+    "description": "torque around y axis"
+  },
+  "rtz": {
+    "unit": "",
+    "description": "torque around z axis"
+  },
+  "Active": {
+    "unit": "",
+    "description": "true if SmartRTL could be used right now"
+  },
+  "NumPts": {
+    "unit": "",
+    "description": "number of points currently in use"
+  },
+  "MaxPts": {
+    "unit": "",
+    "description": "maximum number of points that could be used"
+  },
+  "POINT_PRUNE": {
+    "unit": "1",
+    "description": ""
+  },
+  "POINT_SIMPLIFY": {
+    "unit": "2",
+    "description": ""
+  },
+  "ADD_FAILED_NO_SEMAPHORE": {
+    "unit": "3",
+    "description": ""
+  },
+  "ADD_FAILED_PATH_FULL": {
+    "unit": "4",
+    "description": ""
+  },
+  "POP_FAILED_NO_SEMAPHORE": {
+    "unit": "5",
+    "description": ""
+  },
+  "PEEK_FAILED_NO_SEMAPHORE": {
+    "unit": "6",
+    "description": ""
+  },
+  "DEACTIVATED_INIT_FAILED": {
+    "unit": "7",
+    "description": ""
+  },
+  "DEACTIVATED_BAD_POSITION_TIMEOUT": {
+    "unit": "9",
+    "description": ""
+  },
+  "DEACTIVATED_PATH_FULL_TIMEOUT": {
+    "unit": "10",
+    "description": ""
+  },
+  "DEACTIVATED_PROGRAM_ERROR": {
+    "unit": "11",
+    "description": ""
+  },
+  "E": {
+    "unit": "m",
+    "description": "point associated with most recent action (East component)"
+  },
+  "Total": {
+    "unit": "",
+    "description": "total stack"
+  },
+  "Free": {
+    "unit": "",
+    "description": "free stack"
+  },
+  "isFlying": {
+    "unit": "",
+    "description": "True if aircraft is probably flying"
+  },
+  "isFlyProb": {
+    "unit": "",
+    "description": "Probability that the aircraft is flying"
+  },
+  "Armed": {
+    "unit": "",
+    "description": "Arm status of the aircraft"
+  },
+  "Crash": {
+    "unit": "",
+    "description": "True if crash is detected"
+  },
+  "Still": {
+    "unit": "",
+    "description": "True when vehicle is not moving in any axis"
+  },
+  "Stage": {
+    "unit": "",
+    "description": "Current stage of the flight"
+  },
+  "Hit": {
+    "unit": "",
+    "description": "True if impact is detected"
+  },
+  "Sup": {
+    "unit": "",
+    "description": "True if throttle is suppressed"
+  },
+  "Col": {
+    "unit": "deg",
+    "description": "Blade pitch angle contribution from collective"
+  },
+  "TCyc": {
+    "unit": "deg",
+    "description": "Total blade pitch angle contribution from cyclic"
+  },
+  "PCyc": {
+    "unit": "deg",
+    "description": "Blade pitch angle contribution from pitch cyclic"
+  },
+  "RCyc": {
+    "unit": "deg",
+    "description": "Blade pitch angle contribution from roll cyclic"
+  },
+  "SType": {
+    "unit": "",
+    "description": "sensor type (0==accel, 1==gyro)"
+  },
+  "NSamp": {
+    "unit": "",
+    "description": "sample count"
+  },
+  "PEW": {
+    "unit": "",
+    "description": "Potential energy weighting"
+  },
+  "KEW": {
+    "unit": "",
+    "description": "Kinetic energy weighting"
+  },
+  "EBD": {
+    "unit": "",
+    "description": "Energy balance demand"
+  },
+  "EBE": {
+    "unit": "",
+    "description": "Energy balance estimate"
+  },
+  "EBDD": {
+    "unit": "",
+    "description": "Energy balance rate demand"
+  },
+  "EBDE": {
+    "unit": "",
+    "description": "Energy balance rate estimate"
+  },
+  "EBDDT": {
+    "unit": "",
+    "description": "Energy balance rate demand + Energy balance rate error*pitch_damping"
+  },
+  "Imin": {
+    "unit": "",
+    "description": "integrator limit based on throttle values"
+  },
+  "Imax": {
+    "unit": "",
+    "description": "integrator limit based on throttle values"
+  },
+  "KI": {
+    "unit": "",
+    "description": "Pitch demand kinetic energy integral"
+  },
+  "tmin": {
+    "unit": "",
+    "description": "Throttle min"
+  },
+  "tmax": {
+    "unit": "",
+    "description": "Throttle max"
+  },
+  "KED": {
+    "unit": "",
+    "description": "Kinetic Energy Dot (1st derivative of KE)"
+  },
+  "PED": {
+    "unit": "",
+    "description": "Potential Energy Dot (1st derivative of PE)"
+  },
+  "KEDD": {
+    "unit": "",
+    "description": "Kinetic Energy Dot Demand"
+  },
+  "PEDD": {
+    "unit": "",
+    "description": "Potential Energy Dot Demand"
+  },
+  "TEE": {
+    "unit": "",
+    "description": "Total energy error"
+  },
+  "TEDE": {
+    "unit": "",
+    "description": "Total energy dot error (1st derivative of total energy error)"
+  },
+  "Emin": {
+    "unit": "",
+    "description": "lower limit for potential energy error"
+  },
+  "Emax": {
+    "unit": "",
+    "description": "upper limit for potential energy error"
+  },
+  "K": {
+    "unit": "",
+    "description": "estimate of kinetic energy"
+  },
+  "Pdem": {
+    "unit": "",
+    "description": "demanded potential energy"
+  },
+  "Kdem": {
+    "unit": "",
+    "description": "demanded kinetic energy"
+  },
+  "dh": {
+    "unit": "m/s",
+    "description": "current climb rate (\u201cdelta-height\u201d)"
+  },
+  "hin": {
+    "unit": "m",
+    "description": "height demand received by TECS"
+  },
+  "hdem": {
+    "unit": "m",
+    "description": "height demand after rate limiting and filtering that TECS is currently trying to achieve"
+  },
+  "dhdem": {
+    "unit": "m/s",
+    "description": "climb rate TECS is currently trying to achieve"
+  },
+  "spdem": {
+    "unit": "m/s",
+    "description": "True AirSpeed TECS is currently trying to achieve"
+  },
+  "sp": {
+    "unit": "m/s",
+    "description": "current estimated True AirSpeed"
+  },
+  "dsp": {
+    "unit": "",
+    "description": "average acceleration along X axis"
+  },
+  "ph": {
+    "unit": "",
+    "description": "pitch output"
+  },
+  "pmin": {
+    "unit": "",
+    "description": "pitch lower limit"
+  },
+  "pmax": {
+    "unit": "",
+    "description": "pitch upper limit"
+  },
+  "dspdem": {
+    "unit": "",
+    "description": "demanded acceleration output (\u201cdelta-speed demand\u201d)"
+  },
+  "f": {
+    "unit": "bitmask",
+    "description": "flags\nBitmask values:"
+  },
+  "UnachievableDescent": {
+    "unit": "2",
+    "description": ""
+  },
+  "AutoLanding": {
+    "unit": "4",
+    "description": ""
+  },
+  "ReachedTakeoffSpd": {
+    "unit": "8",
+    "description": ""
+  },
+  "TerrainStatusUnhealthy": {
+    "unit": "1",
+    "description": "no terrain data for current location"
+  },
+  "TerrainStatusOK": {
+    "unit": "2",
+    "description": "terrain data available"
+  },
+  "Spacing": {
+    "unit": "",
+    "description": "terrain Tile spacing"
+  },
+  "TerrH": {
+    "unit": "m",
+    "description": "current Terrain height"
+  },
+  "CHeight": {
+    "unit": "m",
+    "description": "Vehicle height above terrain"
+  },
+  "Pending": {
+    "unit": "",
+    "description": "Number of tile requests outstanding"
+  },
+  "Loaded": {
+    "unit": "",
+    "description": "Number of tiles in memory"
+  },
+  "ROfs": {
+    "unit": "m",
+    "description": "terrain reference offset for arming altitude"
+  },
+  "Tilt": {
+    "unit": "deg",
+    "description": "Current tilt angle, 0 deg vertical, 90 deg horizontal"
+  },
+  "FL": {
+    "unit": "",
+    "description": "fault_line"
+  },
+  "FR": {
+    "unit": "deg",
+    "description": "Front right tilt angle, 0 deg vertical, 90 deg horizontal"
+  },
+  "Cur": {
+    "unit": "A",
+    "description": "Motor current"
+  },
+  "ETemp": {
+    "unit": "degC",
+    "description": "ESC Temp"
+  },
+  "DesMotSpeed": {
+    "unit": "",
+    "description": "Desired Motor Speed (-1000 to 1000)"
+  },
+  "MotSpeed": {
+    "unit": "",
+    "description": "Motor Speed (-1000 to 1000)"
+  },
+  "SuccCnt": {
+    "unit": "",
+    "description": "Success Count"
+  },
+  "ErrCnt": {
+    "unit": "",
+    "description": "Error Count"
+  },
+  "Flag": {
+    "unit": "",
+    "description": "Flags"
+  },
+  "MotType": {
+    "unit": "",
+    "description": "Motor type"
+  },
+  "MotVer": {
+    "unit": "",
+    "description": "Motor software version"
+  },
+  "BattCap": {
+    "unit": "Ah",
+    "description": "Battery capacity"
+  },
+  "BattPct": {
+    "unit": "%",
+    "description": "Battery charge percentage"
+  },
+  "BattType": {
+    "unit": "",
+    "description": "Battery type"
+  },
+  "SwVer": {
+    "unit": "",
+    "description": "Master software version"
+  },
+  "MCur": {
+    "unit": "A",
+    "description": "Motor current"
+  },
+  "BPct": {
+    "unit": "%",
+    "description": "Battery charge percentage"
+  },
+  "BVolt": {
+    "unit": "V",
+    "description": "Battery voltage"
+  },
+  "BCur": {
+    "unit": "A",
+    "description": "Battery current"
+  },
+  "Ts": {
+    "unit": "",
+    "description": "throttle scaling used for tilt motors"
+  },
+  "Ss": {
+    "unit": "",
+    "description": "speed scailing used for control surfaces method from Q_TAILSIT_GSCMSK"
+  },
+  "Tmin": {
+    "unit": "",
+    "description": "minimum output throttle calculated from disk thoery gain scale with Q_TAILSIT_MIN_VO"
+  },
+  "SysID": {
+    "unit": "",
+    "description": "system ID this data is for"
+  },
+  "RTT": {
+    "unit": "\u03bcs",
+    "description": "round trip time for this system"
+  },
+  "Tx": {
+    "unit": "B/s",
+    "description": "transmitted data rate bytes per second"
+  },
+  "Rx": {
+    "unit": "B/s",
+    "description": "received data rate bytes per second, this is all incoming data, it may not all be processed by the driver using this port."
+  },
+  "RxDp": {
+    "unit": "B/s",
+    "description": "Data rate of dropped received bytes, ideally should be 0. This is the difference between the received data rate and the processed data rate."
+  },
+  "noisePerMS": {
+    "unit": "",
+    "description": "noise level as measured by GPS"
+  },
+  "jamInd": {
+    "unit": "",
+    "description": "jamming indicator; higher is more likely jammed"
+  },
+  "aPower": {
+    "unit": "",
+    "description": "antenna power indicator; 2 is don\u2019t know"
+  },
+  "agcCnt": {
+    "unit": "",
+    "description": "automatic gain control monitor"
+  },
+  "config": {
+    "unit": "",
+    "description": "bitmask for messages which haven\u2019t been seen"
+  },
+  "ofsI": {
+    "unit": "",
+    "description": "imbalance of I part of complex signal"
+  },
+  "magI": {
+    "unit": "",
+    "description": "magnitude of I part of complex signal"
+  },
+  "ofsQ": {
+    "unit": "",
+    "description": "imbalance of Q part of complex signal"
+  },
+  "magQ": {
+    "unit": "",
+    "description": "magnitude of Q part of complex signal"
+  },
+  "ch": {
+    "unit": "",
+    "description": "Channel (i.e. EXTINT) upon which the pulse was measured"
+  },
+  "count": {
+    "unit": "",
+    "description": "Rising edge counter"
+  },
+  "wnR": {
+    "unit": "",
+    "description": "Week number of last rising edge"
+  },
+  "MsR": {
+    "unit": "ms",
+    "description": "Tow of rising edge"
+  },
+  "SubMsR": {
+    "unit": "ns",
+    "description": "Millisecond fraction of tow of rising edge in nanoseconds"
+  },
+  "wnF": {
+    "unit": "",
+    "description": "Week number of last falling edge"
+  },
+  "MsF": {
+    "unit": "ms",
+    "description": "Tow of falling edge"
+  },
+  "SubMsF": {
+    "unit": "ns",
+    "description": "Millisecond fraction of tow of falling edge in nanoseconds"
+  },
+  "accEst": {
+    "unit": "ns",
+    "description": "Accuracy estimate"
+  },
+  "Label": {
+    "unit": "char[64]",
+    "description": "Unit - SI where available"
+  },
+  "aspd_raw": {
+    "unit": "",
+    "description": "always zero"
+  },
+  "aspd_filt": {
+    "unit": "",
+    "description": "filtered and constrained airspeed"
+  },
+  "roll": {
+    "unit": "",
+    "description": "AHRS roll"
+  },
+  "raw": {
+    "unit": "",
+    "description": "estimated air vertical speed"
+  },
+  "filt": {
+    "unit": "",
+    "description": "low-pass filtered air vertical speed"
+  },
+  "cl": {
+    "unit": "",
+    "description": "raw climb rate"
+  },
+  "fc": {
+    "unit": "",
+    "description": "filtered climb rate"
+  },
+  "exs": {
+    "unit": "",
+    "description": "expected sink rate relative to air in thermalling turn"
+  },
+  "dspb": {
+    "unit": "",
+    "description": "detected bias in average acceleration along X axis"
+  },
+  "BT": {
+    "unit": "enum",
+    "description": "Board type\nValues:"
+  },
+  "HAL_BOARD_LINUX": {
+    "unit": "7",
+    "description": ""
+  },
+  "HAL_BOARD_CHIBIOS": {
+    "unit": "10",
+    "description": ""
+  },
+  "HAL_BOARD_ESP32": {
+    "unit": "12",
+    "description": ""
+  },
+  "HAL_BOARD_QURT": {
+    "unit": "13",
+    "description": ""
+  },
+  "HAL_BOARD_EMPTY": {
+    "unit": "99",
+    "description": ""
+  },
+  "BST": {
+    "unit": "enum",
+    "description": "Board subtype\nValues:"
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_NONE": {
+    "unit": "1000",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_ERLEBOARD": {
+    "unit": "1001",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_PXF": {
+    "unit": "1002",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_NAVIO": {
+    "unit": "1003",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_ZYNQ": {
+    "unit": "1004",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_BBBMINI": {
+    "unit": "1005",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_BEBOP": {
+    "unit": "1006",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_ERLEBRAIN2": {
+    "unit": "1009",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_BH": {
+    "unit": "1010",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_PXFMINI": {
+    "unit": "1012",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_NAVIO2": {
+    "unit": "1013",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_DISCO": {
+    "unit": "1014",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_AERO": {
+    "unit": "1015",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_DARK": {
+    "unit": "1016",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_BLUE": {
+    "unit": "1018",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_OCPOC_ZYNQ": {
+    "unit": "1019",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_EDGE": {
+    "unit": "1020",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_RST_ZYNQ": {
+    "unit": "1021",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_POCKET": {
+    "unit": "1022",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_NAVIGATOR": {
+    "unit": "1023",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_VNAV": {
+    "unit": "1024",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_OBAL_V1": {
+    "unit": "1025",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_LINUX_CANZERO": {
+    "unit": "1026",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_CHIBIOS_SKYVIPER_F412": {
+    "unit": "5000",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_CHIBIOS_FMUV3": {
+    "unit": "5001",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_CHIBIOS_GENERIC": {
+    "unit": "5009",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_CHIBIOS_FMUV5": {
+    "unit": "5013",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_DIY": {
+    "unit": "6001",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_ICARUS": {
+    "unit": "6002",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_BUZZ": {
+    "unit": "6003",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_EMPTY": {
+    "unit": "6004",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_TOMTE76": {
+    "unit": "6005",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_NICK": {
+    "unit": "6006",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_S3DEVKIT": {
+    "unit": "6007",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_S3EMPTY": {
+    "unit": "6008",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_S3M5STAMPFLY": {
+    "unit": "6009",
+    "description": ""
+  },
+  "HAL_BOARD_SUBTYPE_ESP32_IMU_MODULE_V11": {
+    "unit": "6010",
+    "description": ""
+  },
+  "Maj": {
+    "unit": "",
+    "description": "Major version number"
+  },
+  "Pat": {
+    "unit": "",
+    "description": "Patch number"
+  },
+  "FWT": {
+    "unit": "",
+    "description": "Firmware type"
+  },
+  "FWS": {
+    "unit": "char[64]",
+    "description": "Firmware version string"
+  },
+  "APJ": {
+    "unit": "",
+    "description": "Board ID"
+  },
+  "BU": {
+    "unit": "enum",
+    "description": "Build vehicle type\nValues:"
+  },
+  "APM_BUILD_ArduCopter": {
+    "unit": "2",
+    "description": ""
+  },
+  "APM_BUILD_ArduPlane": {
+    "unit": "3",
+    "description": ""
+  },
+  "APM_BUILD_AntennaTracker": {
+    "unit": "4",
+    "description": ""
+  },
+  "APM_BUILD_UNKNOWN": {
+    "unit": "5",
+    "description": ""
+  },
+  "APM_BUILD_Replay": {
+    "unit": "6",
+    "description": ""
+  },
+  "APM_BUILD_ArduSub": {
+    "unit": "7",
+    "description": ""
+  },
+  "APM_BUILD_iofirmware": {
+    "unit": "8",
+    "description": ""
+  },
+  "APM_BUILD_AP_Periph": {
+    "unit": "9",
+    "description": ""
+  },
+  "APM_BUILD_AP_DAL_Standalone": {
+    "unit": "10",
+    "description": ""
+  },
+  "APM_BUILD_AP_Bootloader": {
+    "unit": "11",
+    "description": ""
+  },
+  "APM_BUILD_Blimp": {
+    "unit": "12",
+    "description": ""
+  },
+  "APM_BUILD_Heli": {
+    "unit": "13",
+    "description": ""
+  },
+  "FV": {
+    "unit": "",
+    "description": "Filter version"
+  },
+  "IMI": {
+    "unit": "",
+    "description": "IOMCU MCU ID"
+  },
+  "ICI": {
+    "unit": "",
+    "description": "IOMCU CPU ID"
+  },
+  "IMU": {
+    "unit": "instance",
+    "description": "Vibration instance number"
+  },
+  "VibeX": {
+    "unit": "m/s/s",
+    "description": "Primary accelerometer filtered vibration, x-axis"
+  },
+  "VibeY": {
+    "unit": "m/s/s",
+    "description": "Primary accelerometer filtered vibration, y-axis"
+  },
+  "VibeZ": {
+    "unit": "m/s/s",
+    "description": "Primary accelerometer filtered vibration, z-axis"
+  },
+  "Clip": {
+    "unit": "",
+    "description": "Number of clipping events on 1st accelerometer"
+  },
+  "dt": {
+    "unit": "\u03bcs",
+    "description": "Time period this data covers"
+  },
+  "AngDX": {
+    "unit": "rad",
+    "description": "Angular change for body-frame roll axis"
+  },
+  "AngDY": {
+    "unit": "rad",
+    "description": "Angular change for body-frame pitch axis"
+  },
+  "AngDZ": {
+    "unit": "rad",
+    "description": "Angular change for body-frame z axis"
+  },
+  "PosDX": {
+    "unit": "m",
+    "description": "Position change for body-frame X axis (Forward-Back)"
+  },
+  "PosDY": {
+    "unit": "m",
+    "description": "Position change for body-frame Y axis (Right-Left)"
+  },
+  "PosDZ": {
+    "unit": "m",
+    "description": "Position change for body-frame Z axis (Down-Up)"
+  },
+  "conf": {
+    "unit": "",
+    "description": "Confidence"
+  },
+  "RTimeUS": {
+    "unit": "\u03bcs",
+    "description": "Remote system time"
+  },
+  "CTimeMS": {
+    "unit": "ms",
+    "description": "Corrected system time"
+  },
+  "PErr": {
+    "unit": "m",
+    "description": "Position estimate error"
+  },
+  "AErr": {
+    "unit": "deg",
+    "description": "Attitude estimate error"
+  },
+  "Rst": {
+    "unit": "",
+    "description": "Velocity reset counter"
+  },
+  "Ign": {
+    "unit": "",
+    "description": "Ignored"
+  },
+  "Q": {
+    "unit": "%",
+    "description": "Quality"
+  },
+  "VErr": {
+    "unit": "m/s",
+    "description": "Velocity estimate error"
+  },
+  "YU": {
+    "unit": "deg",
+    "description": "Yaw unceratainty"
+  },
+  "PU": {
+    "unit": "deg",
+    "description": "Pitch uncertainty"
+  },
+  "RU": {
+    "unit": "deg",
+    "description": "Roll uncertainty"
+  },
+  "Pres": {
+    "unit": "Pa",
+    "description": "Pressure"
+  },
+  "InsStatus": {
+    "unit": "",
+    "description": "VectorNav INS health status"
+  },
+  "PosU": {
+    "unit": "deg",
+    "description": "Filter estimated position uncertainty"
+  },
+  "VelU": {
+    "unit": "m/s",
+    "description": "Filter estimated Velocity uncertainty"
+  },
+  "IE": {
+    "unit": "",
+    "description": "internal error mast"
+  },
+  "IEC": {
+    "unit": "",
+    "description": "internal error count"
+  },
+  "IEL": {
+    "unit": "",
+    "description": "line internal error was raised on"
+  },
+  "MvMsg": {
+    "unit": "",
+    "description": "mavlink message being acted on"
+  },
+  "MvCmd": {
+    "unit": "",
+    "description": "mavlink command being acted on"
+  },
+  "FT": {
+    "unit": "",
+    "description": "fault_type"
+  },
+  "FA": {
+    "unit": "",
+    "description": "fault address"
+  },
+  "ICSR": {
+    "unit": "",
+    "description": "ICS regiuster"
+  },
+  "TN": {
+    "unit": "char[4]",
+    "description": "Thread name"
+  },
+  "Dist0": {
+    "unit": "m",
+    "description": "First wheel distance travelled"
+  },
+  "Qual0": {
+    "unit": "",
+    "description": "Quality measurement of Dist0"
+  },
+  "Dist1": {
+    "unit": "m",
+    "description": "Second wheel distance travelled"
+  },
+  "Qual1": {
+    "unit": "",
+    "description": "Quality measurement of Dist1"
+  },
+  "ThEnd": {
+    "unit": "",
+    "description": "Reached end of thread"
+  },
+  "Mov": {
+    "unit": "",
+    "description": "Motor is moving"
+  },
+  "Clut": {
+    "unit": "",
+    "description": "Clutch is engaged (motor can move freely)"
+  },
+  "DLen": {
+    "unit": "m",
+    "description": "Desired Length"
+  },
+  "DRate": {
+    "unit": "m/s",
+    "description": "Desired Rate"
+  },
+  "DrRaw": {
+    "unit": "deg",
+    "description": "raw apparent wind direction direct from sensor, in body-frame"
+  },
+  "DrApp": {
+    "unit": "deg",
+    "description": "Apparent wind direction, in body-frame"
+  },
+  "DrTru": {
+    "unit": "degheading",
+    "description": "True wind direction"
+  },
+  "SpdRaw": {
+    "unit": "m/s",
+    "description": "raw wind speed direct from sensor"
+  },
+  "SpdApp": {
+    "unit": "m/s",
+    "description": "Apparent wind Speed"
+  },
+  "SpdTru": {
+    "unit": "m/s",
+    "description": "True wind speed"
+  },
+  "IDY": {
+    "unit": "m/s/s",
+    "description": "Innovation in vehicle drag acceleration (Y-axis component)"
+  },
+  "IS": {
+    "unit": "rad",
+    "description": "Innovation in vehicle sideslip"
+  },
+  "IX": {
+    "unit": "",
+    "description": "Innovation in velocity (X-axis)"
+  },
+  "IY": {
+    "unit": "",
+    "description": "Innovation in velocity (Y-axis)"
+  },
+  "IZ": {
+    "unit": "",
+    "description": "Innovation in velocity (Z-axis)"
+  },
+  "IVX": {
+    "unit": "",
+    "description": "Variance in velocity (X-axis)"
+  },
+  "IVY": {
+    "unit": "",
+    "description": "Variance in velocity (Y-axis)"
+  },
+  "IVZ": {
+    "unit": "",
+    "description": "Variance in velocity (Z-axis)"
+  },
+  "OGNM": {
+    "unit": "",
+    "description": "True of on ground and not moving"
+  },
+  "GLR": {
+    "unit": "",
+    "description": "Gyroscope length ratio"
+  },
+  "ALR": {
+    "unit": "",
+    "description": "Accelerometer length ratio"
+  },
+  "GDR": {
+    "unit": "",
+    "description": "Gyroscope rate of change ratio"
+  },
+  "ADR": {
+    "unit": "",
+    "description": "Accelerometer rate of change ratio"
+  },
+  "BI": {
+    "unit": "",
+    "description": "barometer selection index"
+  },
+  "GI": {
+    "unit": "",
+    "description": "GPS selection index"
+  },
+  "AI": {
+    "unit": "",
+    "description": "airspeed selection index"
+  },
+  "GPS_GTA": {
+    "unit": "",
+    "description": "GPS good to align"
+  },
+  "GPS_CHK_WAIT": {
+    "unit": "",
+    "description": "Waiting for GPS checks to pass"
+  },
+  "MAG_FUSION": {
+    "unit": "",
+    "description": "Magnetometer fusion (0=not fusing/1=fuse yaw/2=fuse mag)"
+  },
+  "TVS": {
+    "unit": "rad",
+    "description": "Tilt Error Variance from symbolic equations (rad^2)"
+  },
+  "V00": {
+    "unit": "",
+    "description": "Variance for state 0 (attitude quaternion)"
+  },
+  "V01": {
+    "unit": "",
+    "description": "Variance for state 1 (attitude quaternion)"
+  },
+  "V02": {
+    "unit": "",
+    "description": "Variance for state 2 (attitude quaternion)"
+  },
+  "V03": {
+    "unit": "",
+    "description": "Variance for state 3 (attitude quaternion)"
+  },
+  "V04": {
+    "unit": "",
+    "description": "Variance for state 4 (velocity-north)"
+  },
+  "V05": {
+    "unit": "",
+    "description": "Variance for state 5 (velocity-east)"
+  },
+  "V06": {
+    "unit": "",
+    "description": "Variance for state 6 (velocity-down)"
+  },
+  "V07": {
+    "unit": "",
+    "description": "Variance for state 7 (position-north)"
+  },
+  "V08": {
+    "unit": "",
+    "description": "Variance for state 8 (position-east)"
+  },
+  "V09": {
+    "unit": "",
+    "description": "Variance for state 9 (position-down)"
+  },
+  "V15": {
+    "unit": "",
+    "description": "Variance for state 15 (delta-velocity-bias-z)"
+  },
+  "V16": {
+    "unit": "",
+    "description": "Variance for state 16 (Earth-frame mag-field-bias-x)"
+  },
+  "V17": {
+    "unit": "",
+    "description": "Variance for state 17 (Earth-frame mag-field-bias-y)"
+  },
+  "V18": {
+    "unit": "",
+    "description": "Variance for state 18 (Earth-frame mag-field-bias-z)"
+  },
+  "V19": {
+    "unit": "",
+    "description": "Variance for state 19 (body-frame mag-field-bias-x)"
+  },
+  "V20": {
+    "unit": "",
+    "description": "Variance for state 20 (body-frame mag-field-bias-y)"
+  },
+  "V21": {
+    "unit": "",
+    "description": "Variance for state 21 (body-frame mag-field-bias-z)"
+  },
+  "V22": {
+    "unit": "",
+    "description": "Variance for state 22 (wind-north)"
+  },
+  "V23": {
+    "unit": "",
+    "description": "Variance for state 23 (wind-east)"
+  }
+}

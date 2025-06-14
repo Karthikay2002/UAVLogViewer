@@ -1,0 +1,10 @@
+{
+    "FAILSAFE": "Triggered when safety criteria are violated (e.g., RC loss, low battery).",
+    "GPSGLITCH": "Indicates a sudden loss of GPS lock or poor signal quality.",
+    "EKF_CHECK-2": "Extended Kalman Filter check failed: inconsistent sensor data.",
+    "BARO-1": "Barometer sensor 1 out of range or disconnected.",
+    "GCS_FAILSAFE": "Ground control signal lost, initiating failsafe procedure.",
+    "CRASH_CHECK-1": "Crash detection triggered due to rapid deceleration.",
+    "RTL": "Return-to-launch behavior was activated."
+  }
+  
